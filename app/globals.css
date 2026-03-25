@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-cream;
+    background: #0d1a0d;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-image: url('/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(13, 26, 13, 0.72) 0%,
+      rgba(20, 35, 20, 0.65) 50%,
+      rgba(13, 26, 13, 0.78) 100%
+    );
+    z-index: 0;
+    pointer-events: none;
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgba(20, 38, 20, 0.45);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    border: 1px solid rgba(123, 175, 110, 0.15);
+    border-radius: 16px;
+  }
+  .glass-dark {
+    background: rgba(13, 22, 13, 0.60);
+    backdrop-filter: blur(24px) saturate(1.3);
+    -webkit-backdrop-filter: blur(24px) saturate(1.3);
+    border: 1px solid rgba(123, 175, 110, 0.12);
+    border-radius: 16px;
+  }
+  .glass-light {
+    background: rgba(35, 58, 35, 0.35);
+    backdrop-filter: blur(16px) saturate(1.5);
+    -webkit-backdrop-filter: blur(16px) saturate(1.5);
+    border: 1px solid rgba(123, 175, 110, 0.20);
+    border-radius: 12px;
+  }
+  .glass-nav {
+    background: rgba(13, 22, 13, 0.70);
+    backdrop-filter: blur(28px) saturate(1.4);
+    -webkit-backdrop-filter: blur(28px) saturate(1.4);
+    border-bottom: 1px solid rgba(123, 175, 110, 0.12);
+  }
+  .glass-pill {
+    background: rgba(123, 175, 110, 0.12);
+    border: 1px solid rgba(123, 175, 110, 0.25);
+    border-radius: 999px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .glass-input {
+    background: rgba(13, 22, 13, 0.50);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(123, 175, 110, 0.20);
+    border-radius: 10px;
+    color: #EDF0E8;
+    transition: border-color 0.15s;
+  }
+  .glass-input::placeholder { color: rgba(143, 168, 136, 0.5); }
+  .glass-input:focus {
+    outline: none;
+    border-color: rgba(123, 175, 110, 0.55);
+    background: rgba(13, 22, 13, 0.60);
+  }
+  .btn-primary {
+    background: rgba(74, 103, 65, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(123, 175, 110, 0.35);
+    color: #EDF0E8;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .btn-primary:hover { background: rgba(92, 125, 82, 0.90); border-color: rgba(123, 175, 110, 0.55); }
+  .btn-primary:active { transform: scale(0.97); }
+  .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-ghost {
+    background: rgba(123, 175, 110, 0.08);
+    border: 1px solid rgba(123, 175, 110, 0.18);
+    color: #B8C9B0;
+    border-radius: 10px;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .btn-ghost:hover { background: rgba(123, 175, 110, 0.15); color: #EDF0E8; }
+  .btn-ghost:active { transform: scale(0.97); }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(123, 175, 110, 0.2) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar { width: 4px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(123, 175, 110, 0.2); border-radius: 2px; }
+  .glass-divider { border-color: rgba(123, 175, 110, 0.12); }
+}
+
+@layer utilities {
+  .text-glow { text-shadow: 0 0 40px rgba(123, 175, 110, 0.4); }
+  /* Safe area pour iPhone notch / home bar */
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+}
