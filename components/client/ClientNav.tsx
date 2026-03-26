@@ -11,6 +11,10 @@ export default function ClientNav({ user }: { user: User | null }) {
   const router = useRouter()
   const supabase = createClient()
   const [open, setOpen] = useState(false)
+  const hiddenNavRoutes = ['/outils/timer']
+  const shouldHideNav = hiddenNavRoutes.includes(pathname)
+
+  if (shouldHideNav) return null
 
   async function logout() {
     await supabase.auth.signOut()
@@ -94,7 +98,7 @@ export default function ClientNav({ user }: { user: User | null }) {
               return (
                 <Link key={link.href} href={link.href}
                   onClick={() => setOpen(false)}
-                  className={`px-4 py-3 rounded-xl text-sm transition-all ${
+                  className={`px-4 py-3 rounded-xl text-sm t  ransition-all ${
                     pathname.startsWith(link.href)
                       ? 'bg-accent/15 text-cream border border-accent/25'
                       : 'text-muted hover:text-cream hover:bg-white/5'

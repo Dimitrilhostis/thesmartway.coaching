@@ -8,7 +8,7 @@ const TOOLS = [
     description: 'Chronomètre, minuteur et intervalles (Pomodoro) pour structurer tes séances.',
     icon: '⏱',
     href: '/outils/timer',
-    clientOnly: true,
+    clientOnly: false,
   },
   {
     id: 'calculateur-macro',
@@ -52,9 +52,6 @@ export default async function OutilsPage() {
             <span className="text-xs text-muted">
               🔒 Certains outils sont réservés aux clients avec suivi perso.
             </span>
-            <Link href="/login" className="text-xs text-accent hover:underline">
-              Se connecter →
-            </Link>
           </div>
         )}
 

@@ -38,7 +38,7 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="min-h-screen min-h-dvh flex flex-col items-center justify-center px-4 py-10">
+    <main className="min-h-screen flex flex-col items-center justify-center px-4 py-10">
       <div className="w-full max-w-sm">
 
         <div className="text-center mb-8">
@@ -139,6 +139,8 @@ export default function LoginPage() {
         )}
       </div>
 
+      <Link href="/" className="mt-6 text-xs text-dim hover:text-muted transition-colors tracking-wide">Revenir à l’accueil</Link>
+      
       <style>{`
         @keyframes fadeSlideIn {
           from { opacity: 0; transform: translateY(10px); }
