@@ -10,9 +10,9 @@ const SOUNDS = [
   { label: 'Piano',  src: '/sounds/PIANO.mp3'  },
   { label: 'Klaxon', src: '/sounds/KLAXON.mp3' },
   { label: 'Notif',  src: '/sounds/NOTIF.mp3'  },
-  { label: 'Chat',  src: '/sounds/CHAT.mp3'  },
-  { label: 'Pet',  src: '/sounds/PET.mp3'  },
-  { label: 'Cri',  src: '/sounds/CRI.mp3'  },
+  { label: 'Chat',   src: '/sounds/CHAT.mp3'   },
+  { label: 'Pet',    src: '/sounds/PET.mp3'    },
+  { label: 'Cri',    src: '/sounds/CRI.mp3'    },
 ]
 
 function fmt(s: number) {
@@ -112,7 +112,6 @@ export default function TimerPage() {
   // ── Immersive overlay ──
   if (immersive && running) {
     const isIntervalWork = mode === 'interval' && intervalPhase === 1
-    const isIntervalPause = mode === 'interval' && intervalPhase === 2
 
     const themeClass =
       mode === 'interval'
@@ -127,28 +126,24 @@ export default function TimerPage() {
           ? (time / timerDuration) * 100
           : 0
         : mode === 'interval'
-        ? intervalPhase === 1
-          ? work > 0
-            ? (time / work) * 100
-            : 0
-          : pause > 0
-          ? (time / pause) * 100
+          ? intervalPhase === 1
+            ? work > 0
+              ? (time / work) * 100
+              : 0
+            : pause > 0
+              ? (time / pause) * 100
+              : 0
           : 0
-        : 0
 
     return (
       <div className="fixed inset-0 z-[100] overflow-hidden">
-        {/* Fond principal */}
-        <div className="absolute inset-0 bg-[#0b120d]" />
-
-        {/* Texture / profondeur */}
+        <div className="absolute inset-0 bg-[#0b120d] rounded" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03),transparent_45%)]" />
         <div className="absolute inset-0 backdrop-blur-[10px]" />
 
-        {/* Gros halos */}
-        <div className="pointer-events-none absolute left-1/2 top-1/2 h-[42rem] w-[42rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-3xl" />
+        <div className="pointer-events-none absolute left-1/2 top-1/2 h-[26rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/10 blur-3xl md:h-[42rem] md:w-[42rem]" />
         <div
-          className={`pointer-events-none absolute left-1/2 top-1/2 h-[26rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl transition-all duration-700 ${
+          className={`pointer-events-none absolute left-1/2 top-1/2 h-[16rem] w-[16rem] -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl transition-all duration-700 md:h-[26rem] md:w-[26rem] ${
             mode === 'interval'
               ? intervalPhase === 1
                 ? 'bg-accent/20'
@@ -157,16 +152,13 @@ export default function TimerPage() {
           }`}
         />
 
-        {/* Vignette */}
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle,transparent_40%,rgba(0,0,0,0.45)_100%)]" />
 
-        {/* Contenu */}
-        <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
-          {/* Badge haut */}
-          <div className="mb-8 h-10 flex items-center">
+        <div className="relative z-10 flex min-h-[100dvh] flex-col items-center justify-center px-4 text-center md:px-6">
+          <div className="mb-5 h-10 flex items-center md:mb-8">
             {mode === 'interval' && (
               <div
-                className={`rounded-full border px-5 py-2 text-[11px] font-medium uppercase tracking-[0.28em] backdrop-blur-xl transition-all duration-500 ${
+                className={`rounded-full border px-4 py-2 text-[10px] font-medium uppercase tracking-[0.22em] backdrop-blur-xl transition-all duration-500 md:px-5 md:text-[11px] md:tracking-[0.28em] ${
                   intervalPhase === 1
                     ? 'border-accent/25 bg-accent/10 text-accent shadow-[0_0_30px_rgba(123,175,110,0.12)]'
                     : 'border-amber-400/25 bg-amber-400/10 text-amber-400 shadow-[0_0_30px_rgba(251,191,36,0.12)]'
@@ -177,22 +169,21 @@ export default function TimerPage() {
             )}
 
             {mode === 'timer' && (
-              <div className="rounded-full border border-white/10 bg-white/5 px-5 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-muted backdrop-blur-xl">
+              <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] font-medium uppercase tracking-[0.22em] text-muted backdrop-blur-xl md:px-5 md:text-[11px] md:tracking-[0.28em]">
                 Timer · Rep {currentRep}/{reps}
               </div>
             )}
 
             {mode === 'chronometer' && (
-              <div className="rounded-full border border-white/10 bg-white/5 px-5 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-muted backdrop-blur-xl">
+              <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] font-medium uppercase tracking-[0.22em] text-muted backdrop-blur-xl md:px-5 md:text-[11px] md:tracking-[0.28em]">
                 Chronometer
               </div>
             )}
           </div>
 
-          {/* Anneaux derrière le temps */}
-          <div className="relative mb-8 flex items-center justify-center">
+          <div className="relative mb-5 flex items-center justify-center md:mb-8">
             <div
-              className={`absolute h-[22rem] w-[22rem] rounded-full border transition-all duration-700 ${
+              className={`absolute h-[13rem] w-[13rem] rounded-full border transition-all duration-700 md:h-[22rem] md:w-[22rem] ${
                 mode === 'interval'
                   ? intervalPhase === 1
                     ? 'border-accent/15 shadow-[0_0_60px_rgba(123,175,110,0.08)]'
@@ -201,7 +192,7 @@ export default function TimerPage() {
               }`}
             />
             <div
-              className={`absolute h-[18rem] w-[18rem] rounded-full border transition-all duration-700 ${
+              className={`absolute h-[10rem] w-[10rem] rounded-full border transition-all duration-700 md:h-[18rem] md:w-[18rem] ${
                 mode === 'interval'
                   ? intervalPhase === 1
                     ? 'border-accent/10'
@@ -213,7 +204,7 @@ export default function TimerPage() {
             <div
               className={`relative font-display tracking-[0.08em] transition-all duration-500 ${themeClass}`}
               style={{
-                fontSize: 'clamp(5.5rem, 18vw, 11rem)',
+                fontSize: 'clamp(4.2rem, 19vw, 11rem)',
                 lineHeight: 0.92,
                 textShadow:
                   mode === 'interval'
@@ -227,31 +218,29 @@ export default function TimerPage() {
             </div>
           </div>
 
-          {/* Sous-info */}
-          <div className="mb-8 h-6 flex items-center justify-center">
+          <div className="mb-6 h-6 flex items-center justify-center md:mb-8">
             {mode === 'interval' ? (
               <p
-                className={`text-sm font-medium tracking-[0.2em] uppercase ${
+                className={`text-xs font-medium tracking-[0.18em] uppercase md:text-sm md:tracking-[0.2em] ${
                   intervalPhase === 1 ? 'text-accent/90' : 'text-amber-400/90'
                 }`}
               >
                 {intervalPhase === 1 ? 'Push now' : 'Recover'}
               </p>
             ) : mode === 'timer' ? (
-              <p className="text-sm uppercase tracking-[0.2em] text-muted">
+              <p className="text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.2em]">
                 Focus
               </p>
             ) : (
-              <p className="text-sm uppercase tracking-[0.2em] text-muted">
+              <p className="text-xs uppercase tracking-[0.18em] text-muted md:text-sm md:tracking-[0.2em]">
                 Keep going
               </p>
             )}
           </div>
 
-          {/* Progression */}
           {mode !== 'chronometer' && (
-            <div className="mb-10 w-full max-w-md">
-              <div className="mb-2 flex items-center justify-between text-[11px] uppercase tracking-[0.22em] text-muted">
+            <div className="mb-8 w-full max-w-[18rem] md:mb-10 md:max-w-md">
+              <div className="mb-2 flex items-center justify-between text-[10px] uppercase tracking-[0.18em] text-muted md:text-[11px] md:tracking-[0.22em]">
                 <span>Progression</span>
                 <span>{Math.round(progress)}%</span>
               </div>
@@ -271,7 +260,6 @@ export default function TimerPage() {
             </div>
           )}
 
-          {/* Contrôles bas */}
           <div className="flex flex-col items-center gap-3">
             <button
               onClick={() => {
@@ -282,10 +270,6 @@ export default function TimerPage() {
             >
               Quitter le mode immersif
             </button>
-
-            <p className="text-[11px] uppercase tracking-[0.22em] text-muted/60">
-              F11 pour encore plus d’immersion
-            </p>
           </div>
         </div>
       </div>
@@ -293,177 +277,177 @@ export default function TimerPage() {
   }
 
   const modes: { key: Mode; label: string }[] = [
-    { key: 'chronometer', label: 'Chrono'    },
-    { key: 'timer',       label: 'Minuteur'  },
-    { key: 'interval',    label: 'Intervalles' },
+    { key: 'chronometer', label: 'Chrono' },
+    { key: 'timer', label: 'Minuteur' },
+    { key: 'interval', label: 'Intervalles' },
   ]
 
-    // ── Standard view ──
-    return (
-      <div className="min-h-screen flex items-center justify-center px-4 py-8">
-        <div className="glass shadow-glass w-full max-w-md h-[42rem] p-6 flex flex-col">
-  
-          {/* Mode tabs */}
-          <div className="h-12 flex gap-1 p-1 glass-dark rounded-xl">
-            {modes.map(m => (
-              <button
-                key={m.key}
-                onClick={() => { setMode(m.key); reset() }}
-                className={`flex-1 rounded-lg text-sm font-medium transition-all ${
-                  mode === m.key
-                    ? 'bg-accent/20 text-cream border border-accent/30'
-                    : 'text-muted hover:text-cream'
-                }`}
-              >
-                {m.label}
-              </button>
-            ))}
-          </div>
-  
-          {/* Settings zone fixe */}
-          <div className="h-28 flex items-center justify-center mt-6">
-            {mode === 'chronometer' && (
-              <p className="text-sm text-muted text-center">Prêt à démarrer</p>
-            )}
-  
-            {mode === 'timer' && (
-              <div className="flex justify-center gap-8">
-                <NumberInput label="Min" value={timerMin} onChange={setTimerMin} />
-                <NumberInput label="Sec" value={timerSec} onChange={setTimerSec} max={59} />
-                <NumberInput label="Rép" value={reps} onChange={setReps} min={1} />
-              </div>
-            )}
-  
-            {mode === 'interval' && (
-              <div className="flex justify-center gap-6">
-                <div className="flex flex-col items-center gap-1">
-                  <span className="text-xs text-accent uppercase tracking-wider">Work</span>
-                  <div className="flex items-center gap-1">
-                    <NumberInput label="" value={workMin} onChange={setWorkMin} small />
-                    <span className="text-accent font-bold">:</span>
-                    <NumberInput label="" value={workSec} onChange={setWorkSec} max={59} small />
-                  </div>
-                </div>
-  
-                <div className="flex flex-col items-center gap-1">
-                  <span className="text-xs text-amber-400 uppercase tracking-wider">Pause</span>
-                  <div className="flex items-center gap-1">
-                    <NumberInput label="" value={pauseMin} onChange={setPauseMin} small />
-                    <span className="text-amber-400 font-bold">:</span>
-                    <NumberInput label="" value={pauseSec} onChange={setPauseSec} max={59} small />
-                  </div>
-                </div>
-  
-                <NumberInput label="Rép" value={intervalReps} onChange={setIntervalReps} min={1} />
-              </div>
-            )}
-          </div>
-  
-          {/* Big display zone fixe */}
-          <div className="h-56 flex flex-col items-center justify-center text-center">
-            <div
-              className={`font-display tracking-widest transition-colors ${
-                mode === 'interval' && running
-                  ? intervalPhase === 1 ? 'text-accent' : 'text-amber-400'
-                  : 'text-cream'
-              }`}
-              style={{ fontSize: '5rem', lineHeight: 1 }}
-            >
-              {fmt(time)}
-            </div>
-  
-            <div className="h-6 mt-2 flex items-center justify-center">
-              {mode === 'timer' ? (
-                <p className="text-sm text-muted">Rep {currentRep} / {reps}</p>
-              ) : mode === 'interval' ? (
-                <p className={`text-sm font-medium ${intervalPhase === 1 ? 'text-accent' : 'text-amber-400'}`}>
-                  {intervalPhase === 1 ? '● Work' : '● Pause'} · Rep {currentRep}/{intervalReps}
-                </p>
-              ) : (
-                <p className="text-sm opacity-0 select-none">placeholder</p>
-              )}
-            </div>
-  
-            <div className="mt-4 h-1 w-full bg-white/10 rounded-full overflow-hidden">
-              {(mode !== 'chronometer' && running) ? (
-                <div
-                  className={`h-full rounded-full transition-all duration-1000 ${
-                    mode === 'interval' && intervalPhase === 2 ? 'bg-amber-400' : 'bg-accent'
-                  }`}
-                  style={{
-                    width: `${mode === 'timer'
-                      ? timerDuration > 0 ? (time / timerDuration) * 100 : 0
-                      : intervalPhase === 1
-                        ? work > 0 ? (time / work) * 100 : 0
-                        : pause > 0 ? (time / pause) * 100 : 0
-                    }%`
-                  }}
-                />
-              ) : (
-                <div className="h-full w-0" />
-              )}
-            </div>
-          </div>
-  
-          {/* Controls zone fixe */}
-          <div className="mt-6 h-24 flex flex-col gap-2">
+  return (
+    <div className="min-h-[100dvh] flex items-center justify-center px-3 py-3 md:min-h-screen md:px-4 md:py-8">
+      <div className="glass shadow-glass w-full max-w-md h-[100dvh] max-h-[48rem] p-4 flex flex-col md:h-[42rem] -[inherit] md:p-6">
+        {/* Mode tabs */}
+        <div className="h-11 md:h-12 flex gap-1 p-1 glass-dark rounded-xl">
+          {modes.map(m => (
             <button
-              onClick={startStop}
-              className={`w-full py-3.5 rounded-xl text-sm font-medium transition-all ${
-                running
-                  ? 'bg-danger/20 border border-danger/30 text-danger hover:bg-danger/30'
-                  : 'btn-primary'
+              key={m.key}
+              onClick={() => { setMode(m.key); reset() }}
+              className={`flex-1 rounded-lg text-xs md:text-sm font-medium transition-all ${
+                mode === m.key
+                  ? 'bg-accent/20 text-cream border border-accent/30'
+                  : 'text-muted hover:text-cream'
               }`}
             >
-              {running ? 'Arrêter' : 'Démarrer'}
+              {m.label}
             </button>
-  
-            <button
-              onClick={reset}
-              className={`w-full btn-ghost py-3 rounded-xl text-sm transition-opacity ${
-                !running && time > 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'
-              }`}
-            >
-              Réinitialiser
-            </button>
-          </div>
-  
-          {/* Sound selector zone fixe */}
-          <div className="mt-6 h-20 flex items-center">
-            {mode !== 'chronometer' ? (
-              <div className="flex items-center gap-3">
-                <span className="text-xs text-muted shrink-0">Son d'alarme</span>
-                <div className="flex gap-1.5 flex-wrap">
-                  {SOUNDS.map(s => (
-                    <button
-                      key={s.src}
-                      onClick={() => setSound(s.src)}
-                      className={`text-xs px-3 py-1 rounded-lg transition-all ${
-                        sound === s.src
-                          ? 'bg-accent/20 text-accent border border-accent/30'
-                          : 'btn-ghost'
-                      }`}
-                    >
-                      {s.label}
-                    </button>
-                  ))}
+          ))}
+        </div>
+
+        {/* Settings zone fixe */}
+        <div className="h-24 md:h-28 flex items-center justify-center mt-4 md:mt-6">
+          {mode === 'chronometer' && (
+            <p className="text-sm text-muted text-center">Prêt à démarrer</p>
+          )}
+
+          {mode === 'timer' && (
+            <div className="flex justify-center gap-4 md:gap-8">
+              <NumberInput label="Min" value={timerMin} onChange={setTimerMin} />
+              <NumberInput label="Sec" value={timerSec} onChange={setTimerSec} max={59} />
+              <NumberInput label="Rép" value={reps} onChange={setReps} min={1} />
+            </div>
+          )}
+
+          {mode === 'interval' && (
+            <div className="flex justify-center gap-3 md:gap-6">
+              <div className="flex flex-col items-center gap-1">
+                <span className="text-[10px] md:text-xs text-accent uppercase tracking-wider">Work</span>
+                <div className="flex items-center gap-1">
+                  <NumberInput label="" value={workMin} onChange={setWorkMin} small />
+                  <span className="text-accent font-bold">:</span>
+                  <NumberInput label="" value={workSec} onChange={setWorkSec} max={59} small />
                 </div>
               </div>
+
+              <div className="flex flex-col items-center gap-1">
+                <span className="text-[10px] md:text-xs text-amber-400 uppercase tracking-wider">Pause</span>
+                <div className="flex items-center gap-1">
+                  <NumberInput label="" value={pauseMin} onChange={setPauseMin} small />
+                  <span className="text-amber-400 font-bold">:</span>
+                  <NumberInput label="" value={pauseSec} onChange={setPauseSec} max={59} small />
+                </div>
+              </div>
+
+              <NumberInput label="Rép" value={intervalReps} onChange={setIntervalReps} min={1} />
+            </div>
+          )}
+        </div>
+
+        {/* Big display zone fixe */}
+        <div className="h-44 md:h-56 flex flex-col items-center justify-center text-center">
+          <div
+            className={`font-display tracking-widest transition-colors ${
+              mode === 'interval' && running
+                ? intervalPhase === 1 ? 'text-accent' : 'text-amber-400'
+                : 'text-cream'
+            }`}
+            style={{ fontSize: 'clamp(3.6rem, 15vw, 5rem)', lineHeight: 1 }}
+          >
+            {fmt(time)}
+          </div>
+
+          <div className="h-6 mt-2 flex items-center justify-center">
+            {mode === 'timer' ? (
+              <p className="text-xs md:text-sm text-muted">Rep {currentRep} / {reps}</p>
+            ) : mode === 'interval' ? (
+              <p className={`text-xs md:text-sm font-medium ${intervalPhase === 1 ? 'text-accent' : 'text-amber-400'}`}>
+                {intervalPhase === 1 ? '● Work' : '● Pause'} · Rep {currentRep}/{intervalReps}
+              </p>
             ) : (
-              <div className="opacity-0 select-none">placeholder</div>
+              <p className="text-sm opacity-0 select-none">placeholder</p>
+            )}
+          </div>
+
+          <div className="mt-4 h-1 w-full bg-white/10 rounded-full overflow-hidden">
+            {(mode !== 'chronometer' && running) ? (
+              <div
+                className={`h-full rounded-full transition-all duration-1000 ${
+                  mode === 'interval' && intervalPhase === 2 ? 'bg-amber-400' : 'bg-accent'
+                }`}
+                style={{
+                  width: `${mode === 'timer'
+                    ? timerDuration > 0 ? (time / timerDuration) * 100 : 0
+                    : intervalPhase === 1
+                      ? work > 0 ? (time / work) * 100 : 0
+                      : pause > 0 ? (time / pause) * 100 : 0
+                  }%`
+                }}
+              />
+            ) : (
+              <div className="h-full w-0" />
             )}
           </div>
         </div>
-  
-        <p className="text-transparent absolute top-24 text-[11px] md:text-muted/60 tracking-wide">
-          Tips : F11 pour une immersion maximum
-        </p>
 
-        <Link href="/outils" className=" absolute bottom-6 text-[11px] md:text-muted/60 tracking-wide">
-          Revenir à la boutique
-        </Link>
+        {/* Controls zone fixe */}
+        <div className="mt-4 md:mt-6 h-24 flex flex-col gap-2">
+          <button
+            onClick={startStop}
+            className={`w-full py-3.5 rounded-xl text-sm font-medium transition-all ${
+              running
+                ? 'bg-danger/20 border border-danger/30 text-danger hover:bg-danger/30'
+                : 'btn-primary'
+            }`}
+          >
+            {running ? 'Arrêter' : 'Démarrer'}
+          </button>
+
+          <button
+            onClick={reset}
+            className={`w-full btn-ghost py-3 rounded-xl text-sm transition-opacity ${
+              !running && time > 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}
+          >
+            Réinitialiser
+          </button>
+        </div>
+
+        {/* Sound selector zone fixe */}
+        <div className="mt-4 md:mt-6 min-h-16 md:h-20 flex items-center">
+          {mode !== 'chronometer' ? (
+            <div className="w-full">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[11px] md:text-xs text-muted shrink-0">Son d'alarme</span>
+              </div>
+              <div className="grid grid-cols-3 gap-1.5 md:flex md:gap-1.5 md:flex-wrap">
+                {SOUNDS.map(s => (
+                  <button
+                    key={s.src}
+                    onClick={() => setSound(s.src)}
+                    className={`text-[11px] md:text-xs px-2.5 py-1.5 rounded-lg transition-all ${
+                      sound === s.src
+                        ? 'bg-accent/20 text-accent border border-accent/30'
+                        : 'btn-ghost'
+                    }`}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="opacity-0 select-none">placeholder</div>
+          )}
+        </div>
       </div>
-    )
+
+      <p className="hidden md:block text-transparent absolute top-24 text-[11px] md:text-muted/60 tracking-wide">
+        Tips : F11 pour une immersion maximum
+      </p>
+
+      <Link href="/outils" className="absolute bottom-4 md:bottom-6 text-[11px] text-muted/70 tracking-wide hover:text-cream">
+        Revenir à la boutique
+      </Link>
+    </div>
+  )
 }
 
 // ── Sub-component : champ numérique ──
@@ -479,7 +463,7 @@ function NumberInput({
 }) {
   return (
     <div className="flex flex-col items-center gap-1">
-      {label && <span className="text-xs text-accent uppercase tracking-wider">{label}</span>}
+      {label && <span className="text-[10px] md:text-xs text-accent uppercase tracking-wider">{label}</span>}
       <input
         type="number"
         value={value}
@@ -488,7 +472,7 @@ function NumberInput({
         onFocus={e => e.target.select()}
         onChange={e => onChange(Math.min(max, Math.max(min, parseInt(e.target.value) || 0)))}
         className={`glass-input text-center font-display text-cream outline-none ${
-          small ? 'w-12 text-2xl py-1' : 'w-16 text-3xl py-2'
+          small ? 'w-10 md:w-12 text-xl md:text-2xl py-1' : 'w-14 md:w-16 text-2xl md:text-3xl py-1.5 md:py-2'
         }`}
         style={{ MozAppearance: 'textfield' }}
       />
