@@ -57,18 +57,6 @@ export default function LoginPage() {
                   Remplis le formulaire de candidature en 3 minutes. Réponse sous 24h.
                 </p>
               </div>
-              <button onClick={handleGoogle} disabled={googleLoading}
-                className="w-full flex items-center justify-center gap-3 btn-ghost py-3 rounded-xl text-sm font-medium">
-                {googleLoading
-                  ? <span className="w-4 h-4 border-2 border-muted border-t-cream rounded-full animate-spin" />
-                  : <GoogleIcon />}
-                Continuer avec Google
-              </button>
-              <div className="flex items-center gap-3">
-                <div className="flex-1 h-px bg-accent/10" />
-                <span className="text-xs text-dim">ou</span>
-                <div className="flex-1 h-px bg-accent/10" />
-              </div>
               <Link href="/rejoindre" className="btn-primary py-3.5 text-sm w-full text-center rounded-xl">
                 Remplir le formulaire →
               </Link>
