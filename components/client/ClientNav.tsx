@@ -160,9 +160,10 @@ export default function ClientNav({ user }: { user: User | null }) {
 
             {/* Spacer */}
             <div className="flex-1" />
+            <div className="h-px bg-white/10 my-4" />
 
             {/* Bottom account / login */}
-            <div className="pt-4 border-t border-accent/10">
+            <div className="pt-4 mb-4">
               {user ? (
                 <div className="flex flex-col gap-2">
                   <Link
