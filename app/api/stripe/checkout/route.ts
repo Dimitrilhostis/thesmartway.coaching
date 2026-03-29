@@ -1,65 +1,71 @@
-import { NextRequest, NextResponse } from 'next/server'
-import Stripe from 'stripe'
+import { NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase/server'
+import { stripe } from '@/lib/stripe'
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, { apiVersion: '2024-04-10' })
+export async function POST(req: Request) {
+  try {
+    const supabase = await createClient()
 
-export async function POST(request: NextRequest) {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
 
-  if (!user) {
-    return NextResponse.json({ error: 'Non authentifié' }, { status: 401 })
-  }
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    }
 
-  const { productId } = await request.json()
+    const body = await req.json()
+    const productId = body.productId as string | undefined
 
-  // Récupérer le produit depuis Supabase
-  const { data: product } = await supabase
-    .from('products')
-    .select('*')
-    .eq('id', productId)
-    .eq('published', true)
-    .single()
+    if (!productId) {
+      return NextResponse.json({ error: 'Missing productId' }, { status: 400 })
+    }
 
-  if (!product) {
-    return NextResponse.json({ error: 'Produit introuvable' }, { status: 404 })
-  }
+    const { data: product, error: productError } = await supabase
+      .from('products')
+      .select('id, name, stripe_price_id, published')
+      .eq('id', productId)
+      .eq('published', true)
+      .single()
 
-  // Créer la session Stripe Checkout
-  const session = await stripe.checkout.sessions.create({
-    mode: 'payment',
-    payment_method_types: ['card'],
-    line_items: [
-      {
-        price_data: {
-          currency: 'eur',
-          unit_amount: product.price_cents,
-          product_data: {
-            name: product.name,
-            description: product.description ?? undefined,
-          },
+    if (productError || !product) {
+      return NextResponse.json({ error: 'Product not found' }, { status: 404 })
+    }
+
+    if (!product.stripe_price_id) {
+      return NextResponse.json({ error: 'Missing stripe_price_id on product' }, { status: 400 })
+    }
+
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!
+    if (!siteUrl) {
+      return NextResponse.json({ error: 'Missing NEXT_PUBLIC_SITE_URL' }, { status: 500 })
+    }
+
+    const session = await stripe.checkout.sessions.create({
+      mode: 'payment',
+      line_items: [
+        {
+          price: product.stripe_price_id,
+          quantity: 1,
         },
-        quantity: 1,
+      ],
+      success_url: `${siteUrl}/espace?checkout=success`,
+      cancel_url: `${siteUrl}/boutique?checkout=cancel`,
+      customer_email: user.email ?? undefined,
+
+      // pratique pour retrouver le user
+      client_reference_id: user.id,
+
+      // très important pour le webhook
+      metadata: {
+        userId: user.id,
+        productId: product.id,
       },
-    ],
-    success_url: `${process.env.NEXT_PUBLIC_APP_URL}/boutique?success=1`,
-    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/boutique?cancelled=1`,
-    metadata: {
-      user_id: user.id,
-      product_id: product.id,
-    },
-    customer_email: user.email,
-  })
+    })
 
-  // Créer l'order en pending dans Supabase
-  await supabase.from('orders').insert({
-    user_id: user.id,
-    product_id: product.id,
-    stripe_session_id: session.id,
-    amount_cents: product.price_cents,
-    status: 'pending',
-  })
-
-  return NextResponse.json({ url: session.url })
+    return NextResponse.json({ url: session.url })
+  } catch (error) {
+    console.error('Stripe checkout error:', error)
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+  }
 }

@@ -1,33 +1,37 @@
 'use client'
 
-import { useState } from 'react'
+type Props = {
+  productId: string
+}
 
-export default function BuyButton({ productId }: { productId: string }) {
-  const [loading, setLoading] = useState(false)
-
+export default function BuyButton({ productId }: Props) {
   async function handleBuy() {
-    setLoading(true)
     const res = await fetch('/api/stripe/checkout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ productId }),
     })
-    const { url, error } = await res.json()
-  
-    // Si non connecté, rediriger vers login
-    if (res.status === 401) {
-      window.location.href = '/login'
+
+    const data = await res.json()
+
+    if (!res.ok) {
+      console.error(data)
+      alert("Impossible de lancer l'achat.")
       return
     }
-  
-    if (error) { alert(error); setLoading(false); return }
-    window.location.href = url
+
+    if (data.url) {
+      window.location.href = data.url
+    }
   }
 
   return (
-    <button onClick={handleBuy} disabled={loading}
-      className="btn-primary text-xs px-4 py-2 disabled:opacity-50">
-      {loading ? '...' : 'Acheter'}
+    <button
+      type="button"
+      onClick={handleBuy}
+      className="glass-pill px-4 py-2 text-sm text-cream hover:border-accent/30 transition"
+    >
+      Acheter
     </button>
   )
 }

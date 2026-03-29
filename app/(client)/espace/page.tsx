@@ -1,8 +1,5 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
-import PlanningPanel from '@/components/client/PlanningPanel'
-import MessagesPanel from '@/components/client/MessagesPanel'
-import NotificationsPanel from '@/components/client/NotificationsPanel'
 import EspaceClient from '@/components/client/EspaceClient'
 
 export default async function EspacePage() {
@@ -17,31 +14,61 @@ export default async function EspacePage() {
     .single()
 
   const { data: program } = await supabase
-    .from('programs').select('*')
-    .eq('client_id', client?.id ?? '').eq('published', true)
-    .order('updated_at', { ascending: false }).limit(1).maybeSingle()
+    .from('programs')
+    .select('*')
+    .eq('client_id', client?.id ?? '')
+    .eq('published', true)
+    .order('updated_at', { ascending: false })
+    .limit(1)
+    .maybeSingle()
 
   const { data: messages } = await supabase
-    .from('messages').select('*, sender:users!sender_id(*)')
+    .from('messages')
+    .select('*, sender:users!sender_id(*)')
     .or(`sender_id.eq.${user.id},receiver_id.eq.${user.id}`)
-    .order('sent_at', { ascending: true }).limit(30)
+    .order('sent_at', { ascending: true })
+    .limit(30)
 
   const { data: notifications } = await supabase
-    .from('notifications').select('*')
+    .from('notifications')
+    .select('*')
     .eq('client_id', client?.id ?? '')
-    .order('scheduled_at', { ascending: false }).limit(20)
+    .order('scheduled_at', { ascending: false })
+    .limit(20)
 
   const { data: coach } = await supabase
-    .from('users').select('id, full_name').eq('role', 'admin').limit(1).single()
+    .from('users')
+    .select('id, full_name')
+    .eq('role', 'admin')
+    .limit(1)
+    .single()
+
+  const { data: ownedOrders } = await supabase
+    .from('orders')
+    .select('product_id')
+    .eq('user_id', user.id)
+    .eq('status', 'paid')
+
+  const ownedProductIds = (ownedOrders ?? []).map((o) => o.product_id)
+
+  const { data: ownedProducts } = ownedProductIds.length
+    ? await supabase
+        .from('products')
+        .select('*')
+        .in('id', ownedProductIds)
+        .eq('published', true)
+        .order('created_at', { ascending: false })
+    : { data: [] }
 
   return (
     <EspaceClient
-      client={client}
-      program={program}
-      messages={messages ?? []}
-      notifications={notifications ?? []}
-      currentUserId={user.id}
-      coach={coach}
-    />
+  client={client}
+  program={program}
+  messages={messages ?? []}
+  notifications={notifications ?? []}
+  currentUserId={user.id}
+  coach={coach}
+  products={ownedProducts ?? []}
+/>
   )
 }
