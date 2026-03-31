@@ -36,32 +36,56 @@ export interface Client {
   coach?: User
 }
 
+export type ProgramStatus = 'draft' | 'active' | 'completed' | 'archived'
+ 
 export interface Program {
   id: string
-  client_id: string
-  coach_id: string
-  week_current: number
-  week_total: number
-  weekly_schedule: {
-    mon?: string
-    tue?: string
-    wed?: string
-    thu?: string
-    fri?: string
-    sat?: string
-    sun?: string
-  }
-  nutrition: {
-    calories?: number
-    protein_g?: number
-    carbs_g?: number
-    fat_g?: number
-    water_l?: number
-  }
-  published: boolean
-  published_at: string | null
+  client_id: string | null    // null = template pur
+  template_id: string | null  // référence au template source
+  phase_name: string          // "Prise de masse", "Sèche"…
+  week_count: number          // nb de semaines dans la phase
+  start_date: string | null   // ISO date, null si draft/template
+  status: ProgramStatus
+  created_by: string          // coach user_id
   created_at: string
-  updated_at: string
+  weeks: ProgramWeek[]
+  // meta calculée côté client
+  week_current?: number
+  week_total?: number
+}
+
+export interface ScheduleOverride {
+  id: string
+  program_id: string
+  client_id: string
+  original_day_id: string     // ProgramDay.id de la séance déplacée
+  new_date: string            // ISO date choisie par le client
+  moved_at: string
+  seen_by_coach: boolean
+}
+
+export interface CalendarDay {
+  date: string                // ISO date "2025-01-06"
+  day_index: number           // 0-6
+  programDay: ProgramDay | null
+  isOverride: boolean         // séance déplacée par le client
+  overrideId?: string
+}
+ 
+export interface CalendarWeek {
+  weekNumber: number          // numéro dans la phase (1-based)
+  startDate: string
+  days: CalendarDay[]
+}
+
+export interface ProgramTemplate {
+  id: string
+  coach_id: string
+  name: string                // nom du template, ex: "PPL 12 semaines"
+  phase_name: string
+  week_count: number
+  weeks: ProgramWeek[]
+  created_at: string
 }
 
 export interface Message {
@@ -123,6 +147,34 @@ export interface Order {
   paid_at: string | null
   created_at: string
   product?: Product
+}
+
+export interface Exercise {
+  id: string
+  day_id: string
+  name: string
+  sets: number
+  reps: string        // "8-12" ou "AMRAP" ou "60s"
+  notes: string | null
+  order: number
+}
+
+export interface ProgramWeek {
+  id: string
+  program_id: string
+  week_number: number // 1-based, ordre d'affichage
+  days: ProgramDay[]
+}
+
+export type DayType = 'training' | 'rest'
+ 
+export interface ProgramDay {
+  id: string
+  week_id: string
+  day_index: number   // 0 = lundi … 6 = dimanche
+  label: string       // ex: "Push A", "Repos actif"
+  type: DayType
+  exercises: Exercise[]
 }
 
 // Helper : formate les centimes en euros

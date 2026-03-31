@@ -60,6 +60,11 @@ export default async function EspacePage() {
         .order('created_at', { ascending: false })
     : { data: [] }
 
+    const { data: overrides } = await supabase
+  .from('schedule_overrides')
+  .select('*')
+  .eq('program_id', program.id)
+
   return (
     <EspaceClient
   client={client}
@@ -69,6 +74,7 @@ export default async function EspacePage() {
   currentUserId={user.id}
   coach={coach}
   products={ownedProducts ?? []}
+  overrides={overrides ?? []}
 />
   )
 }

@@ -59,7 +59,10 @@ export default function TimerPage() {
   }, [running])
 
   const playAlarm = useCallback(() => {
-    new Audio(sound).play().catch(() => {})
+    const audio = new Audio(sound)
+    audio.play().catch((err) => {
+      console.error('Erreur lecture audio :', err)
+    })
   }, [sound])
 
   const work = workMin * 60 + workSec
@@ -443,6 +446,21 @@ export default function TimerPage() {
         Tips : F11 pour une immersion maximum
       </p>
 
+      <button
+  onClick={async () => {
+    const audio = new Audio(sound)
+    try {
+      await audio.play()
+      console.log('Son lancé')
+    } catch (err) {
+      console.error('Lecture bloquée :', err)
+    }
+  }}
+  className="btn-ghost"
+>
+  Tester le son
+</button>
+
       <Link href="/outils" className="absolute bottom-4 md:bottom-6 text-[11px] text-muted/70 tracking-wide hover:text-cream">
         Revenir à la boutique
       </Link>
@@ -455,7 +473,7 @@ function NumberInput({
   label, value, onChange, min = 0, max = 99, small = false
 }: {
   label: string
-  value: number
+  value: number 
   onChange: (v: number) => void
   min?: number
   max?: number
