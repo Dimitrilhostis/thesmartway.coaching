@@ -15,6 +15,7 @@ const SOUNDS = [
   { label: 'Cri',    src: '/sounds/CRI.mp3'    },
 ]
 
+
 function fmt(s: number) {
   const m = Math.floor(s / 60)
   const ss = s % 60
@@ -44,6 +45,8 @@ export default function TimerPage() {
 
   // Sound
   const [sound, setSound] = useState(SOUNDS[0].src)
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const audioUnlockedRef = useRef(false)
 
   // Wake lock
   const wakeLockRef = useRef<WakeLockSentinel | null>(null)
@@ -58,15 +61,50 @@ export default function TimerPage() {
     }
   }, [running])
 
-  const playAlarm = useCallback(() => {
-    const audio = new Audio(sound)
-    audio.play().catch((err) => {
-      console.error('Erreur lecture audio :', err)
-    })
-  }, [sound])
+  const playAlarm = useCallback(async () => {
+    const audio = audioRef.current
+    if (!audio) return
+  
+    try {
+      audio.pause()
+      audio.currentTime = 0
+      await audio.play()
+    } catch (err) {
+      console.error('Lecture audio bloquée :', err)
+    }
+  }, [])
+
+  const unlockAudio = useCallback(async () => {
+    const audio = audioRef.current
+    if (!audio || audioUnlockedRef.current) return
+  
+    try {
+      audio.volume = 0
+      audio.currentTime = 0
+      await audio.play()
+      audio.pause()
+      audio.currentTime = 0
+      audio.volume = 1
+      audioUnlockedRef.current = true
+    } catch (err) {
+      console.error('Déblocage audio impossible :', err)
+    }
+  }, [])
 
   const work = workMin * 60 + workSec
   const pause = pauseMin * 60 + pauseSec
+
+  useEffect(() => {
+    const audio = new Audio(sound)
+    audio.preload = 'auto'
+    audioRef.current = audio
+  
+    return () => {
+      audio.pause()
+      audioRef.current = null
+      audioUnlockedRef.current = false
+    }
+  }, [sound])
 
   // ── Ticker ──
   useEffect(() => {
@@ -93,10 +131,13 @@ export default function TimerPage() {
     return () => clearInterval(ticker)
   }, [running, mode, reps, currentRep, timerDuration, playAlarm, work, pause, intervalReps, intervalPhase])
 
-  function startStop() {
+  async function startStop() {
     if (running) {
       setRunning(false); setImmersive(false); return
     }
+
+    await unlockAudio()
+
     if (mode === 'timer') {
       const tot = timerMin * 60 + timerSec
       setTimerDuration(tot); setTime(tot); setCurrentRep(1)
