@@ -13,14 +13,32 @@ export default async function EspacePage() {
     .eq('user_id', user.id)
     .single()
 
+  // Programme actif avec toute la hiérarchie
   const { data: program } = await supabase
     .from('programs')
-    .select('*')
+    .select(`
+      *,
+      weeks:program_weeks(
+        *,
+        days:program_days(
+          *,
+          exercises:program_exercises(* )
+        )
+      )
+    `)
     .eq('client_id', client?.id ?? '')
-    .eq('published', true)
-    .order('updated_at', { ascending: false })
+    .eq('status', 'active')
+    .order('created_at', { ascending: false })
     .limit(1)
     .maybeSingle()
+
+  // Overrides seulement si un programme existe
+  const { data: overrides } = program?.id
+    ? await supabase
+        .from('schedule_overrides')
+        .select('*')
+        .eq('program_id', program.id)
+    : { data: [] }
 
   const { data: messages } = await supabase
     .from('messages')
@@ -49,7 +67,7 @@ export default async function EspacePage() {
     .eq('user_id', user.id)
     .eq('status', 'paid')
 
-  const ownedProductIds = (ownedOrders ?? []).map((o) => o.product_id)
+  const ownedProductIds = (ownedOrders ?? []).map(o => o.product_id)
 
   const { data: ownedProducts } = ownedProductIds.length
     ? await supabase
@@ -60,21 +78,16 @@ export default async function EspacePage() {
         .order('created_at', { ascending: false })
     : { data: [] }
 
-    const { data: overrides } = await supabase
-  .from('schedule_overrides')
-  .select('*')
-  .eq('program_id', program.id)
-
   return (
     <EspaceClient
-  client={client}
-  program={program}
-  messages={messages ?? []}
-  notifications={notifications ?? []}
-  currentUserId={user.id}
-  coach={coach}
-  products={ownedProducts ?? []}
-  overrides={overrides ?? []}
-/>
+      client={client}
+      program={program ?? null}
+      messages={messages ?? []}
+      notifications={notifications ?? []}
+      currentUserId={user.id}
+      coach={coach}
+      products={ownedProducts ?? []}
+      overrides={overrides ?? []}
+    />
   )
 }
