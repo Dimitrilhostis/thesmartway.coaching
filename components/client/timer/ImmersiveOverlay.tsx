@@ -141,7 +141,7 @@ export default function ImmersiveOverlay({
             className="absolute inset-0 bg-cover bg-center scale-110"
             style={{ backgroundImage: "url('/hero-bg.jpg')" }}
           />
-          <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(30,26,22,0.72)_0%,rgba(40,36,28,0.6)_40%,rgba(24,34,26,0.55)_70%,rgba(14,22,16,0.82)_100%)]" />
         </>
       ) : (
         <div className={`absolute inset-0 ${ui.shell}`} />
