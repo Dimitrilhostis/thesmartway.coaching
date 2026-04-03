@@ -10,8 +10,12 @@ import type { Program, ProgramWeek, ProgramDay, Exercise, DayType } from '@/lib/
 // ─── Types locaux pour l'éditeur ────────────────────────────
 
 type DraftExercise = Omit<Exercise, 'id' | 'day_id'> & { _id: string }
-type DraftDay = Omit<ProgramDay, 'id' | 'week_id' | 'exercises'> & {
+type DraftDay = {
   _id: string
+  day_index: number
+  day_number: number
+  label: string
+  type: DayType
   exercises: DraftExercise[]
 }
 type DraftWeek = Omit<ProgramWeek, 'id' | 'program_id' | 'days'> & {
@@ -30,6 +34,7 @@ function makeDay(day_index: number): DraftDay {
   return {
     _id: uid(),
     day_index,
+    day_number: day_index + 1,  // ← ajouter
     label: '',
     type: 'rest',
     exercises: [],
@@ -309,6 +314,7 @@ export default function ProgramEditor({
         days: w.days.map(d => ({
           _id: uid(),
           day_index: d.day_index,
+          day_number: d.day_number ?? d.day_index + 1,
           label: d.label,
           type: d.type,
           exercises: d.exercises.map(e => ({
