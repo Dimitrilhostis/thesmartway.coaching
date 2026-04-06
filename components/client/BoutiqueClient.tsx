@@ -98,77 +98,94 @@ export default function BoutiqueClient({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 p-4 md:p-6">
-        {filteredProducts.map((product) => {
-          const owned = isOwned(product.id)
 
-          return (
-            <button
-              key={product.id}
-              type="button"
-              onClick={() => setSelectedProduct(product)}
-              className="glass shadow-glass hover:border-accent/30 hover:bg-white/[0.03] transition-all overflow-hidden text-left"
-            >
-              <div className="relative w-full aspect-[16/7] overflow-hidden bg-white/3">
-                <Image
-                  src={getCategoryImage(product.category)}
-                  alt={product.name}
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-black/20" />
-              </div>
+      <div className="p-4 md:p-6">
+  {filteredProducts.length === 0 ? (
+    <div className="flex flex-col items-center justify-center gap-3 py-10">
+      <p className="text-cream text-base md:text-lg font-medium">
+        Aucun produit disponible pour l’instant
+      </p>
+      <p className="text-sm text-muted mt-2">
+        Revenez bientôt, de nouveaux produits arriveront prochainement.
+      </p>
+    </div>
+  ) : (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+      {filteredProducts.map((product) => {
+        const owned = isOwned(product.id)
 
-              <div className="p-4 border-t border-accent/10">
-                <div className="flex items-start justify-between gap-3 mb-1">
-                  <p className="text-xs text-dim uppercase tracking-wider">
-                    {getCategoryLabel(product.category)}
-                  </p>
+        return (
+          <button
+            key={product.id}
+            type="button"
+            onClick={() => setSelectedProduct(product)}
+            className="glass shadow-glass hover:border-accent/30 hover:bg-white/[0.03] transition-all overflow-hidden text-left"
+          >
+            <div className="relative w-full aspect-[16/7] overflow-hidden bg-white/3">
+              <Image
+                src={getCategoryImage(product.category)}
+                alt={product.name}
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-black/20" />
+            </div>
 
-                  <div className="flex items-center gap-2 shrink-0">
-                    {owned && (
-                      <span className="glass-pill text-[11px] px-2.5 py-0.5 text-cream font-medium">
-                        ★ Possédé
-                      </span>
-                    )}
-
-                    {product.badge && (
-                      <span className="glass-pill text-[11px] px-2.5 py-0.5 text-accent font-medium">
-                        {product.badge}
-                      </span>
-                    )}
-                  </div>
-                </div>
-
-                <h3 className="text-sm font-medium text-cream mb-1">
-                  {product.name}
-                </h3>
-
-                <p className="text-xs text-muted leading-relaxed mb-4 line-clamp-3">
-                  {product.description}
+            <div className="p-4 border-t border-accent/10">
+              <div className="flex items-start justify-between gap-3 mb-1">
+                <p className="text-xs text-dim uppercase tracking-wider">
+                  {getCategoryLabel(product.category)}
                 </p>
 
-                <div className="flex items-center justify-between">
-                  <div>
-                    <span className="font-display text-xl text-accent">
-                      {formatPrice(product.price_cents)}
+                <div className="flex items-center gap-2 shrink-0">
+                  {owned && (
+                    <span className="glass-pill text-[11px] px-2.5 py-0.5 text-cream font-medium">
+                      ★ Possédé
                     </span>
+                  )}
 
-                    {product.original_price_cents && (
-                      <span className="text-xs text-dim line-through ml-2">
-                        {formatPrice(product.original_price_cents)}
-                      </span>
-                    )}
-                  </div>
-
-                  <span className="text-xs text-muted">
-                    {owned ? 'Ouvrir' : 'Voir'}
-                  </span>
+                  {product.badge && (
+                    <span className="glass-pill text-[11px] px-2.5 py-0.5 text-accent font-medium">
+                      {product.badge}
+                    </span>
+                  )}
                 </div>
               </div>
-            </button>
-          )
-        })}
-      </div>
+
+              <h3 className="text-sm font-medium text-cream mb-1">
+                {product.name}
+              </h3>
+
+              <p className="text-xs text-muted leading-relaxed mb-4 line-clamp-3">
+                {product.description}
+              </p>
+
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="font-display text-xl text-accent">
+                    {formatPrice(product.price_cents)}
+                  </span>
+
+                  {product.original_price_cents && (
+                    <span className="text-xs text-dim line-through ml-2">
+                      {formatPrice(product.original_price_cents)}
+                    </span>
+                  )}
+                </div>
+
+                <span className="text-xs text-muted">
+                  {owned ? 'Ouvrir' : 'Voir'}
+                </span>
+              </div>
+            </div>
+          </button>
+        )
+      })}
+    </div>
+  )}
+</div>
+
+    </div>
 
       {selectedProduct && (
         <div

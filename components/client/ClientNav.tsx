@@ -35,6 +35,7 @@ export default function ClientNav({ user }: { user: User | null }) {
     { href: '/espace', label: 'Mon Espace', authRequired: true },
     { href: '/outils', label: 'Outils', authRequired: false },
     { href: '/boutique', label: 'Boutique', authRequired: false },
+    { href: '/services', label: 'Services', authRequired: false },
   ]
 
   const initials = user?.full_name

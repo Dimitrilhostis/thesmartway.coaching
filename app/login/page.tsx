@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
+import { Speech } from 'lucide-react'
 
 const supabase = createClient()
 
@@ -127,7 +128,11 @@ export default function LoginPage() {
         )}
       </div>
 
-      <Link href="/" className="mt-6 text-xs text-dim hover:text-muted transition-colors tracking-wide">Revenir à l’accueil</Link>
+        {/* Contact */}
+      <Link href="/contact" className="mt-6 text-xs flex text-muted border-muted hover:border-b tracking-wide"><Speech className='h-4 w-4 mr-2'/> Contacter le coach</Link>
+
+        {/* Accueil */}
+      <Link href="/" className="fixed bottom-8 text-xs text-dim hover:text-muted transition-colors tracking-wide">Revenir à l’accueil</Link>
       
       <style>{`
         @keyframes fadeSlideIn {
