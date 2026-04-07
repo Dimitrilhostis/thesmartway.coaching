@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import LogoutButton from '@/components/client/LogoutButton'
+import Link from 'next/link'
 
 export default async function ComptePage() {
   const supabase = await createClient()
@@ -31,6 +32,13 @@ export default async function ComptePage() {
           </span>
         </div>
       </div>
+
+      {/* Contact */}
+      <section className="mb-5">
+        <div className="w-full glass border hover:bg-muted/10 py-3 rounded-2xl text-sm transition-all">
+          <Link href={'/contact'}>Contacter le coach</Link>
+        </div>
+      </section>
 
       {/* Infos */}
       <section className="mb-5">
@@ -72,28 +80,6 @@ export default async function ComptePage() {
           </div>
         </section>
       )}
-
-      {/* Notifications */}
-      <section className="mb-5">
-        <p className="text-xs text-dim uppercase tracking-wider mb-2 pl-1">Notifications</p>
-        <div className="glass shadow-glass-sm divide-y divide-accent/10">
-          {[
-            { label: 'Rappels d\'entraînement', sub: '2h avant chaque séance' },
-            { label: 'Messages coach',          sub: 'À chaque nouveau message' },
-            { label: 'Nouveautés boutique',      sub: 'Alertes programmes & promos' },
-          ].map((item, i) => (
-            <div key={i} className="flex justify-between items-center px-4 py-3">
-              <div className="flex-1 mr-4">
-                <p className="text-sm text-cream">{item.label}</p>
-                <p className="text-xs text-dim mt-0.5">{item.sub}</p>
-              </div>
-              <div className="w-9 h-5 rounded-full bg-sage/50 border border-accent/25 relative cursor-pointer shrink-0">
-                <div className="absolute right-0.5 top-0.5 w-4 h-4 rounded-full bg-cream/80" />
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
 
       {/* Sécurité */}
       <section className="mb-6">
