@@ -2,6 +2,7 @@ import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import LogoutButton from '@/components/client/LogoutButton'
 import Link from 'next/link'
+import { Speech } from 'lucide-react'
 
 export default async function ComptePage() {
   const supabase = await createClient()
@@ -36,7 +37,7 @@ export default async function ComptePage() {
       {/* Contact */}
       <Link href={'/contact'}>
         <div className="w-full glass border border-accent text-accent hover:bg-accent/10 py-3 rounded-2xl text-sm transition-all mb-5 text-center">
-          Contacter le coach
+          <Speech className='h-4 w-4 mr-2'/>Contacter le coach
         </div>
       </Link>
 
