@@ -34,8 +34,8 @@ export default async function ComptePage() {
       </div>
 
       {/* Contact */}
-      <Link href={'/contact'} className="mb-5">
-        <div className="w-full glass border border-accent text-accent hover:bg-accent/10 py-3 rounded-2xl text-sm transition-all">
+      <Link href={'/contact'}>
+        <div className="w-full glass border border-accent text-accent hover:bg-accent/10 py-3 rounded-2xl text-sm transition-all mb-5 text-center">
           Contacter le coach
         </div>
       </Link>
