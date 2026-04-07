@@ -23,11 +23,11 @@ export default function TimerPage() {
   const [timerDuration, setTimerDuration] = useState(0)
 
   // Interval settings
-  const [workMin, setWorkMin] = useState(0)
-  const [workSec, setWorkSec] = useState(30)
-  const [pauseMin, setPauseMin] = useState(0)
-  const [pauseSec, setPauseSec] = useState(10)
-  const [intervalReps, setIntervalReps] = useState(5)
+  const [workMin, setWorkMin] = useState(25)
+  const [workSec, setWorkSec] = useState(0)
+  const [pauseMin, setPauseMin] = useState(5)
+  const [pauseSec, setPauseSec] = useState(0)
+  const [intervalReps, setIntervalReps] = useState(4)
   const [intervalPhase, setIntervalPhase] = useState<1 | 2>(1)
 
   // Sound

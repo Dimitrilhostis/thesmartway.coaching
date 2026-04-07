@@ -2,10 +2,10 @@ import type { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'The Smart Way',
-    short_name: 'SmartWay',
-    description: 'Timer et outils SmartWay',
-    start_url: '/timer',
+    name: 'Timer The Smart Way',
+    short_name: 'Timer TSW',
+    description: 'Timer d\'entraînement pour les clients de The Smart Way',
+    start_url: '/outils/timer',
     scope: '/',
     display: 'standalone',
     background_color: '#1E1E1E',
