@@ -199,3 +199,69 @@ export const DAYS: Record<string, string> = {
   sat: 'Samedi',
   sun: 'Dimanche',
 }
+
+export type BookingStatus = 'pending' | 'confirmed' | 'cancelled' | 'no_show'
+
+export interface MassageService {
+  id: string
+  name: string
+  slug: string
+  description: string | null
+  duration_min: number
+  price_cents: number
+  active: boolean
+  sort_order: number
+}
+
+export interface AvailabilityRule {
+  id: string
+  day_of_week: number   // 0=dim, 1=lun…6=sam
+  start_time: string    // "10:00:00"
+  end_time: string
+  active: boolean
+}
+
+export interface AvailabilityException {
+  id: string
+  date: string          // ISO "2025-06-15"
+  closed: boolean
+  start_time: string | null
+  end_time: string | null
+  reason: string | null
+}
+
+export interface Booking {
+  id: string
+  service_id: string
+  user_id: string | null
+  client_name: string
+  client_email: string
+  client_phone: string | null
+  starts_at: string     // ISO timestamptz
+  ends_at: string
+  status: BookingStatus
+  notes: string | null
+  admin_notes: string | null
+  confirmed_at: string | null
+  cancelled_at: string | null
+  cancel_reason: string | null
+  reminder_sent: boolean
+  created_at: string
+  // Jointures optionnelles
+  service?: MassageService
+}
+
+// Créneau calculé côté client (non stocké en base)
+export interface TimeSlot {
+  start: string   // ISO datetime
+  end: string
+  available: boolean
+}
+
+export interface CartItem {
+  id: string
+  user_id: string
+  product_id: string
+  added_at: string
+  product?: Product
+}

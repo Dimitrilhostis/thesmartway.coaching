@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -27,10 +27,21 @@ export const metadata: Metadata = {
     'performance'
   ],
 
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'black-translucent',
+    title: 'SmartWay',
+  },
+
   authors: [{ name: 'The Smart Way' }],
 
-  creator: 'The Smart Way',
+  creator: 'Dimitri LHOSTIS',
 };
+
+export const viewport: Viewport = {
+  themeColor: '#1E1E1E',
+  viewportFit: 'cover',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
