@@ -34,11 +34,11 @@ export default async function ComptePage() {
       </div>
 
       {/* Contact */}
-      <section className="mb-5">
-        <div className="w-full glass border border-accent hover:bg-accent/10 py-3 rounded-2xl text-sm transition-all">
-          <Link href={'/contact'} className='text-accent'>Contacter le coach</Link>
+      <Link href={'/contact'} className="mb-5">
+        <div className="w-full glass border border-accent text-accent hover:bg-accent/10 py-3 rounded-2xl text-sm transition-all">
+          Contacter le coach
         </div>
-      </section>
+      </Link>
 
       {/* Infos */}
       <section className="mb-5">
