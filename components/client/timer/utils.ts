@@ -1,5 +1,11 @@
-export function fmt(s: number) {
-    const m = Math.floor(s / 60)
-    const ss = s % 60
-    return `${String(m).padStart(2, '0')}:${String(ss).padStart(2, '0')}`
+export function fmt(total: number) {
+  const h = Math.floor(total / 3600)
+  const m = Math.floor((total % 3600) / 60)
+  const s = total % 60
+
+  if (h > 0) {
+    return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
   }
+
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+}

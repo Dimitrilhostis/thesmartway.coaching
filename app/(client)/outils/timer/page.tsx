@@ -16,6 +16,7 @@ export default function TimerPage() {
   const [immersiveTheme, setImmersiveTheme] = useState<ImmersiveTheme>('dark')
 
   // Timer settings
+  const [timerHour, setTimerHour] = useState(0)
   const [timerMin, setTimerMin] = useState(0)
   const [timerSec, setTimerSec] = useState(0)
   const [reps, setReps] = useState(1)
@@ -169,7 +170,10 @@ export default function TimerPage() {
     await unlockAudio()
 
     if (mode === 'timer') {
-      const total = timerMin * 60 + timerSec
+      const total = timerHour * 3600 + timerMin * 60 + timerSec
+
+      if (total <= 0) return
+
       setTimerDuration(total)
       setTime(total)
       setCurrentRep(1)
@@ -238,7 +242,6 @@ export default function TimerPage() {
 
       <div className="min-h-[100dvh] flex items-center justify-center px-3 py-3 md:min-h-screen md:px-4 md:py-8">
         <div className="glass shadow-glass w-full max-w-md h-[100dvh] max-h-[48rem] p-4 flex flex-col md:h-[42rem] md:p-6">
-          {/* Mode tabs */}
           <div className="h-11 md:h-12 flex gap-1 p-1 glass-dark rounded-xl">
             {modes.map((m) => (
               <button
@@ -258,15 +261,15 @@ export default function TimerPage() {
             ))}
           </div>
 
-          {/* Settings zone */}
           <div className="h-24 md:h-28 flex items-center justify-center mt-4 md:mt-6">
             {mode === 'chronometer' && (
               <p className="text-sm text-muted text-center">Prêt à démarrer</p>
             )}
 
             {mode === 'timer' && (
-              <div className="flex justify-center gap-4 md:gap-8">
-                <NumberInput label="Min" value={timerMin} onChange={setTimerMin} />
+              <div className="flex justify-center gap-3 md:gap-6">
+                <NumberInput label="H" value={timerHour} onChange={setTimerHour} />
+                <NumberInput label="Min" value={timerMin} onChange={setTimerMin} max={59} />
                 <NumberInput label="Sec" value={timerSec} onChange={setTimerSec} max={59} />
                 <NumberInput label="Rép" value={reps} onChange={setReps} min={1} />
               </div>
@@ -301,7 +304,6 @@ export default function TimerPage() {
             )}
           </div>
 
-          {/* Display zone */}
           <div className="h-44 md:h-56 flex flex-col items-center justify-center text-center">
             <div
               className={`font-display tracking-widest transition-colors ${
@@ -348,7 +350,6 @@ export default function TimerPage() {
             </div>
           </div>
 
-          {/* Controls */}
           <div className="mt-4 md:mt-6 h-24 flex flex-col gap-2">
             <button
               onClick={startStop}
@@ -371,7 +372,6 @@ export default function TimerPage() {
             </button>
           </div>
 
-          {/* Sound selector */}
           <div className="mt-4 md:mt-6 min-h-16 flex items-center">
             {mode !== 'chronometer' ? (
               <div className="w-full">
@@ -402,7 +402,6 @@ export default function TimerPage() {
             )}
           </div>
 
-          {/* Immersive theme selector */}
           <div className="mt-3 md:mt-4 min-h-16 flex items-center">
             <div className="w-full">
               <div className="flex items-center justify-between mb-2">
