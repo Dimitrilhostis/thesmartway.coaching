@@ -1,0 +1,49 @@
+{
+    "slug": "dessin",
+    "title": "Dessin",
+    "description": "Apprendre à dessiner : théorie, observation, formes et inspiration.",
+    "emoji": "✏️",
+    "color": "#F59E0B",
+    "categories": [
+      {
+        "id": "theorie",
+        "label": "Théorie de base",
+        "color": "#1D4ED8",
+        "items": [
+          { "id": "th1", "label": "Tenir un crayon correctement", "status": "todo", "quarter": "Q1", "description": "Prise crayon, pression, geste libre" },
+          { "id": "th2", "label": "Trait continu & répété", "status": "todo", "quarter": "Q1", "description": "Lignes droites, courbes, régularité" },
+          { "id": "th3", "label": "Valeurs de gris & ombrages", "status": "todo", "quarter": "Q1", "description": "Hachures, estompe, dégradé de gris" },
+          { "id": "th4", "label": "Perspective 1 & 2 points de fuite", "status": "todo", "quarter": "Q2", "description": "Construire un espace en 3D sur du plat" },
+          { "id": "th5", "label": "Composition & règle des tiers", "status": "todo", "quarter": "Q2", "description": "Équilibre visuel, placement du sujet" },
+          { "id": "th6", "label": "Lumière & ombre (clair-obscur)", "status": "todo", "quarter": "Q3", "description": "Source de lumière, ombre portée, reflets" }
+        ]
+      },
+      {
+        "id": "formes",
+        "label": "Formes qui nous entourent",
+        "color": "#059669",
+        "items": [
+          { "id": "f1", "label": "Dessiner des objets du quotidien", "status": "todo", "quarter": "Q1", "description": "Tasse, chaise, téléphone : simplifier en formes" },
+          { "id": "f2", "label": "Anatomie humaine simplifiée", "status": "todo", "quarter": "Q2", "description": "Proportions, silhouette en stickman évolué" },
+          { "id": "f3", "label": "Nature : feuilles, arbres, pierres", "status": "todo", "quarter": "Q2", "description": "Patterns organiques, répétition" },
+          { "id": "f4", "label": "Architecture & bâtiments", "status": "todo", "quarter": "Q3", "description": "Façades, fenêtres, volumes géométriques" },
+          { "id": "f5", "label": "Visages de face & de profil", "status": "todo", "quarter": "Q3", "description": "Placement des traits, expressions basiques" },
+          { "id": "f6", "label": "Mains et pieds", "status": "todo", "quarter": "Q4", "description": "Les parties les plus difficiles du corps" }
+        ]
+      },
+      {
+        "id": "inspiration",
+        "label": "Avoir de l'inspiration",
+        "color": "#9333EA",
+        "items": [
+          { "id": "i1", "label": "Carnet de croquis quotidien", "status": "todo", "quarter": "Q1", "description": "5 minutes par jour, sans pression" },
+          { "id": "i2", "label": "Copier des artistes admirés", "status": "todo", "quarter": "Q1", "description": "Étude de style : apprendre par imitation" },
+          { "id": "i3", "label": "Challenges & prompts (Inktober…)", "status": "todo", "quarter": "Q2", "description": "Créer avec une contrainte thématique" },
+          { "id": "i4", "label": "Dessiner d'après nature (plein air)", "status": "todo", "quarter": "Q2", "description": "Observer sans photo, travailler vite" },
+          { "id": "i5", "label": "Constituer un moodboard personnel", "status": "todo", "quarter": "Q3", "description": "Pinterest, photos, images qui t'inspirent" },
+          { "id": "i6", "label": "Développer un style personnel", "status": "todo", "quarter": "Q4", "description": "Quand les influences fusionnent en toi" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

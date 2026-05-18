@@ -1,0 +1,48 @@
+{
+    "slug": "auto-coiffeur",
+    "title": "Auto-Coiffeur",
+    "description": "Apprendre à se couper les cheveux soi-même : techniques, coupes et matériel.",
+    "emoji": "✂️",
+    "color": "#06B6D4",
+    "categories": [
+      {
+        "id": "techniques",
+        "label": "Techniques",
+        "color": "#0EA5E9",
+        "items": [
+          { "id": "tech1", "label": "Dégradé à la tondeuse", "status": "todo", "quarter": "Q1", "description": "Sabot 1 à 4, transition progressive" },
+          { "id": "tech2", "label": "Couper aux ciseaux droit", "status": "todo", "quarter": "Q1", "description": "Coupe horizontale franche et régulière" },
+          { "id": "tech3", "label": "Effiler & texturer", "status": "todo", "quarter": "Q2", "description": "Ciseaux effileurs, peigne et ciseau" },
+          { "id": "tech4", "label": "Fondu propre (blend)", "status": "todo", "quarter": "Q2", "description": "Raccorder dégradé tondeuse et ciseau" },
+          { "id": "tech5", "label": "Travailler la nuque seul", "status": "todo", "quarter": "Q3", "description": "Miroir double face, précision dans le dos" },
+          { "id": "tech6", "label": "Styling post-coupe", "status": "todo", "quarter": "Q3", "description": "Brushing, pomade, cire, texture spray" }
+        ]
+      },
+      {
+        "id": "coupes",
+        "label": "Coupes possibles",
+        "color": "#8B5CF6",
+        "items": [
+          { "id": "c1", "label": "Buzz cut propre", "status": "todo", "quarter": "Q1", "description": "Coupe rase uniforme, la base" },
+          { "id": "c2", "label": "Undercut classique", "status": "todo", "quarter": "Q1", "description": "Côtés courts, dessus long" },
+          { "id": "c3", "label": "Dégradé américain", "status": "todo", "quarter": "Q2", "description": "Fade progressif du bas vers le haut" },
+          { "id": "c4", "label": "Coupe messy naturelle", "status": "todo", "quarter": "Q2", "description": "Déstructuré mais maîtrisé" },
+          { "id": "c5", "label": "Coupe à l'ancienne (50s)", "status": "todo", "quarter": "Q3", "description": "Côté plaqué, volume sur le dessus" },
+          { "id": "c6", "label": "Textured crop", "status": "todo", "quarter": "Q4", "description": "Tendance actuelle, frange texturée" }
+        ]
+      },
+      {
+        "id": "materiel",
+        "label": "Matériel",
+        "color": "#10B981",
+        "items": [
+          { "id": "mat1", "label": "Choisir sa tondeuse", "status": "todo", "quarter": "Q1", "description": "Wahl, Babyliss, Andis : critères de choix" },
+          { "id": "mat2", "label": "Ciseaux professionnels", "status": "todo", "quarter": "Q1", "description": "Ciseaux coiffure vs cuisine : différences" },
+          { "id": "mat3", "label": "Double miroir ou miroir mural", "status": "todo", "quarter": "Q1", "description": "Voir la nuque et les côtés" },
+          { "id": "mat4", "label": "Cape de coiffure & peigne", "status": "todo", "quarter": "Q1", "description": "Les indispensables de l'install" },
+          { "id": "mat5", "label": "Entretien du matériel", "status": "todo", "quarter": "Q2", "description": "Huiler la tondeuse, affûter les ciseaux" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

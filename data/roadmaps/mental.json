@@ -1,0 +1,55 @@
+{
+  "slug": "mental",
+  "title": "Mental & Mindset",
+  "description": "Construire un état d'esprit solide : discipline, focus, habitudes et résilience.",
+  "emoji": "🧠",
+  "color": "#6366F1",
+  "categories": [
+    {
+      "id": "discipline",
+      "label": "Discipline",
+      "color": "#6366F1",
+      "items": [
+        { "id": "d1", "label": "Routine matinale fixe", "status": "done", "quarter": "Q1", "description": "Lever à heure fixe, eau, 10 min de mouvement" },
+        { "id": "d2", "label": "Tenir ses engagements 30j", "status": "in-progress", "quarter": "Q1", "description": "Un objectif quotidien, tenu sans exception" },
+        { "id": "d3", "label": "Réduire les distractions", "status": "todo", "quarter": "Q2", "description": "Deep work, mode avion, blocs de concentration" },
+        { "id": "d4", "label": "Journaling hebdomadaire", "status": "todo", "quarter": "Q2", "description": "Bilan semaine, ajustements, gratitude" },
+        { "id": "d5", "label": "1 an de consistance", "status": "todo", "quarter": "Q4", "description": "52 semaines sans interruption majeure" }
+      ]
+    },
+    {
+      "id": "focus",
+      "label": "Focus & Productivité",
+      "color": "#0EA5E9",
+      "items": [
+        { "id": "f1", "label": "Technique Pomodoro maîtrisée", "status": "done", "quarter": "Q1", "description": "25min focus / 5min pause — ancré dans la routine" },
+        { "id": "f2", "label": "Priorisation — méthode 1-3-5", "status": "in-progress", "quarter": "Q2", "description": "1 tâche majeure, 3 moyennes, 5 petites" },
+        { "id": "f3", "label": "Planning hebdo complet", "status": "todo", "quarter": "Q2", "description": "Time-blocking, blocs thématiques, révision vendredi" },
+        { "id": "f4", "label": "Zéro multi-tâche", "status": "todo", "quarter": "Q3", "description": "Monotasking total pendant les blocs de travail" }
+      ]
+    },
+    {
+      "id": "resilience",
+      "label": "Résilience",
+      "color": "#10B981",
+      "items": [
+        { "id": "re1", "label": "Accepter l'inconfort volontaire", "status": "done", "quarter": "Q1", "description": "Douche froide, effort physique intense, jeûne" },
+        { "id": "re2", "label": "Reformuler l'échec", "status": "todo", "quarter": "Q2", "description": "Chaque erreur = donnée, pas identité" },
+        { "id": "re3", "label": "Stoïcisme — bases", "status": "todo", "quarter": "Q2", "description": "Marc Aurèle, Épictète : cercle de contrôle" },
+        { "id": "re4", "label": "Gérer le stress sous pression", "status": "todo", "quarter": "Q3", "description": "Respiration box, ancrage, reset mental rapide" }
+      ]
+    },
+    {
+      "id": "habitudes",
+      "label": "Habitudes",
+      "color": "#F59E0B",
+      "items": [
+        { "id": "h1", "label": "Lire 20 min/jour", "status": "in-progress", "quarter": "Q1", "description": "Non-fiction, développement personnel ou biographies" },
+        { "id": "h2", "label": "Méditation 5 min/jour", "status": "todo", "quarter": "Q2", "description": "Respiration consciente, scan corporel" },
+        { "id": "h3", "label": "Couper les réseaux le soir", "status": "todo", "quarter": "Q2", "description": "Pas d'écrans 1h avant le coucher" },
+        { "id": "h4", "label": "Bilan mensuel structuré", "status": "todo", "quarter": "Q3", "description": "KPIs perso, objectifs, ajustements de cap" }
+      ]
+    }
+  ],
+  "quarters": ["Q1", "Q2", "Q3", "Q4"]
+}

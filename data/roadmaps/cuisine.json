@@ -1,0 +1,69 @@
+{
+    "slug": "cuisine",
+    "title": "Cuisine",
+    "description": "Maîtriser la nutrition, les techniques culinaires, l'inspiration et les associations de goûts.",
+    "emoji": "🍳",
+    "color": "#F59E0B",
+    "categories": [
+      {
+        "id": "nutrition",
+        "label": "Nutrition",
+        "color": "#10B981",
+        "items": [
+          { "id": "n1", "label": "Macros & micronutriments", "status": "todo", "quarter": "Q1", "description": "Protéines, glucides, lipides, vitamines essentielles" },
+          { "id": "n2", "label": "Meal prep 1 semaine", "status": "todo", "quarter": "Q1", "description": "Préparer 5 repas équilibrés en 2h" },
+          { "id": "n3", "label": "Lire une étiquette nutritionnelle", "status": "todo", "quarter": "Q2", "description": "Décoder les valeurs et les additifs" },
+          { "id": "n4", "label": "Alimentation sport adaptée", "status": "todo", "quarter": "Q2", "description": "Avant/pendant/après l'effort" },
+          { "id": "n5", "label": "Créer un plan alimentaire complet", "status": "todo", "quarter": "Q3", "description": "Hebdomadaire, varié et nutritif" }
+        ]
+      },
+      {
+        "id": "techniques",
+        "label": "Techniques",
+        "color": "#EF4444",
+        "items": [
+          { "id": "tc1", "label": "Couteaux : taille & entretien", "status": "todo", "quarter": "Q1", "description": "Julienne, brunoise, chiffonnade" },
+          { "id": "tc2", "label": "Cuissons de base", "status": "todo", "quarter": "Q1", "description": "Poêle, four, vapeur, pochage" },
+          { "id": "tc3", "label": "Sauces mères", "status": "todo", "quarter": "Q2", "description": "Béchamel, velouté, tomate, hollandaise" },
+          { "id": "tc4", "label": "Cuisson des œufs 5 façons", "status": "todo", "quarter": "Q2", "description": "Mollet, coque, brouillé, poché, mimosa" },
+          { "id": "tc5", "label": "Temps & températures précis", "status": "todo", "quarter": "Q3", "description": "Saisir une viande, cuire du poisson" },
+          { "id": "tc6", "label": "Pâtisserie de base", "status": "todo", "quarter": "Q4", "description": "Pâte brisée, génoise, crème pâtissière" }
+        ]
+      },
+      {
+        "id": "inspiration",
+        "label": "Inspiration",
+        "color": "#8B5CF6",
+        "items": [
+          { "id": "i1", "label": "Explorer 3 cuisines du monde", "status": "todo", "quarter": "Q1", "description": "Japonaise, mexicaine, indienne par ex." },
+          { "id": "i2", "label": "Suivre 5 chefs / créateurs food", "status": "todo", "quarter": "Q1", "description": "Instagram, YouTube, livres" },
+          { "id": "i3", "label": "Reproduire un plat de resto", "status": "todo", "quarter": "Q2", "description": "Analyser et recréer chez soi" },
+          { "id": "i4", "label": "Cuisiner avec des contraintes", "status": "todo", "quarter": "Q3", "description": "Budget 5€, 3 ingrédients, sans gluten…" },
+          { "id": "i5", "label": "Créer sa propre recette signature", "status": "todo", "quarter": "Q4", "description": "Un plat unique et reconnaissable" }
+        ]
+      },
+      {
+        "id": "associations",
+        "label": "Associations",
+        "color": "#F97316",
+        "items": [
+          { "id": "a1", "label": "Accord mets & vins de base", "status": "todo", "quarter": "Q1", "description": "Poisson/blanc, viande rouge/rouge" },
+          { "id": "a2", "label": "Épices & herbes : les bases", "status": "todo", "quarter": "Q1", "description": "Thym, cumin, coriandre, gingembre" },
+          { "id": "a3", "label": "Cuisines fusion", "status": "todo", "quarter": "Q2", "description": "Combiner deux cuisines de manière cohérente" },
+          { "id": "a4", "label": "Umami & cinquième goût", "status": "todo", "quarter": "Q3", "description": "Miso, parmesan, champignons, sauce soja" }
+        ]
+      },
+      {
+        "id": "gouts",
+        "label": "Goûts",
+        "color": "#EC4899",
+        "items": [
+          { "id": "g1", "label": "Les 5 saveurs fondamentales", "status": "todo", "quarter": "Q1", "description": "Sucré, salé, acide, amer, umami" },
+          { "id": "g2", "label": "Équilibrer un plat trop salé/sucré", "status": "todo", "quarter": "Q2", "description": "Techniques de correction en cuisine" },
+          { "id": "g3", "label": "Développer son palais", "status": "todo", "quarter": "Q2", "description": "Dégustations à l'aveugle, exercices sensoriels" },
+          { "id": "g4", "label": "Jouer sur les textures", "status": "todo", "quarter": "Q3", "description": "Croquant, fondant, crémeux dans un même plat" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

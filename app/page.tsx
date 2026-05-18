@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
 import { createClient } from '@/lib/supabase/server'
 import { formatPrice, type Product } from '@/lib/types'
 import FooterReveal from '@/components/client/FooterReveal'
@@ -12,11 +14,28 @@ import {
   Book
 } from 'lucide-react'
 
+interface RoadmapMeta { slug: string; title: string; emoji: string; color: string }
+
+function getPreviewRoadmaps(): RoadmapMeta[] {
+  try {
+    const dir = path.join(process.cwd(), 'data/roadmaps')
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).slice(0, 4)
+    return files.map((f) => {
+      const r = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf-8'))
+      return { slug: r.slug, title: r.title, emoji: r.emoji, color: r.color }
+    })
+  } catch {
+    return []
+  }
+}
+
 export default async function HomePage() {
   const supabase = await createClient()
   const {
     data: { user },
   } = await supabase.auth.getUser()
+
+  const previewRoadmaps = getPreviewRoadmaps()
 
   const { data: products } = await supabase
     .from('products')
@@ -177,6 +196,36 @@ export default async function HomePage() {
         })}
       </div>
       </section>
+
+      {/* Roadmaps */}
+      {profile && previewRoadmaps.length > 0 && (
+        <section className="max-w-4xl mx-auto px-6 pb-16">
+          <p className="text-xs text-accent uppercase tracking-widest mb-2">Progression</p>
+          <div className="flex items-end justify-between mb-6 flex-wrap gap-4">
+            <h2 className="page-title">MES ROADMAPS</h2>
+            <Link href="/roadmaps" className="text-sm text-accent hover:underline">
+              Tout voir →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {previewRoadmaps.map((rm) => {
+              return (
+                <Link key={rm.slug} href={`/roadmaps/${rm.slug}`} className="block group">
+                  <div
+                    className="glass p-4 rounded-2xl border border-border transition-all duration-200 group-hover:border-accent/30 group-hover:-translate-y-0.5 group-hover:shadow-glass h-full"
+                    style={{ borderTopColor: rm.color, borderTopWidth: 2 }}
+                  >
+                    <div className="text-xl mb-2">{rm.emoji}</div>
+                    <p className="text-xs font-medium text-cream mb-1 truncate">{rm.title}</p>
+                    <p className="text-xs text-dim">Voir →</p>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+      )}
 
       {/* Produits mis en avant */}
       {products && products.length > 0 && (

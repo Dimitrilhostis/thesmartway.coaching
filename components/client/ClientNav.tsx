@@ -32,10 +32,11 @@ export default function ClientNav({ user }: { user: User | null }) {
   }
 
   const links = [
-    { href: '/espace', label: 'Mon Espace', authRequired: true },
+    { href: '/espace', label: 'Mon Espace kk', authRequired: true },
     { href: '/outils', label: 'Outils', authRequired: false },
     { href: '/boutique', label: 'Boutique', authRequired: false },
     { href: '/services', label: 'Services', authRequired: false },
+    { href: '/roadmaps', label: 'Roadmaps', authRequired: false }
   ]
 
   const initials = user?.name

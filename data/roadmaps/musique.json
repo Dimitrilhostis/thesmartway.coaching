@@ -1,0 +1,72 @@
+{
+    "slug": "musique",
+    "title": "Musique",
+    "description": "Piano, guitare, théorie musicale, saxophone et DJ : une progression multi-instruments.",
+    "emoji": "🎵",
+    "color": "#6366F1",
+    "categories": [
+      {
+        "id": "piano",
+        "label": "Piano",
+        "color": "#4F46E5",
+        "items": [
+          { "id": "p1", "label": "Posture & position des mains", "status": "todo", "quarter": "Q1", "description": "Arrondir les doigts, relâcher les épaules" },
+          { "id": "p2", "label": "Gammes majeures (Do, Sol, Ré)", "status": "todo", "quarter": "Q1", "description": "Les 3 premières gammes à deux mains" },
+          { "id": "p3", "label": "Lire une partition simple", "status": "todo", "quarter": "Q2", "description": "Clé de sol, valeurs de notes basiques" },
+          { "id": "p4", "label": "Jouer une mélodie connue", "status": "todo", "quarter": "Q2", "description": "Main droite fluide, main gauche accords" },
+          { "id": "p5", "label": "Jouer à deux mains en coordination", "status": "todo", "quarter": "Q3", "description": "Synchronisation mélodie + harmonie" },
+          { "id": "p6", "label": "Apprendre 1 morceau complet", "status": "todo", "quarter": "Q4", "description": "Morceau de ton choix, de mémoire" }
+        ]
+      },
+      {
+        "id": "guitare",
+        "label": "Guitare",
+        "color": "#DC2626",
+        "items": [
+          { "id": "g1", "label": "Accords ouverts de base", "status": "todo", "quarter": "Q1", "description": "Do, Ré, Mi, Sol, La, Si mineur" },
+          { "id": "g2", "label": "Strumming patterns simples", "status": "todo", "quarter": "Q1", "description": "Gratter haut-bas régulier en rythme" },
+          { "id": "g3", "label": "Barré sur Fa et Si bémol", "status": "todo", "quarter": "Q2", "description": "La difficulté clé de la guitare acoustique" },
+          { "id": "g4", "label": "Fingerpicking de base", "status": "todo", "quarter": "Q2", "description": "Pattern PIMA, Travis picking basique" },
+          { "id": "g5", "label": "Jouer 3 chansons complètes", "status": "todo", "quarter": "Q3", "description": "Avec accords + rythme bien en place" },
+          { "id": "g6", "label": "Intro aux solos & gamme pentatonique", "status": "todo", "quarter": "Q4", "description": "La base du jeu lead guitare" }
+        ]
+      },
+      {
+        "id": "theorie",
+        "label": "Théorie musicale",
+        "color": "#0891B2",
+        "items": [
+          { "id": "th1", "label": "Notes, octaves, demi-tons", "status": "todo", "quarter": "Q1", "description": "Le fondement de tout" },
+          { "id": "th2", "label": "Gammes majeures & mineures", "status": "todo", "quarter": "Q1", "description": "Structure des gammes, intervalles" },
+          { "id": "th3", "label": "Les accords (triades)", "status": "todo", "quarter": "Q2", "description": "Majeur, mineur, augmenté, diminué" },
+          { "id": "th4", "label": "Chiffrage romain & degrés", "status": "todo", "quarter": "Q2", "description": "I, IV, V, progressions courantes" },
+          { "id": "th5", "label": "Rythme & solfège de base", "status": "todo", "quarter": "Q3", "description": "Mesures, temps, noires, croches" }
+        ]
+      },
+      {
+        "id": "saxophone",
+        "label": "Saxophone",
+        "color": "#D97706",
+        "items": [
+          { "id": "sax1", "label": "Embouchure & premier son", "status": "todo", "quarter": "Q1", "description": "Tenir le manche, placer l'anche, souffler" },
+          { "id": "sax2", "label": "Gamme de Do à deux octaves", "status": "todo", "quarter": "Q2", "description": "Doigtés de base, registre médium" },
+          { "id": "sax3", "label": "Contrôle du souffle", "status": "todo", "quarter": "Q2", "description": "Phrases longues, vibrato légèr" },
+          { "id": "sax4", "label": "Jouer une mélodie jazz simple", "status": "todo", "quarter": "Q3", "description": "Autumn Leaves, So What par ex." },
+          { "id": "sax5", "label": "Improvisation en blues", "status": "todo", "quarter": "Q4", "description": "Gamme pentatonique + feeling" }
+        ]
+      },
+      {
+        "id": "dj",
+        "label": "DJ",
+        "color": "#7C3AED",
+        "items": [
+          { "id": "dj1", "label": "Comprendre le BPM & la structure", "status": "todo", "quarter": "Q1", "description": "Intro, drop, break, outro dans un track" },
+          { "id": "dj2", "label": "Beatmatch manuel", "status": "todo", "quarter": "Q2", "description": "Synchroniser deux morceaux à l'oreille" },
+          { "id": "dj3", "label": "EQ 3 bandes en mix", "status": "todo", "quarter": "Q2", "description": "Baisser les basses lors d'une transition" },
+          { "id": "dj4", "label": "Set 30 min fluide", "status": "todo", "quarter": "Q3", "description": "Transitions propres, progression d'énergie" },
+          { "id": "dj5", "label": "Créer un mix enregistré", "status": "todo", "quarter": "Q4", "description": "Export, mise en ligne, partage" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

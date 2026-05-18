@@ -1,0 +1,57 @@
+{
+    "slug": "sexe",
+    "title": "Sexualité",
+    "description": "Développer sa vie intime : relationnel, technique, endurance et présence.",
+    "emoji": "🔥",
+    "color": "#E11D48",
+    "categories": [
+      {
+        "id": "relationnel",
+        "label": "Relationnel",
+        "color": "#E11D48",
+        "items": [
+          { "id": "r1", "label": "Communication ouverte avec son partenaire", "status": "todo", "quarter": "Q1", "description": "Exprimer ses désirs et écouter les siens" },
+          { "id": "r2", "label": "Comprendre le consentement actif", "status": "todo", "quarter": "Q1", "description": "Vérification continue, signaux verbaux et non-verbaux" },
+          { "id": "r3", "label": "Gérer la vulnérabilité émotionnelle", "status": "todo", "quarter": "Q2", "description": "Intimité émotionnelle et sécurité affective" },
+          { "id": "r4", "label": "Explorer les besoins de l'autre", "status": "todo", "quarter": "Q2", "description": "Love languages, attentes, limites" },
+          { "id": "r5", "label": "Maintenir le désir dans la durée", "status": "todo", "quarter": "Q3", "description": "Nouveauté, curiosité, rituel d'intimité" }
+        ]
+      },
+      {
+        "id": "technique",
+        "label": "Technique",
+        "color": "#DB2777",
+        "items": [
+          { "id": "t1", "label": "Anatomie & zones érogènes", "status": "todo", "quarter": "Q1", "description": "Connaître le corps (le sien et l'autre)" },
+          { "id": "t2", "label": "Foreplay : rythme & attention", "status": "todo", "quarter": "Q1", "description": "Prendre le temps, varier les stimulations" },
+          { "id": "t3", "label": "Varier les positions", "status": "todo", "quarter": "Q2", "description": "Adapter selon le confort et le plaisir" },
+          { "id": "t4", "label": "Utiliser le toucher conscient", "status": "todo", "quarter": "Q2", "description": "Massages, pression, chaleur, douceur" },
+          { "id": "t5", "label": "Synchronisation avec l'autre", "status": "todo", "quarter": "Q3", "description": "Rythme commun, lecture du corps" }
+        ]
+      },
+      {
+        "id": "endurance",
+        "label": "Endurance & résistance",
+        "color": "#7C3AED",
+        "items": [
+          { "id": "e1", "label": "Exercices Kegel", "status": "todo", "quarter": "Q1", "description": "Renforcer le plancher pelvien" },
+          { "id": "e2", "label": "Contrôle respiratoire", "status": "todo", "quarter": "Q1", "description": "Respiration profonde pour la durée" },
+          { "id": "e3", "label": "Endurance cardiovasculaire", "status": "todo", "quarter": "Q2", "description": "Cardio régulier : direct impact" },
+          { "id": "e4", "label": "Gestion de l'excitation", "status": "todo", "quarter": "Q2", "description": "Start & stop, squeeze, techniques mentales" },
+          { "id": "e5", "label": "Souplesse & mobilité", "status": "todo", "quarter": "Q3", "description": "Yoga, étirements des hanches et lombaires" }
+        ]
+      },
+      {
+        "id": "aura",
+        "label": "Aura & présence",
+        "color": "#0EA5E9",
+        "items": [
+          { "id": "au1", "label": "Confiance corporelle", "status": "todo", "quarter": "Q1", "description": "Accepter et habiter son corps" },
+          { "id": "au2", "label": "Contact visuel & présence", "status": "todo", "quarter": "Q1", "description": "Être vraiment là, sans être dans sa tête" },
+          { "id": "au3", "label": "Voix & ton dans l'intimité", "status": "todo", "quarter": "Q2", "description": "Savoir se exprimer, murmurer, rassurer" },
+          { "id": "au4", "label": "Lâcher-prise mental", "status": "todo", "quarter": "Q3", "description": "Sortir de l'autoévaluation, pleine présence" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

@@ -1,0 +1,70 @@
+{
+    "slug": "aura",
+    "title": "Aura",
+    "description": "Développer sa présence et son charisme : habits, prestance, confiance et humour.",
+    "emoji": "✨",
+    "color": "#8B5CF6",
+    "categories": [
+      {
+        "id": "habits",
+        "label": "Habits",
+        "color": "#8B5CF6",
+        "items": [
+          { "id": "h1", "label": "Définir son style personnel", "status": "todo", "quarter": "Q1", "description": "Identifier ce qui te ressemble vraiment" },
+          { "id": "h2", "label": "Les basiques intemporels", "status": "todo", "quarter": "Q1", "description": "Blanc, navy, gris, noir : les pièces clés" },
+          { "id": "h3", "label": "Coupe & fit avant tout", "status": "todo", "quarter": "Q1", "description": "Un vêtement bien taillé change tout" },
+          { "id": "h4", "label": "Associations de couleurs", "status": "todo", "quarter": "Q2", "description": "Complémentaires, camaïeu, contraste" },
+          { "id": "h5", "label": "Tenue selon le contexte", "status": "todo", "quarter": "Q2", "description": "Casual, smart casual, formel : savoir switcher" },
+          { "id": "h6", "label": "Accessoires qui font la différence", "status": "todo", "quarter": "Q3", "description": "Montre, ceinture, chaussures : les détails" }
+        ]
+      },
+      {
+        "id": "prestance",
+        "label": "Prestance",
+        "color": "#0EA5E9",
+        "items": [
+          { "id": "pr1", "label": "Posture debout & assise", "status": "todo", "quarter": "Q1", "description": "Épaules en arrière, tête haute, ancré" },
+          { "id": "pr2", "label": "Démarche assurée", "status": "todo", "quarter": "Q1", "description": "Pas lents, tête droite, regard devant" },
+          { "id": "pr3", "label": "Langage corporel ouvert", "status": "todo", "quarter": "Q2", "description": "Bras non croisés, espace occupé" },
+          { "id": "pr4", "label": "Contact visuel maîtrisé", "status": "todo", "quarter": "Q2", "description": "Tenir le regard sans intimider" },
+          { "id": "pr5", "label": "Voix posée et articulée", "status": "todo", "quarter": "Q3", "description": "Parler lentement, graves, sans bégayer" }
+        ]
+      },
+      {
+        "id": "confiance",
+        "label": "Confiance en soi",
+        "color": "#10B981",
+        "items": [
+          { "id": "c1", "label": "Journaling & connaissance de soi", "status": "todo", "quarter": "Q1", "description": "Identifier forces, valeurs, peurs" },
+          { "id": "c2", "label": "Sortir de sa zone de confort 1x/sem", "status": "todo", "quarter": "Q1", "description": "Petits actes d'audace réguliers" },
+          { "id": "c3", "label": "Tenir ses engagements envers soi", "status": "todo", "quarter": "Q2", "description": "L'auto-discipline = confiance qui s'accumule" },
+          { "id": "c4", "label": "Gérer le regard des autres", "status": "todo", "quarter": "Q2", "description": "Ne plus chercher la validation extérieure" },
+          { "id": "c5", "label": "Parler en public (petit groupe)", "status": "todo", "quarter": "Q3", "description": "Prendre la parole sans se justifier" }
+        ]
+      },
+      {
+        "id": "physique",
+        "label": "Physique",
+        "color": "#EF4444",
+        "items": [
+          { "id": "ph1", "label": "Hygiène & grooming quotidien", "status": "todo", "quarter": "Q1", "description": "Peau, dents, ongles, cheveux : la base" },
+          { "id": "ph2", "label": "Routine skincare simple", "status": "todo", "quarter": "Q1", "description": "Nettoyant, hydratant, SPF" },
+          { "id": "ph3", "label": "Corps : posture musculaire", "status": "todo", "quarter": "Q2", "description": "Dos droit, abdos gaînés, épaules larges" },
+          { "id": "ph4", "label": "Odeur & parfum", "status": "todo", "quarter": "Q2", "description": "Trouver sa signature olfactive" }
+        ]
+      },
+      {
+        "id": "humour",
+        "label": "Humour",
+        "color": "#F59E0B",
+        "items": [
+          { "id": "hu1", "label": "Timing & rythme dans la blague", "status": "todo", "quarter": "Q1", "description": "Le silence avant la chute, c'est lui qui rit" },
+          { "id": "hu2", "label": "Autodérision maîtrisée", "status": "todo", "quarter": "Q2", "description": "Se moquer de soi sans se dévaloriser" },
+          { "id": "hu3", "label": "Humour contextuel", "status": "todo", "quarter": "Q2", "description": "Adapter selon la situation et l'audience" },
+          { "id": "hu4", "label": "L'art de rebondir", "status": "todo", "quarter": "Q3", "description": "Réagir avec légèreté à l'inattendu" },
+          { "id": "hu5", "label": "Humour sans blesser", "status": "todo", "quarter": "Q3", "description": "Ce qui rassemble vs ce qui divise" }
+        ]
+      }
+    ],
+    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+  }

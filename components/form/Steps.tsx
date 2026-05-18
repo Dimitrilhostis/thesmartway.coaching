@@ -147,20 +147,19 @@ export default function Steps() {
                      onChange={(e) => updateField('prénom', e.target.value)}
               />
               </div>
-              <select
+              <input
+                type="number"
+                inputMode="numeric"
+                pattern="[0-9]*"
+                min="0"
+                max="120"
                 value={form.age}
                 onChange={(e) => updateField('age', e.target.value)}
-                className={`w-full p-3 font-medium text-s rounded-xl bg-white/5 border border-white/10 ${form.age ? 'text-cream' : 'text-dim'}`}
-              >
-                <Option value="" disabled>Âge</Option>
-                <Option value="15-">15-</Option>
-                <Option value="15-18">15-18</Option>
-                <Option value="18-21">18-21</Option>
-                <Option value="22-30">22-30</Option>
-                <Option value="31-50">31-50</Option>
-                <Option value="51-70">51-70</Option>
-                <Option value="70+">71+</Option>
-              </select>
+                placeholder="Âge"
+                className={`w-full p-3 font-medium text-s rounded-xl bg-white/5 border border-white/10 ${
+                  form.age ? 'text-cream' : 'text-dim'
+                }`}
+              />
               <select
                 value={form.situation}
                 onChange={(e) => updateField('situation', e.target.value)}
