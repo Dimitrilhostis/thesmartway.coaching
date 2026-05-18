@@ -40,7 +40,7 @@ export default function ClientDetail({
   const [editing, setEditing] = useState(false)
 
   const clientId   = client.id
-  const clientName = client.user?.full_name ?? '—'
+  const clientName = client.user?.name ?? '—'
 
   // ── Vue Programme ────────────────────────────────────────
   const ProgrammeTab = () => {

@@ -15,7 +15,7 @@ export default async function ComptePage() {
     .from('orders').select('*, product:products(name, category, price_cents)')
     .eq('user_id', user.id).eq('status', 'paid').order('paid_at', { ascending: false })
 
-  const initials = profile?.full_name
+  const initials = (profile?.name && profile?.last_name)
     ?.split(' ').map((n: string) => n[0]).join('').toUpperCase().slice(0, 2) ?? 'CL'
 
   return (
@@ -26,7 +26,7 @@ export default async function ComptePage() {
           {initials}
         </div>
         <div>
-          <h1 className="text-base md:text-lg font-medium text-cream">{profile?.full_name ?? '—'}</h1>
+          <h1 className="text-base md:text-lg font-medium text-cream">{profile?.name ?? '—'}</h1>
           <p className="text-xs md:text-sm text-muted">{profile?.email}</p>
           <span className="inline-block mt-1 glass-pill text-xs text-accent px-2.5 py-0.5">
             Suivi perso actif
@@ -46,7 +46,7 @@ export default async function ComptePage() {
         <p className="text-xs text-dim uppercase tracking-wider mb-2 pl-1">Informations</p>
         <div className="glass shadow-glass-sm divide-y divide-accent/10">
           {[
-            { label: 'Nom complet', value: profile?.full_name ?? '—' },
+            { label: 'Nom complet', value: (profile?.name && profile?.last_name) ?? '—' },
             { label: 'Email',       value: profile?.email },
             { label: 'Téléphone',   value: client?.phone ?? '—' },
             { label: 'Objectif',    value: client?.goal ?? '—' },

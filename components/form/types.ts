@@ -1,7 +1,8 @@
 /* -------------------- DATA -------------------- */
 
 export type FormData = {
-    identity: string
+    prénom: string
+    nom: string
     age: string
     situation: string
   
@@ -38,7 +39,8 @@ export type FormData = {
   }
   
  export const INITIAL: FormData = {
-    identity: '',
+    prénom: '',
+    nom: '',
     age: '',
     situation: '',
   

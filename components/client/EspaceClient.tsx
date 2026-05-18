@@ -30,7 +30,7 @@ interface Props {
   messages: Message[]
   notifications: Notification[]
   currentUserId: string
-  coach: { id: string; full_name: string } | null
+  coach: { id: string; name: string } | null
   products: Product[]
   overrides: ScheduleOverride[]
 }
@@ -73,7 +73,7 @@ export default function EspaceClient({
   const unreadCount = notifications.filter(n => !n.sent).length
 
   const initials =
-    client?.user?.full_name
+    client?.user?.name
       ?.split(' ')
       .map((n: string) => n[0])
       .join('')
@@ -100,7 +100,7 @@ export default function EspaceClient({
           </div>
           <div>
             <p className="text-sm font-medium text-cream leading-none">
-              {client?.user?.full_name ?? 'Client'}
+              {client?.user?.name ?? 'Client'}
             </p>
             <p className="text-xs text-muted mt-0.5">Client actif</p>
           </div>
@@ -264,7 +264,7 @@ export default function EspaceClient({
               messages={messages}
               currentUserId={currentUserId}
               coachId={coach?.id ?? ''}
-              coachName={coach?.full_name ?? 'Coach'}
+              coachName={coach?.name ?? 'Coach'}
             />
           )}
 

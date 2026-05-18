@@ -10,7 +10,8 @@ type Step = 1 | 2 | 3
 
 interface FormData {
   // Étape 1 — Identité
-  full_name: string
+  name: string
+  last_name: string
   email: string
   phone: string
   sex: string
@@ -31,7 +32,7 @@ interface FormData {
 }
 
 const INITIAL: FormData = {
-  full_name: '', email: '', phone: '', sex: '', weight_kg: '', height_cm: '',
+  name: '', last_name: '', email: '', phone: '', sex: '', weight_kg: '', height_cm: '',
   goal: '', level: '', sports: '', availability: '',
   lifestyle: '', schedule: '', food_relation: '', medical: '',
   password: '', password_confirm: '',
@@ -77,7 +78,7 @@ export default function InvitePage() {
 
   function validateStep(): boolean {
     if (step === 1) {
-      if (!form.full_name.trim()) { setError('Ton prénom et nom sont requis.'); return false }
+      if (!form.name.trim() && !form.last_name.trim()) { setError('Ton prénom et nom sont requis.'); return false }
       if (!form.email.trim()) { setError('L\'email est requis.'); return false }
       if (!form.phone.trim()) { setError('Le téléphone est requis.'); return false }
       if (!form.sex) { setError('Le sexe est requis.'); return false }
@@ -107,7 +108,7 @@ export default function InvitePage() {
       email: form.email.trim(),
       password: form.password,
       options: {
-        data: { full_name: form.full_name.trim() },
+        data: { name: form.name.trim(), last_name: form.last_name.trim() },
       },
     })
 
@@ -123,7 +124,8 @@ export default function InvitePage() {
     await supabase.from('users').upsert({
       id: userId,
       email: form.email.trim(),
-      full_name: form.full_name.trim(),
+      name: form.name.trim(),
+      last_name: form.last_name.trim(),
       role: 'client',
     })
 
@@ -231,9 +233,15 @@ export default function InvitePage() {
             <div className="flex flex-col gap-4">
               <h2 className="font-display text-xl tracking-wide text-cream">TON IDENTITÉ</h2>
 
-              <Field label="Nom complet *">
-                <input type="text" value={form.full_name}
-                  onChange={e => update('full_name', e.target.value)}
+              <Field label="Nom *">
+                <input type="text" value={form.last_name}
+                  onChange={e => update('name', e.target.value)}
+                  placeholder="Prénom Nom" className="glass-input px-4 py-2.5 text-sm w-full" />
+              </Field>
+
+              <Field label="Prénom *">
+                <input type="text" value={form.name}
+                  onChange={e => update('name', e.target.value)}
                   placeholder="Prénom Nom" className="glass-input px-4 py-2.5 text-sm w-full" />
               </Field>
 

@@ -38,8 +38,8 @@ export default function ClientNav({ user }: { user: User | null }) {
     { href: '/services', label: 'Services', authRequired: false },
   ]
 
-  const initials = user?.full_name
-    ? user.full_name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2)
+  const initials = user?.name
+    ? user.name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2)
     : user?.email?.slice(0, 2).toUpperCase() ?? ''
 
   return (

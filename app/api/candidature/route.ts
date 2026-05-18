@@ -46,7 +46,8 @@ export async function POST(request: NextRequest) {
 
     const {
       // Identité
-      identity,
+      prénom,
+      nom,
       age,
       situation,
       sex,
@@ -92,7 +93,10 @@ export async function POST(request: NextRequest) {
     } = body
 
     // ── Validation basique ────────────────────────────────────────────────────
-    if (!identity?.trim()) {
+    if (!nom?.trim()) {
+      return NextResponse.json({ error: 'Nom requis.' }, { status: 400 })
+    }
+    if (!prénom?.trim()) {
       return NextResponse.json({ error: 'Nom requis.' }, { status: 400 })
     }
     if (!email?.trim()) {
@@ -107,7 +111,8 @@ export async function POST(request: NextRequest) {
       .from('candidatures')
       .insert({
         // Identité
-        full_name:     identity,
+        name:          prénom,
+        last_name:     nom,
         email,
         phone:         number     ?? null,
         age:           age        ?? null,
@@ -161,12 +166,12 @@ export async function POST(request: NextRequest) {
 
     const coachHtml = `
       <div style="font-family:sans-serif;max-width:600px;margin:auto;color:#1a1a1a">
-        <h2 style="color:#2d6a4f">🏋️ Nouvelle candidature : ${identity}</h2>
+        <h2 style="color:#2d6a4f">🏋️ Nouvelle candidature : ${prénom} ${nom}</h2>
 
         <table style="width:100%;border-collapse:collapse">
 
           <tr><td colspan="2" style="padding:8px 0;font-weight:bold;border-bottom:2px solid #eee;color:#2d6a4f">👤 Identité</td></tr>
-          <tr><td style="padding:4px 8px;color:#555">Nom</td><td style="padding:4px 8px">${identity}</td></tr>
+          <tr><td style="padding:4px 8px;color:#555">Nom</td><td style="padding:4px 8px">${prénom} ${nom}</td></tr>
           <tr><td style="padding:4px 8px;color:#555">Email</td><td style="padding:4px 8px">${email}</td></tr>
           <tr><td style="padding:4px 8px;color:#555">Téléphone</td><td style="padding:4px 8px">${number || '—'}</td></tr>
           <tr><td style="padding:4px 8px;color:#555">Âge</td><td style="padding:4px 8px">${age || '—'}</td></tr>
@@ -211,7 +216,7 @@ export async function POST(request: NextRequest) {
     `
 
     // ── 3. EMAIL → CLIENT (mail de bienvenue motivant) ────────────────────────
-    const firstName = identity.split(' ')[0]
+    const firstName = prénom
 
     const clientHtml = `
       <div style="font-family:sans-serif;max-width:600px;margin:auto;background:#0d1117;color:#e8e8e8;border-radius:16px;padding:40px">
@@ -257,11 +262,11 @@ export async function POST(request: NextRequest) {
         resend.emails.send({
           from: 'The Smart Way <coaching@thesmartway.fr>',
           to: COACH_EMAIL,
-          subject: `🏋️ Nouvelle candidature : ${identity}`,
+          subject: `🏋️ Nouvelle candidature : ${prénom} ${nom}`,
           html: coachHtml,
         }),
         resend.emails.send({
-          from: 'The Smart Way <coaching@thesmartway.fr>',
+          from: 'The Smart Way <coaching@thesmartway.fr >',
           to: email,
           subject: `${firstName}, ta transformation commence maintenant 🔥`,
           html: clientHtml,

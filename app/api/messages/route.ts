@@ -20,7 +20,7 @@ export async function POST(request: NextRequest) {
   // Récupérer le nom du client pour le préfixe WhatsApp
   const { data: profile } = await supabase
     .from('users')
-    .select('full_name')
+    .select('name, last_name')
     .eq('id', user.id)
     .single()
 
@@ -40,7 +40,7 @@ export async function POST(request: NextRequest) {
   }
 
   // Construire le lien wa.me avec préfixe identifiant le client
-  const clientName = profile?.full_name ?? 'Un client'
+  const clientName = profile?.name ?? 'Un client'
   const waText = `[Smart Way - ${clientName}]\n${content.trim()}`
   const waUrl = `https://wa.me/${COACH_WHATSAPP}?text=${encodeURIComponent(waText)}`
 

@@ -14,7 +14,7 @@ export default async function DashboardPage() {
   ] = await Promise.all([
     supabase.from('clients').select('*', { count: 'exact', head: true }).eq('status', 'active'),
     supabase.from('messages').select('*', { count: 'exact', head: true }).eq('read', false),
-    supabase.from('clients').select('*, user:users!user_id(full_name, email)').eq('status', 'active').order('created_at', { ascending: false }).limit(6),
+    supabase.from('clients').select('*, user:users!user_id(name, email)').eq('status', 'active').order('created_at', { ascending: false }).limit(6),
     supabase.from('orders').select('*, product:products(name, price_cents)').eq('status', 'paid').order('paid_at', { ascending: false }).limit(5),
     supabase.from('invitations').select('email, expires_at').eq('used', false).gt('expires_at', new Date().toISOString()).order('created_at', { ascending: false }),
   ])
@@ -88,7 +88,7 @@ export default async function DashboardPage() {
             <tbody>
               {recentClients?.map((client: any) => (
                 <tr key={client.id} className="border-b border-accent/8 last:border-0 hover:bg-white/3 transition-colors">
-                  <td className="px-4 py-3 text-sm text-cream">{client.user?.full_name ?? '—'}</td>
+                  <td className="px-4 py-3 text-sm text-cream">{client.user?.name ?? '—'}</td>
                   <td className="px-4 py-3 text-sm text-muted hidden sm:table-cell">{client.goal ?? '—'}</td>
                   <td className="px-4 py-3">
                     <span className={`text-xs px-2.5 py-0.5 rounded-full border ${

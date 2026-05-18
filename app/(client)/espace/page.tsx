@@ -56,7 +56,7 @@ export default async function EspacePage() {
 
   const { data: coach } = await supabase
     .from('users')
-    .select('id, full_name')
+    .select('id, name, last_name, email')
     .eq('role', 'admin')
     .limit(1)
     .single()

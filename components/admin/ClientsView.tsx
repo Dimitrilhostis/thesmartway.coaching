@@ -40,7 +40,7 @@ export default function ClientsView({
       <div className="flex flex-col gap-1">
         {clients.map((client: any) => {
           const initials =
-            client.user?.full_name
+            client.user?.name
               ?.split(' ')
               .map((n: string) => n[0])
               .join('')
@@ -62,7 +62,7 @@ export default function ClientsView({
               </div>
               <div className="min-w-0 flex-1">
                 <p className="text-sm font-medium truncate">
-                  {client.user?.full_name ?? '—'}
+                  {client.user?.name ?? '—'}
                 </p>
                 <p className="text-xs text-dim truncate">{client.goal ?? '—'}</p>
               </div>

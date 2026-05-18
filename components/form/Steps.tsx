@@ -39,7 +39,7 @@ export default function Steps() {
 
   function isStepValid(step: number) {
     switch (step) {
-      case 1:  return !!(form.identity && form.age && form.situation)
+      case 1:  return !!(form.nom && form.prénom && form.age && form.situation)
       case 2:  return !!(form.sex && form.poids && form.taille)
       case 3:  return !!(form.job && form.time_extra && form.equipment)
       case 4:  return !!(form.level && form.injuries && form.sports)
@@ -89,7 +89,7 @@ export default function Steps() {
     return (
       <div className="flex flex-col items-center justify-center gap-6 min-h-[400px] text-center animate-fade">
         <div className="text-5xl">🔥</div>
-        <Title>C'est parti, {form.identity.split(' ')[1]} !</Title>
+        <Title>C'est parti, {form.prénom} !</Title>
         <Text>
           Tes informations ont bien été transmises. Surveille ta boîte mail —
           je vais analyser ton profil et te contacter personnellement très vite.
@@ -137,10 +137,16 @@ export default function Steps() {
           {step === 1 && (
             <>
               <Title>Qui es-tu ?</Title>
-              <Field placeholder="Nom / Prénom"
-                     value={form.identity}
-                     onChange={(e) => updateField('identity', e.target.value)}
+              <div className='inline-flex gap-4 w-full justify-center'>
+              <Field placeholder="Nom"
+                     value={form.nom}
+                     onChange={(e) => updateField('nom', e.target.value)}
               />
+              <Field placeholder="Prénom"
+                     value={form.prénom}
+                     onChange={(e) => updateField('prénom', e.target.value)}
+              />
+              </div>
               <select
                 value={form.age}
                 onChange={(e) => updateField('age', e.target.value)}
@@ -434,7 +440,8 @@ export default function Steps() {
                               scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/10">
 
                 <RecapSection title="👤 Identité">
-                  <RecapRow label="Nom"       value={form.identity} />
+                  <RecapRow label="Nom"       value={form.nom} />
+                  <RecapRow label="Prénom"       value={form.prénom} />
                   <RecapRow label="Âge"       value={form.age} />
                   <RecapRow label="Situation" value={form.situation} />
                   <RecapRow label="Sexe"      value={form.sex} />

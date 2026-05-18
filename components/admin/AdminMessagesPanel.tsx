@@ -103,7 +103,7 @@ export default function AdminMessagesPanel({ client, messages: initial, currentU
         value={content}
         onChange={e => setContent(e.target.value)}
         rows={3}
-        placeholder={`Message pour ${client.user?.full_name ?? 'ce client'}...`}
+        placeholder={`Message pour ${client.user?.name ?? 'ce client'}...`}
         className="glass-input w-full px-4 py-3 text-sm resize-none"
       />
       <div className="flex gap-3 mt-3 items-center">
