@@ -19,8 +19,8 @@ export default function AdminNav({ user }: { user: User }) {
   }
 
   const links = [
-    { href: '/dashboard',      label: 'Vue d\'ensemble' },
-    { href: '/clients',        label: 'Clients' },
+    { href: '/admin/dashboard',      label: 'Vue d\'ensemble' },
+    { href: '/admin/clients',        label: 'Clients' },
     { href: '/admin/boutique', label: 'Boutique' },
     { href: '/admin/roadmaps', label: 'Roadmaps' },
   ]

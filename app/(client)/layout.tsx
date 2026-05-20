@@ -1,23 +1,19 @@
+import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import ClientNav from '@/components/client/ClientNav'
 
-export default async function ClientLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default async function ClientLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
 
   let profile = null
   if (user) {
-    const { data } = await supabase
-      .from('users')
-      .select('*')
-      .eq('id', user.id)
-      .single()
+    const { data } = await supabase.from('users').select('*').eq('id', user.id).single()
     profile = data
   }
+
+  // Admin redirigé vers son espace
+  if (profile?.role === 'admin') redirect('/dashboard')
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -25,4 +21,4 @@ export default async function ClientLayout({
       <main className="flex-1">{children}</main>
     </div>
   )
-}   
+}

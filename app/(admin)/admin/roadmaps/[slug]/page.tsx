@@ -35,28 +35,6 @@ export default async function AdminRoadmapPage({ params }: { params: { slug: str
       ? legacyToTiptap(roadmap as Parameters<typeof legacyToTiptap>[0])
       : { type: "doc", content: [] });
 
-  return (
-    <div className="max-w-4xl mx-auto px-6 py-10">
-      <Link
-        href="/roadmaps"
-        className="inline-flex items-center gap-1.5 text-xs text-dim hover:text-muted transition-colors mb-6"
-      >
-        ← Toutes les roadmaps
-      </Link>
+    return <RoadmapEditor slug={params.slug} initialSnapshot={content as TLEditorSnapshot ?? null} />;
 
-      <div className="flex items-center gap-3 mb-8">
-        <span className="text-3xl">{roadmap.emoji}</span>
-        <div>
-          <h1 className="font-display text-4xl leading-none" style={{ color: roadmap.color }}>
-            {roadmap.title}
-          </h1>
-          {roadmap.description && (
-            <p className="text-muted text-sm mt-1">{roadmap.description}</p>
-          )}
-        </div>
-      </div>
-
-      <RoadmapEditor slug={params.slug} initialSnapshot={roadmap.content as TLEditorSnapshot ?? null} />
-      </div>
-  );
 }

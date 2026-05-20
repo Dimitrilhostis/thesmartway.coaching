@@ -3,12 +3,12 @@
     "title": "Cuisine",
     "description": "Maîtriser la nutrition, les techniques culinaires, l'inspiration et les associations de goûts.",
     "emoji": "🍳",
-    "color": "#F59E0B",
+    "color": "#86a98f",
     "categories": [
       {
         "id": "nutrition",
         "label": "Nutrition",
-        "color": "#10B981",
+        "color": "#86a98f",
         "items": [
           { "id": "n1", "label": "Macros & micronutriments", "status": "todo", "quarter": "Q1", "description": "Protéines, glucides, lipides, vitamines essentielles" },
           { "id": "n2", "label": "Meal prep 1 semaine", "status": "todo", "quarter": "Q1", "description": "Préparer 5 repas équilibrés en 2h" },
@@ -20,7 +20,7 @@
       {
         "id": "techniques",
         "label": "Techniques",
-        "color": "#EF4444",
+        "color": "#86a98f",
         "items": [
           { "id": "tc1", "label": "Couteaux : taille & entretien", "status": "todo", "quarter": "Q1", "description": "Julienne, brunoise, chiffonnade" },
           { "id": "tc2", "label": "Cuissons de base", "status": "todo", "quarter": "Q1", "description": "Poêle, four, vapeur, pochage" },
@@ -33,7 +33,7 @@
       {
         "id": "inspiration",
         "label": "Inspiration",
-        "color": "#8B5CF6",
+        "color": "#86a98f",
         "items": [
           { "id": "i1", "label": "Explorer 3 cuisines du monde", "status": "todo", "quarter": "Q1", "description": "Japonaise, mexicaine, indienne par ex." },
           { "id": "i2", "label": "Suivre 5 chefs / créateurs food", "status": "todo", "quarter": "Q1", "description": "Instagram, YouTube, livres" },
@@ -45,7 +45,7 @@
       {
         "id": "associations",
         "label": "Associations",
-        "color": "#F97316",
+        "color": "#86a98f",
         "items": [
           { "id": "a1", "label": "Accord mets & vins de base", "status": "todo", "quarter": "Q1", "description": "Poisson/blanc, viande rouge/rouge" },
           { "id": "a2", "label": "Épices & herbes : les bases", "status": "todo", "quarter": "Q1", "description": "Thym, cumin, coriandre, gingembre" },
@@ -56,7 +56,7 @@
       {
         "id": "gouts",
         "label": "Goûts",
-        "color": "#EC4899",
+        "color": "#86a98f",
         "items": [
           { "id": "g1", "label": "Les 5 saveurs fondamentales", "status": "todo", "quarter": "Q1", "description": "Sucré, salé, acide, amer, umami" },
           { "id": "g2", "label": "Équilibrer un plat trop salé/sucré", "status": "todo", "quarter": "Q2", "description": "Techniques de correction en cuisine" },
