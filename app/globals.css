@@ -213,3 +213,8 @@
 .roadmap-editor tr:hover td { background: rgba(255,255,255,0.02); }
 .roadmap-editor .selectedCell { background: rgba(74,222,128,0.08) !important; }
 .roadmap-editor .is-editor-empty:first-child::before { content: attr(data-placeholder); color: #475A48; pointer-events: none; float: left; height: 0; }
+
+.excalidraw {
+  height: 100% !important;
+  width: 100% !important;
+}

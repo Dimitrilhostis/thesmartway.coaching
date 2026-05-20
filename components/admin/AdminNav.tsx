@@ -28,7 +28,7 @@ export default function AdminNav({ user }: { user: User }) {
   return (
     <>
       <nav className="glass-nav sticky top-0 z-50 h-14 flex items-center justify-between px-4 md:px-6">
-        <Link href="/dashboard" className="font-display text-xl tracking-widest text-cream">
+        <Link href="/admin/dashboard" className="font-display text-xl tracking-widest text-cream">
           THE <span className="text-accent">SMART</span> WAY
         </Link>
 

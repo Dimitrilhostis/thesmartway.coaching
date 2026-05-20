@@ -40,7 +40,7 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
   }, [slug]);
 
   return (
-    <div style={{ position: "fixed", inset: 0, zIndex: 50 }}>
+    <div style={{ width: "100vw", height: "100vh", position: "fixed", inset: 0, zIndex: 50 }}>
       <Excalidraw
         initialData={initialData ?? undefined}
         excalidrawAPI={(api) => { excalidrawAPI.current = api; }}
