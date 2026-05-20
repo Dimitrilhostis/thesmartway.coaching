@@ -5,10 +5,19 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Speech } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
+import { Suspense } from 'react'
 
 const supabase = createClient()
 
 export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginContent />
+    </Suspense>
+  )
+}
+
+function LoginContent() {
 
   const searchParams = useSearchParams()
   const [view, setView] = useState<'signup' | 'login'>(
