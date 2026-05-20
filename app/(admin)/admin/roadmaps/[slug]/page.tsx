@@ -4,7 +4,6 @@ import path from "path";
 import Link from "next/link";
 import RoadmapEditor from "@/components/roadmaps/RoadmapEditor";
 import { legacyToTiptap } from "@/lib/roadmapConvert";
-import { TLEditorSnapshot } from "tldraw";
 
 interface RoadmapFile {
   slug: string;
@@ -35,6 +34,6 @@ export default async function AdminRoadmapPage({ params }: { params: { slug: str
       ? legacyToTiptap(roadmap as Parameters<typeof legacyToTiptap>[0])
       : { type: "doc", content: [] });
 
-    return <RoadmapEditor slug={params.slug} initialSnapshot={content as TLEditorSnapshot ?? null} />;
+    return <RoadmapEditor slug={params.slug} initialData={roadmap.content ?? null} />;
 
 }

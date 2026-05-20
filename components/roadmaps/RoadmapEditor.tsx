@@ -1,31 +1,36 @@
 "use client";
 
-import { Tldraw, Editor, TLEditorSnapshot, getSnapshot } from "tldraw";
-import "tldraw/tldraw.css";
-import { useCallback, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import { useState, useCallback, useRef } from "react";
 import { Save, Check, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+const Excalidraw = dynamic(
+  () => import("@excalidraw/excalidraw").then((m) => m.Excalidraw),
+  { ssr: false }
+);
+
 interface Props {
   slug: string;
-  initialSnapshot: TLEditorSnapshot | null;
+  initialData: object | null;
 }
 
-export default function RoadmapEditor({ slug, initialSnapshot }: Props) {
-  const editorRef = useRef<Editor | null>(null);
+export default function RoadmapEditor({ slug, initialData }: Props) {
+  const excalidrawAPI = useRef<any>(null);
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
 
   const save = useCallback(async () => {
-    const editor = editorRef.current;
-    if (!editor) return;
+    if (!excalidrawAPI.current) return;
     setSaving(true);
     try {
-      const snapshot = getSnapshot(editor.store);
+      const elements = excalidrawAPI.current.getSceneElements();
+      const appState = excalidrawAPI.current.getAppState();
+      const files = excalidrawAPI.current.getFiles();
       await fetch(`/api/roadmaps/${slug}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: snapshot }),
+        body: JSON.stringify({ content: { elements, appState, files } }),
       });
       setSaved(true);
       setTimeout(() => setSaved(false), 2000);
@@ -36,12 +41,15 @@ export default function RoadmapEditor({ slug, initialSnapshot }: Props) {
 
   return (
     <div style={{ position: "fixed", inset: 0, zIndex: 50 }}>
-      <Tldraw
-        persistenceKey={`roadmap-${slug}`}
-        snapshot={initialSnapshot ?? undefined}
-        onMount={(editor) => { editorRef.current = editor; }}
+      <Excalidraw
+        initialData={initialData ?? undefined}
+        excalidrawAPI={(api) => { excalidrawAPI.current = api; }}
+        UIOptions={{
+          canvasActions: { export: false, loadScene: false },
+        }}
       />
 
+      {/* Bouton sortir */}
       <div style={{ position: "fixed", top: 12, left: 12, zIndex: 500 }}>
         <Link
           href="/admin/roadmaps"
@@ -52,7 +60,8 @@ export default function RoadmapEditor({ slug, initialSnapshot }: Props) {
         </Link>
       </div>
 
-      <div style={{ position: "fixed", top: 12, right: 12, zIndex: 500 }}>
+      {/* Bouton sauvegarder */}
+      <div style={{ position: "fixed", top: 12, right: 60, zIndex: 500 }}>
         <button
           onClick={save}
           disabled={saving}

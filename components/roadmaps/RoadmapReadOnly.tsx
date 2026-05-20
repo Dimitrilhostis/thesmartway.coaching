@@ -1,16 +1,24 @@
 "use client";
 
-import { Tldraw, TLEditorSnapshot } from "tldraw";
-import "tldraw/tldraw.css";
+import dynamic from "next/dynamic";
 
-export default function RoadmapReadOnly({ snapshot }: { snapshot: TLEditorSnapshot | null }) {
+const Excalidraw = dynamic(
+  () => import("@excalidraw/excalidraw").then((m) => m.Excalidraw),
+  { ssr: false }
+);
+
+interface Props {
+  initialData: object | null;
+}
+
+export default function RoadmapReadOnly({ initialData }: Props) {
   return (
     <div style={{ position: "fixed", inset: 0 }}>
-      <Tldraw
-        snapshot={snapshot ?? undefined}
-        onMount={(editor) => {
-          editor.updateInstanceState({ isReadonly: true });
-          editor.setCurrentTool("hand");
+      <Excalidraw
+        initialData={initialData ?? undefined}
+        viewModeEnabled={true}
+        UIOptions={{
+          canvasActions: { export: false, loadScene: false, changeViewBackgroundColor: false },
         }}
       />
     </div>

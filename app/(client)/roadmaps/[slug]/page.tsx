@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Lock } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import RoadmapReadOnly from "@/components/roadmaps/RoadmapReadOnly";
-import { TLEditorSnapshot } from "tldraw";
 
 interface RoadmapFile {
   slug: string;
@@ -13,7 +12,7 @@ interface RoadmapFile {
   emoji: string;
   color: string;
   description?: string;
-  content?: TLEditorSnapshot;
+  content?: object;
 }
 
 function getRoadmap(slug: string): RoadmapFile | null {
@@ -54,7 +53,7 @@ export default async function ClientRoadmapPage({ params }: { params: { slug: st
               ← Retour
             </Link>
           </div>
-          <RoadmapReadOnly snapshot={roadmap.content ?? null} />
+          <RoadmapReadOnly initialData={roadmap.content ?? null} />
         </div>
       ) : (
         /* ── Teaser pour les non-clients ── */
