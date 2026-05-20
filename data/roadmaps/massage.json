@@ -3,12 +3,12 @@
     "title": "Massages",
     "description": "Maîtriser les doigtés, les parties du corps et les techniques de massage.",
     "emoji": "🤲",
-    "color": "#0D9488",
+    "color": "#7c9ab5",
     "categories": [
       {
         "id": "doigtes",
         "label": "Doigtés",
-        "color": "#0D9488",
+        "color": "#7c9ab5",
         "items": [
           { "id": "d1", "label": "Effleurage", "status": "todo", "quarter": "Q1", "description": "Glissements longs et superficiels pour échauffer" },
           { "id": "d2", "label": "Pétrissage", "status": "todo", "quarter": "Q1", "description": "Malaxer les muscles en profondeur" },
@@ -21,7 +21,7 @@
       {
         "id": "parties",
         "label": "Parties du corps",
-        "color": "#7C3AED",
+        "color": "#7c9ab5",
         "items": [
           { "id": "p1", "label": "Dos & lombaires", "status": "todo", "quarter": "Q1", "description": "Zone la plus sollicitée, trajet musculaire" },
           { "id": "p2", "label": "Nuque & épaules", "status": "todo", "quarter": "Q1", "description": "Tensions du quotidien, trapèzes" },
@@ -34,7 +34,7 @@
       {
         "id": "techniques",
         "label": "Techniques",
-        "color": "#EA580C",
+        "color": "#7c9ab5",
         "items": [
           { "id": "t1", "label": "Massage suédois", "status": "todo", "quarter": "Q1", "description": "Base de tout massage occidental, relax" },
           { "id": "t2", "label": "Massage sportif", "status": "todo", "quarter": "Q2", "description": "Préparation et récupération musculaire" },
