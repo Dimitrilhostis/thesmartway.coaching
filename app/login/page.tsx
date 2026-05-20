@@ -4,11 +4,16 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Speech } from 'lucide-react'
+import { useSearchParams } from 'next/navigation'
 
 const supabase = createClient()
 
 export default function LoginPage() {
-  const [view, setView] = useState<'signup' | 'login'>('signup')
+
+  const searchParams = useSearchParams()
+  const [view, setView] = useState<'signup' | 'login'>(
+    searchParams.get('view') === 'login' ? 'login' : 'signup'
+  )  
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')

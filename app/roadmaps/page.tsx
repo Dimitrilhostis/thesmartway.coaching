@@ -93,7 +93,7 @@ export default async function RoadmapsIndex() {
                     Rejoindre le programme
                   </Link>
                   {!user && (
-                    <Link href="/login" className="btn-ghost text-xs py-2 text-center w-full rounded-xl">
+                    <Link href="/login?view=login" className="btn-ghost text-xs py-2 text-center w-full rounded-xl">
                       J'ai déjà un compte
                     </Link>
                   )}

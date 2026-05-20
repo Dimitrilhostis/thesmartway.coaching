@@ -57,7 +57,7 @@ export default function RejoindrePage() {
           </p>
         </div>
 
-        <Link href={"/login"} className='absolute top-4 right-4 text-sm text-dim hover:text-cream transition-colors'>
+        <Link href={"/login?view=login"} className='text-center mt-6 text-sm text-dim hover:text-cream transition-colors'>
           J'ai déjà un compte
         </Link>
 
