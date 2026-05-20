@@ -57,43 +57,48 @@ export default async function ClientRoadmapsPage() {
           ))}
         </div>
       ) : (
-        <div className="relative" style={{ height: "65vh", overflow: "hidden" }}>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pointer-events-none select-none">
-            {roadmaps.map((rm) => (
-              <RoadmapCard key={rm.slug} rm={rm} />
-            ))}
-          </div>
 
-          <div
-            className="absolute inset-x-0 bottom-0 pointer-events-none"
-            style={{
-              height: "70%",
-              background: "linear-gradient(to bottom, transparent 0%, #0d1a0d 65%)",
-            }}
-          />
-
-          <div className="absolute inset-x-0 bottom-0 flex flex-col items-center pb-10 px-4">
-            <div className="glass-dark border border-accent/15 rounded-2xl p-6 text-center max-w-xs shadow-glass">
-              <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center mx-auto mb-4">
-                <Lock size={18} className="text-accent" />
-              </div>
-              <h3 className="text-sm font-semibold text-cream mb-1.5">Réservé aux clients</h3>
-              <p className="text-xs text-muted leading-relaxed mb-5">
-                Accède à mes roadmaps complètes en rejoignant le programme de coaching.
-              </p>
-              <div className="flex flex-col gap-2">
-                <Link href="/rejoindre" className="btn-primary text-sm py-2.5 text-center w-full rounded-xl">
-                  Rejoindre le programme
-                </Link>
-                {!user && (
-                  <Link href="/login?view=login" className="btn-ghost text-xs py-2 text-center w-full rounded-xl">
-                    J'ai déjà un compte
-                  </Link>
-                )}
-              </div>
-            </div>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {roadmaps.map((rm) => (
+            <RoadmapCard key={rm.slug} rm={rm} />
+          ))}
         </div>
+        // <div className="relative" style={{ height: "65vh", overflow: "hidden" }}>
+        //   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pointer-events-none select-none">
+        //     {roadmaps.map((rm) => (
+        //       <RoadmapCard key={rm.slug} rm={rm} />
+        //     ))}
+        //   </div>
+        //   <div
+        //     className="absolute inset-x-0 bottom-0 pointer-events-none"
+        //     style={{
+        //       height: "70%",
+        //       background: "linear-gradient(to bottom, transparent 0%, #0d1a0d 65%)",
+        //     }}
+        //   />
+
+        //   <div className="absolute inset-x-0 bottom-0 flex flex-col items-center pb-10 px-4">
+        //     <div className="glass-dark border border-accent/15 rounded-2xl p-6 text-center max-w-xs shadow-glass">
+        //       <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center mx-auto mb-4">
+        //         <Lock size={18} className="text-accent" />
+        //       </div>
+        //       <h3 className="text-sm font-semibold text-cream mb-1.5">Réservé aux clients</h3>
+        //       <p className="text-xs text-muted leading-relaxed mb-5">
+        //         Accède à mes roadmaps complètes en rejoignant le programme de coaching.
+        //       </p>
+        //       <div className="flex flex-col gap-2">
+        //         <Link href="/rejoindre" className="btn-primary text-sm py-2.5 text-center w-full rounded-xl">
+        //           Rejoindre le programme
+        //         </Link>
+        //         {!user && (
+        //           <Link href="/login?view=login" className="btn-ghost text-xs py-2 text-center w-full rounded-xl">
+        //             J'ai déjà un compte
+        //           </Link>
+        //         )}
+        //       </div>
+        //     </div>
+        //   </div>
+        // </div>
       )}
     </main>
   );

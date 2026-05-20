@@ -3,12 +3,12 @@
     "title": "Aura",
     "description": "Développer sa présence et son charisme : habits, prestance, confiance et humour.",
     "emoji": "✨",
-    "color": "#8B5CF6",
+    "color": "#c9a84c",
     "categories": [
       {
         "id": "habits",
         "label": "Habits",
-        "color": "#8B5CF6",
+        "color": "#c9a84c",
         "items": [
           { "id": "h1", "label": "Définir son style personnel", "status": "todo", "quarter": "Q1", "description": "Identifier ce qui te ressemble vraiment" },
           { "id": "h2", "label": "Les basiques intemporels", "status": "todo", "quarter": "Q1", "description": "Blanc, navy, gris, noir : les pièces clés" },
@@ -21,7 +21,7 @@
       {
         "id": "prestance",
         "label": "Prestance",
-        "color": "#0EA5E9",
+        "color": "#c9a84c",
         "items": [
           { "id": "pr1", "label": "Posture debout & assise", "status": "todo", "quarter": "Q1", "description": "Épaules en arrière, tête haute, ancré" },
           { "id": "pr2", "label": "Démarche assurée", "status": "todo", "quarter": "Q1", "description": "Pas lents, tête droite, regard devant" },
@@ -33,7 +33,7 @@
       {
         "id": "confiance",
         "label": "Confiance en soi",
-        "color": "#10B981",
+        "color": "#c9a84c",
         "items": [
           { "id": "c1", "label": "Journaling & connaissance de soi", "status": "todo", "quarter": "Q1", "description": "Identifier forces, valeurs, peurs" },
           { "id": "c2", "label": "Sortir de sa zone de confort 1x/sem", "status": "todo", "quarter": "Q1", "description": "Petits actes d'audace réguliers" },
@@ -45,7 +45,7 @@
       {
         "id": "physique",
         "label": "Physique",
-        "color": "#EF4444",
+        "color": "#c9a84c",
         "items": [
           { "id": "ph1", "label": "Hygiène & grooming quotidien", "status": "todo", "quarter": "Q1", "description": "Peau, dents, ongles, cheveux : la base" },
           { "id": "ph2", "label": "Routine skincare simple", "status": "todo", "quarter": "Q1", "description": "Nettoyant, hydratant, SPF" },
@@ -56,7 +56,7 @@
       {
         "id": "humour",
         "label": "Humour",
-        "color": "#F59E0B",
+        "color": "#c9a84c",
         "items": [
           { "id": "hu1", "label": "Timing & rythme dans la blague", "status": "todo", "quarter": "Q1", "description": "Le silence avant la chute, c'est lui qui rit" },
           { "id": "hu2", "label": "Autodérision maîtrisée", "status": "todo", "quarter": "Q2", "description": "Se moquer de soi sans se dévaloriser" },

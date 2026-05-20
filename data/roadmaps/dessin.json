@@ -3,12 +3,12 @@
     "title": "Dessin",
     "description": "Apprendre à dessiner : théorie, observation, formes et inspiration.",
     "emoji": "✏️",
-    "color": "#F59E0B",
+    "color": "#d4c5a9",
     "categories": [
       {
         "id": "theorie",
         "label": "Théorie de base",
-        "color": "#1D4ED8",
+        "color": "#d4c5a9",
         "items": [
           { "id": "th1", "label": "Tenir un crayon correctement", "status": "todo", "quarter": "Q1", "description": "Prise crayon, pression, geste libre" },
           { "id": "th2", "label": "Trait continu & répété", "status": "todo", "quarter": "Q1", "description": "Lignes droites, courbes, régularité" },
@@ -21,7 +21,7 @@
       {
         "id": "formes",
         "label": "Formes qui nous entourent",
-        "color": "#059669",
+        "color": "#d4c5a9",
         "items": [
           { "id": "f1", "label": "Dessiner des objets du quotidien", "status": "todo", "quarter": "Q1", "description": "Tasse, chaise, téléphone : simplifier en formes" },
           { "id": "f2", "label": "Anatomie humaine simplifiée", "status": "todo", "quarter": "Q2", "description": "Proportions, silhouette en stickman évolué" },
@@ -34,7 +34,7 @@
       {
         "id": "inspiration",
         "label": "Avoir de l'inspiration",
-        "color": "#9333EA",
+        "color": "#d4c5a9",
         "items": [
           { "id": "i1", "label": "Carnet de croquis quotidien", "status": "todo", "quarter": "Q1", "description": "5 minutes par jour, sans pression" },
           { "id": "i2", "label": "Copier des artistes admirés", "status": "todo", "quarter": "Q1", "description": "Étude de style : apprendre par imitation" },

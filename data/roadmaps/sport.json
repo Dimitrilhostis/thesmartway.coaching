@@ -3,12 +3,12 @@
     "title": "Sport",
     "description": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
     "emoji": "🏋️",
-    "color": "#E84B2A",
+    "color": "#b5956a",
     "categories": [
       {
         "id": "triathlon",
         "label": "Triathlon",
-        "color": "#2A7BE8",
+        "color": "#b5956a",
         "items": [
           { "id": "t1", "label": "Nage endurance 1km", "status": "todo", "quarter": "Q1", "description": "Tenir 1km en crawl sans s'arrêter" },
           { "id": "t2", "label": "Vélo 40km régulier", "status": "todo", "quarter": "Q1", "description": "Sortie longue à allure modérée" },
@@ -21,7 +21,7 @@
       {
         "id": "hand",
         "label": "Handball",
-        "color": "#E8A82A",
+        "color": "#b5956a",
         "items": [
           { "id": "h1", "label": "Bases techniques tir", "status": "todo", "quarter": "Q1", "description": "Tir à 7m, pivot, appui" },
           { "id": "h2", "label": "Jeu en équipe débutant", "status": "todo", "quarter": "Q1", "description": "Comprendre les systèmes de jeu 3-2-1" },
@@ -34,7 +34,7 @@
       {
         "id": "muscu",
         "label": "Musculation",
-        "color": "#C42AE8",
+        "color": "#b5956a",
         "items": [
           { "id": "m1", "label": "Maîtriser les bases", "status": "todo", "quarter": "Q1", "description": "Squat, bench, deadlift avec technique correcte" },
           { "id": "m2", "label": "Programme PPL 3j/sem", "status": "todo", "quarter": "Q1", "description": "Push / Pull / Legs en rotation" },
@@ -47,7 +47,7 @@
       {
         "id": "street",
         "label": "Street Workout",
-        "color": "#2AE868",
+        "color": "#b5956a",
         "items": [
           { "id": "s1", "label": "10 tractions propres", "status": "todo", "quarter": "Q1", "description": "Prise pronation, amplitude complète" },
           { "id": "s2", "label": "20 dips sans aide", "status": "todo", "quarter": "Q1", "description": "Aux barres parallèles" },
@@ -60,7 +60,7 @@
       {
         "id": "hybride",
         "label": "Athlète Hybride",
-        "color": "#E82A7B",
+        "color": "#b5956a",
         "items": [
           { "id": "hy1", "label": "Combiner cardio + force", "status": "todo", "quarter": "Q1", "description": "Planifier les séances pour éviter la fatigue" },
           { "id": "hy2", "label": "5km sous 25min + 100kg squat", "status": "todo", "quarter": "Q2", "description": "Premier double objectif" },

@@ -3,12 +3,12 @@
     "title": "Auto-Coiffeur",
     "description": "Apprendre à se couper les cheveux soi-même : techniques, coupes et matériel.",
     "emoji": "✂️",
-    "color": "#06B6D4",
+    "color": "#94a3b8",
     "categories": [
       {
         "id": "techniques",
         "label": "Techniques",
-        "color": "#0EA5E9",
+        "color": "#94a3b8",
         "items": [
           { "id": "tech1", "label": "Dégradé à la tondeuse", "status": "todo", "quarter": "Q1", "description": "Sabot 1 à 4, transition progressive" },
           { "id": "tech2", "label": "Couper aux ciseaux droit", "status": "todo", "quarter": "Q1", "description": "Coupe horizontale franche et régulière" },
@@ -21,7 +21,7 @@
       {
         "id": "coupes",
         "label": "Coupes possibles",
-        "color": "#8B5CF6",
+        "color": "#94a3b8",
         "items": [
           { "id": "c1", "label": "Buzz cut propre", "status": "todo", "quarter": "Q1", "description": "Coupe rase uniforme, la base" },
           { "id": "c2", "label": "Undercut classique", "status": "todo", "quarter": "Q1", "description": "Côtés courts, dessus long" },
@@ -34,7 +34,7 @@
       {
         "id": "materiel",
         "label": "Matériel",
-        "color": "#10B981",
+        "color": "#94a3b8",
         "items": [
           { "id": "mat1", "label": "Choisir sa tondeuse", "status": "todo", "quarter": "Q1", "description": "Wahl, Babyliss, Andis : critères de choix" },
           { "id": "mat2", "label": "Ciseaux professionnels", "status": "todo", "quarter": "Q1", "description": "Ciseaux coiffure vs cuisine : différences" },

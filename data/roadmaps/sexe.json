@@ -3,12 +3,12 @@
     "title": "Sexualité",
     "description": "Développer sa vie intime : relationnel, technique, endurance et présence.",
     "emoji": "🔥",
-    "color": "#E11D48",
+    "color": "#c47e6e",
     "categories": [
       {
         "id": "relationnel",
         "label": "Relationnel",
-        "color": "#E11D48",
+        "color": "#c47e6e",
         "items": [
           { "id": "r1", "label": "Communication ouverte avec son partenaire", "status": "todo", "quarter": "Q1", "description": "Exprimer ses désirs et écouter les siens" },
           { "id": "r2", "label": "Comprendre le consentement actif", "status": "todo", "quarter": "Q1", "description": "Vérification continue, signaux verbaux et non-verbaux" },
@@ -20,7 +20,7 @@
       {
         "id": "technique",
         "label": "Technique",
-        "color": "#DB2777",
+        "color": "#c47e6e",
         "items": [
           { "id": "t1", "label": "Anatomie & zones érogènes", "status": "todo", "quarter": "Q1", "description": "Connaître le corps (le sien et l'autre)" },
           { "id": "t2", "label": "Foreplay : rythme & attention", "status": "todo", "quarter": "Q1", "description": "Prendre le temps, varier les stimulations" },
@@ -32,7 +32,7 @@
       {
         "id": "endurance",
         "label": "Endurance & résistance",
-        "color": "#7C3AED",
+        "color": "#c47e6e",
         "items": [
           { "id": "e1", "label": "Exercices Kegel", "status": "todo", "quarter": "Q1", "description": "Renforcer le plancher pelvien" },
           { "id": "e2", "label": "Contrôle respiratoire", "status": "todo", "quarter": "Q1", "description": "Respiration profonde pour la durée" },
@@ -44,7 +44,7 @@
       {
         "id": "aura",
         "label": "Aura & présence",
-        "color": "#0EA5E9",
+        "color": "#c47e6e",
         "items": [
           { "id": "au1", "label": "Confiance corporelle", "status": "todo", "quarter": "Q1", "description": "Accepter et habiter son corps" },
           { "id": "au2", "label": "Contact visuel & présence", "status": "todo", "quarter": "Q1", "description": "Être vraiment là, sans être dans sa tête" },

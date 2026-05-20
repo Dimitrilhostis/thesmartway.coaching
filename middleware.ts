@@ -34,7 +34,7 @@ export async function middleware(request: NextRequest) {
   }
 
   // Routes protégées admin
-  if ((path.startsWith('/dashboard') || path.startsWith('/clients') || path.startsWith('/admin') || path.startsWith('/roadmaps')) && !user) {
+  if ((path.startsWith('/dashboard') || path.startsWith('/clients') || path.startsWith('/admin')) && !user) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
 
