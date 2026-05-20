@@ -41,14 +41,14 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
   }, [slug]);
 
   return (
-    <div style={{ width: "100vw", height: "100vh", position: "fixed", inset: 0 }}>
+    <div style={{ width: "100vw", height: "100vh", position: "fixed", inset: 0, zIndex: 9999 }}>
       <Excalidraw
         initialData={initialData ?? undefined}
         excalidrawAPI={(api) => { excalidrawAPI.current = api; }}
       />
 
       {/* Bouton sortir */}
-      <div style={{ position: "fixed", top: 12, left: 12, zIndex: 500 }}>
+      <div style={{ position: "fixed", top: 12, left: 12, zIndex: 1000 }}>
         <Link
           href="/admin/roadmaps"
           className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium bg-white/90 text-gray-700 hover:bg-white shadow-md transition-all"
@@ -59,7 +59,7 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
       </div>
 
       {/* Bouton sauvegarder */}
-      <div style={{ position: "fixed", top: 12, right: 60, zIndex: 500 }}>
+      <div style={{ position: "fixed", top: 12, right: 60, zIndex: 1000 }}>
         <button
           onClick={save}
           disabled={saving}
