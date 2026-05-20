@@ -1,6 +1,7 @@
 'use client'
 
 import Steps from '@/components/form/Steps'
+import Link from 'next/link'
 
 export default function RejoindrePage() {
   return (
@@ -55,6 +56,10 @@ export default function RejoindrePage() {
             Rejoins la communauté The Smart Way
           </p>
         </div>
+
+        <Link href={"/login"} className='absolute top-4 right-4 text-sm text-dim hover:text-cream transition-colors'>
+          J'ai déjà un compte
+        </Link>
 
       </div>
 
