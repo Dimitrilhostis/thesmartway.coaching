@@ -6,218 +6,210 @@
 @layer base {
   html {
     @apply text-cream;
-    background: #0d1a0d;
+    background: #090D09;
     -webkit-tap-highlight-color: transparent;
   }
 
   body {
     min-height: 100vh;
     min-height: 100dvh;
-    background: #0d1a0d;
+    background: #090D09;
   }
+
+  /* Ambient green glow — top + subtle bottom right */
   body::before {
     content: '';
     position: fixed;
     inset: 0;
-  
-    background-image: url('/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-  
-    z-index: -2;
-    pointer-events: none;
-  }
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-  
-    background: linear-gradient(
-      135deg,
-      rgba(13, 26, 13, 0.72) 0%,
-      rgba(20, 35, 20, 0.65) 50%,
-      rgba(13, 26, 13, 0.78) 100%
-    );
-  
+    background:
+      radial-gradient(ellipse 110% 50% at 50% -8%, rgba(74,222,128,0.07) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 30% at 92% 98%,  rgba(74,222,128,0.04) 0%, transparent 50%);
     z-index: -1;
     pointer-events: none;
   }
 }
 
 @layer components {
+
+  /* ── Glass system ──────────────────────────────────────────── */
   .glass {
-    background: rgba(20, 38, 20, 0.45);
-    backdrop-filter: blur(20px) saturate(1.4);
-    -webkit-backdrop-filter: blur(20px) saturate(1.4);
-    border: 1px solid rgba(123, 175, 110, 0.15);
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(20px) saturate(1.2);
+    -webkit-backdrop-filter: blur(20px) saturate(1.2);
+    border: 1px solid rgba(255,255,255,0.09);
     border-radius: 16px;
   }
   .glass-dark {
-    background: rgba(13, 22, 13, 0.60);
-    backdrop-filter: blur(24px) saturate(1.3);
-    -webkit-backdrop-filter: blur(24px) saturate(1.3);
-    border: 1px solid rgba(123, 175, 110, 0.12);
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255,255,255,0.07);
     border-radius: 16px;
   }
   .glass-light {
-    background: rgba(35, 58, 35, 0.35);
-    backdrop-filter: blur(16px) saturate(1.5);
-    -webkit-backdrop-filter: blur(16px) saturate(1.5);
-    border: 1px solid rgba(123, 175, 110, 0.20);
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px) saturate(1.2);
+    -webkit-backdrop-filter: blur(12px) saturate(1.2);
+    border: 1px solid rgba(255,255,255,0.10);
     border-radius: 12px;
   }
   .glass-nav {
-    background: rgba(13, 22, 13, 0.70);
-    backdrop-filter: blur(28px) saturate(1.4);
-    -webkit-backdrop-filter: blur(28px) saturate(1.4);
-    border-bottom: 1px solid rgba(123, 175, 110, 0.12);
+    background: rgba(9,13,9,0.82);
+    backdrop-filter: blur(28px) saturate(1.3);
+    -webkit-backdrop-filter: blur(28px) saturate(1.3);
+    border-bottom: 1px solid rgba(255,255,255,0.07);
   }
   .glass-pill {
-    background: rgba(123, 175, 110, 0.12);
-    border: 1px solid rgba(123, 175, 110, 0.25);
+    background: rgba(74,222,128,0.10);
+    border: 1px solid rgba(74,222,128,0.22);
     border-radius: 999px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
   }
   .glass-input {
-    background: rgba(13, 22, 13, 0.50);
+    background: rgba(255,255,255,0.04);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(123, 175, 110, 0.20);
+    border: 1px solid rgba(255,255,255,0.10);
     border-radius: 10px;
-    color: #EDF0E8;
-    transition: border-color 0.15s;
+    color: #F0F4F0;
+    transition: border-color 0.15s, background 0.15s;
   }
-  .glass-input::placeholder { color: rgba(143, 168, 136, 0.5); }
+  .glass-input::placeholder { color: rgba(120,144,122,0.55); }
   .glass-input:focus {
     outline: none;
-    border-color: rgba(123, 175, 110, 0.55);
-    background: rgba(13, 22, 13, 0.60);
+    border-color: rgba(74,222,128,0.50);
+    background: rgba(255,255,255,0.06);
   }
+
+  /* ── Buttons ───────────────────────────────────────────────── */
   .btn-primary {
-    background: rgba(74, 103, 65, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(123, 175, 110, 0.35);
-    color: #EDF0E8;
+    background: #4ADE80;
+    color: #090D09;
+    border: none;
     border-radius: 10px;
-    font-weight: 500;
-    transition: all 0.15s;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+    transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
   }
-  .btn-primary:hover { background: rgba(92, 125, 82, 0.90); border-color: rgba(123, 175, 110, 0.55); }
-  .btn-primary:active { transform: scale(0.97); }
-  .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-primary:hover {
+    background: #22C55E;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 24px rgba(74,222,128,0.28);
+  }
+  .btn-primary:active  { transform: scale(0.97); box-shadow: none; }
+  .btn-primary:disabled { opacity: 0.40; cursor: not-allowed; transform: none; box-shadow: none; }
+
   .btn-ghost {
-    background: rgba(123, 175, 110, 0.08);
-    border: 1px solid rgba(123, 175, 110, 0.18);
-    color: #B8C9B0;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #B0C4B0;
     border-radius: 10px;
+    font-size: 0.875rem;
     transition: all 0.15s;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
   }
-  .btn-ghost:hover { background: rgba(123, 175, 110, 0.15); color: #EDF0E8; }
+  .btn-ghost:hover  { background: rgba(255,255,255,0.09); color: #F0F4F0; border-color: rgba(255,255,255,0.18); }
   .btn-ghost:active { transform: scale(0.97); }
+
+  /* ── Typography helpers ────────────────────────────────────── */
+  .page-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    line-height: 1;
+    letter-spacing: 0.04em;
+    color: #F0F4F0;
+  }
+  .section-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #4ADE80;
+  }
+
+  /* ── Card ──────────────────────────────────────────────────── */
+  .card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+  }
+
+  /* ── Scrollbar ─────────────────────────────────────────────── */
   .scrollbar-thin {
     scrollbar-width: thin;
-    scrollbar-color: rgba(123, 175, 110, 0.2) transparent;
+    scrollbar-color: rgba(74,222,128,0.18) transparent;
   }
   .scrollbar-thin::-webkit-scrollbar { width: 4px; }
-  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(123, 175, 110, 0.2); border-radius: 2px; }
-  .glass-divider { border-color: rgba(123, 175, 110, 0.12); }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(74,222,128,0.18); border-radius: 2px; }
+
+  .glass-divider { border-color: rgba(255,255,255,0.07); }
 }
 
 @layer utilities {
-  .text-glow { text-shadow: 0 0 40px rgba(123, 175, 110, 0.4); }
-  /* Safe area pour iPhone notch / home bar */
+  .text-glow { text-shadow: 0 0 40px rgba(74,222,128,0.50); }
   .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
   .pt-safe { padding-top: env(safe-area-inset-top, 0px); }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0 }
-  to { opacity: 1 }
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
+.animate-fadeIn { animation: fadeIn 0.25s ease; }
 
-.animate-fadeIn {
-  animation: fadeIn 0.2s ease;
-}
-
-/* ── TipTap / Roadmap whiteboard ──────────────────────────────── */
-.roadmap-editor { color: #EDF0E8; line-height: 1.7; }
+/* ── TipTap / Roadmap whiteboard ───────────────────────────── */
+.roadmap-editor { color: #F0F4F0; line-height: 1.7; }
 .roadmap-editor > * + * { margin-top: 0.75em; }
-.roadmap-editor p { color: #B8C9B0; font-size: 14px; }
-.roadmap-editor h1 { font-family: 'Bebas Neue', sans-serif; font-size: 2.4rem; line-height: 1; letter-spacing: 0.03em; color: #EDF0E8; margin-top: 1.4em; }
-.roadmap-editor h2 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; line-height: 1; letter-spacing: 0.03em; color: #EDF0E8; margin-top: 1.2em; }
-.roadmap-editor h3 { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #7BAF6E; margin-top: 1em; }
-.roadmap-editor strong { color: #EDF0E8; font-weight: 600; }
-.roadmap-editor em { color: #B8C9B0; }
-.roadmap-editor s { color: #5A6E56; }
-.roadmap-editor blockquote {
-  border-left: 3px solid rgba(123,175,110,0.4);
-  padding-left: 1rem;
-  color: #8FA888;
-  font-style: italic;
-  margin: 1em 0;
-}
-.roadmap-editor hr { border: none; border-top: 1px solid rgba(123,175,110,0.15); margin: 1.5em 0; }
+.roadmap-editor p { color: #B0C4B0; font-size: 14px; }
+.roadmap-editor h1 { font-family: 'Bebas Neue', sans-serif; font-size: 2.4rem; line-height: 1; letter-spacing: 0.03em; color: #F0F4F0; margin-top: 1.4em; }
+.roadmap-editor h2 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; line-height: 1; letter-spacing: 0.03em; color: #F0F4F0; margin-top: 1.2em; }
+.roadmap-editor h3 { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #4ADE80; margin-top: 1em; }
+.roadmap-editor strong { color: #F0F4F0; font-weight: 600; }
+.roadmap-editor em { color: #B0C4B0; }
+.roadmap-editor s { color: #475A48; }
+.roadmap-editor blockquote { border-left: 3px solid rgba(74,222,128,0.4); padding-left: 1rem; color: #78907A; font-style: italic; margin: 1em 0; }
+.roadmap-editor hr { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 1.5em 0; }
 .roadmap-editor ul { list-style: disc; padding-left: 1.4em; }
 .roadmap-editor ol { list-style: decimal; padding-left: 1.4em; }
-.roadmap-editor li { color: #B8C9B0; font-size: 14px; margin: 0.2em 0; }
-.roadmap-editor li::marker { color: #5A6E56; }
-.roadmap-editor code { background: rgba(123,175,110,0.1); border: 1px solid rgba(123,175,110,0.2); border-radius: 4px; padding: 0.1em 0.4em; font-size: 12px; color: #7BAF6E; }
-.roadmap-editor pre { background: rgba(13,22,13,0.8); border: 1px solid rgba(123,175,110,0.15); border-radius: 10px; padding: 1em 1.2em; overflow-x: auto; }
-.roadmap-editor pre code { background: none; border: none; padding: 0; font-size: 13px; color: #B8C9B0; }
+.roadmap-editor li { color: #B0C4B0; font-size: 14px; margin: 0.2em 0; }
+.roadmap-editor li::marker { color: #475A48; }
+.roadmap-editor code { background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.18); border-radius: 4px; padding: 0.1em 0.4em; font-size: 12px; color: #4ADE80; }
+.roadmap-editor pre { background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 1em 1.2em; overflow-x: auto; }
+.roadmap-editor pre code { background: none; border: none; padding: 0; font-size: 13px; color: #B0C4B0; }
 
-/* Task list (checkboxes) */
 .roadmap-editor ul[data-type="taskList"] { list-style: none; padding-left: 0; }
 .roadmap-editor ul[data-type="taskList"] li { display: flex; align-items: flex-start; gap: 0.6em; margin: 0.3em 0; }
 .roadmap-editor ul[data-type="taskList"] li > label { flex-shrink: 0; margin-top: 1px; }
 .roadmap-editor ul[data-type="taskList"] li > label input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
+  appearance: none; -webkit-appearance: none;
   width: 15px; height: 15px;
-  border: 1.5px solid rgba(123,175,110,0.4);
-  border-radius: 4px;
-  background: rgba(13,22,13,0.6);
-  cursor: pointer;
-  position: relative;
-  transition: all 0.15s;
-  flex-shrink: 0;
+  border: 1.5px solid rgba(74,222,128,0.35);
+  border-radius: 4px; background: rgba(9,13,9,0.6);
+  cursor: pointer; position: relative; transition: all 0.15s; flex-shrink: 0;
 }
-.roadmap-editor ul[data-type="taskList"] li > label input[type="checkbox"]:checked {
-  background: rgba(123,175,110,0.85);
-  border-color: #7BAF6E;
-}
+.roadmap-editor ul[data-type="taskList"] li > label input[type="checkbox"]:checked { background: rgba(74,222,128,0.88); border-color: #4ADE80; }
 .roadmap-editor ul[data-type="taskList"] li > label input[type="checkbox"]:checked::after {
-  content: '';
-  position: absolute;
-  left: 3px; top: 1px;
-  width: 5px; height: 8px;
-  border: 2px solid #0d1a0d;
-  border-top: none; border-left: none;
-  transform: rotate(45deg);
+  content: ''; position: absolute;
+  left: 3px; top: 1px; width: 5px; height: 8px;
+  border: 2px solid #090D09; border-top: none; border-left: none; transform: rotate(45deg);
 }
 .roadmap-editor ul[data-type="taskList"] li > div { flex: 1; }
-.roadmap-editor ul[data-type="taskList"] li[data-checked="true"] > div p { color: #5A6E56; text-decoration: line-through; }
+.roadmap-editor ul[data-type="taskList"] li[data-checked="true"] > div p { color: #475A48; text-decoration: line-through; }
 
-/* Table */
 .roadmap-editor table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 13px; }
-.roadmap-editor th, .roadmap-editor td {
-  border: 1px solid rgba(123,175,110,0.18);
-  padding: 0.5em 0.75em;
-  text-align: left;
-  color: #B8C9B0;
-}
-.roadmap-editor th { background: rgba(123,175,110,0.08); color: #EDF0E8; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+.roadmap-editor th, .roadmap-editor td { border: 1px solid rgba(255,255,255,0.09); padding: 0.5em 0.75em; text-align: left; color: #B0C4B0; }
+.roadmap-editor th { background: rgba(255,255,255,0.05); color: #F0F4F0; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
 .roadmap-editor tr:hover td { background: rgba(255,255,255,0.02); }
-.roadmap-editor .selectedCell { background: rgba(123,175,110,0.1) !important; }
-
-/* Placeholder */
-.roadmap-editor .is-editor-empty:first-child::before {
-  content: attr(data-placeholder);
-  color: #5A6E56;
-  pointer-events: none;
-  float: left;
-  height: 0;
-}
+.roadmap-editor .selectedCell { background: rgba(74,222,128,0.08) !important; }
+.roadmap-editor .is-editor-empty:first-child::before { content: attr(data-placeholder); color: #475A48; pointer-events: none; float: left; height: 0; }

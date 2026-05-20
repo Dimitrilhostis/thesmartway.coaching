@@ -57,7 +57,7 @@ export default async function DashboardPage() {
             </p>
             <div className="glass shadow-glass overflow-hidden">
               {pendingInvites.map((inv: any, i: number) => (
-                <div key={i} className="flex items-center justify-between px-4 py-3 border-b border-accent/8 last:border-0">
+                <div key={i} className="flex items-center justify-between px-4 py-3 border-b border-border last:border-0">
                   <div className="min-w-0 flex-1 mr-3">
                     <p className="text-sm text-cream truncate">{inv.email}</p>
                     <p className="text-xs text-muted">Expire le {new Date(inv.expires_at).toLocaleDateString('fr-FR')}</p>
@@ -79,7 +79,7 @@ export default async function DashboardPage() {
         <div className="glass shadow-glass overflow-x-auto">
           <table className="w-full min-w-[400px]">
             <thead>
-              <tr className="border-b border-accent/10">
+              <tr className="border-b border-border">
                 <th className="text-left text-xs text-dim uppercase tracking-wider px-4 py-3">Client</th>
                 <th className="text-left text-xs text-dim uppercase tracking-wider px-4 py-3 hidden sm:table-cell">Objectif</th>
                 <th className="text-left text-xs text-dim uppercase tracking-wider px-4 py-3">Statut</th>
@@ -87,13 +87,13 @@ export default async function DashboardPage() {
             </thead>
             <tbody>
               {recentClients?.map((client: any) => (
-                <tr key={client.id} className="border-b border-accent/8 last:border-0 hover:bg-white/3 transition-colors">
+                <tr key={client.id} className="border-b border-border last:border-0 hover:bg-white/3 transition-colors">
                   <td className="px-4 py-3 text-sm text-cream">{client.user?.name ?? '—'}</td>
                   <td className="px-4 py-3 text-sm text-muted hidden sm:table-cell">{client.goal ?? '—'}</td>
                   <td className="px-4 py-3">
                     <span className={`text-xs px-2.5 py-0.5 rounded-full border ${
                       client.status === 'active'
-                        ? 'bg-accent/10 text-accent border-accent/25'
+                        ? 'bg-accent/10 text-accent border-border'
                         : 'bg-amber-500/10 text-amber-400 border-amber-500/25'
                     }`}>
                       {client.status === 'active' ? 'Actif' : 'Pause'}

@@ -60,12 +60,12 @@ function ExerciseRow({ ex, onChange, onRemove }: {
         type="text" value={ex.name}
         onChange={e => onChange({ ...ex, name: e.target.value })}
         placeholder="Exercice…"
-        className="flex-1 min-w-0 bg-transparent border border-accent/10 rounded-lg px-3 py-1.5 text-sm text-cream placeholder:text-dim focus:outline-none focus:border-accent/40 transition-colors"
+        className="flex-1 min-w-0 bg-transparent border border-border rounded-lg px-3 py-1.5 text-sm text-cream placeholder:text-dim focus:outline-none focus:border-accent/40 transition-colors"
       />
       <input
         type="number" value={ex.sets} min={1}
         onChange={e => onChange({ ...ex, sets: Number(e.target.value) })}
-        className="w-14 shrink-0 bg-transparent border border-accent/10 rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
+        className="w-14 shrink-0 bg-transparent border border-border rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
         title="Séries"
       />
       <span className="text-dim text-xs shrink-0">×</span>
@@ -73,7 +73,7 @@ function ExerciseRow({ ex, onChange, onRemove }: {
         type="text" value={ex.reps}
         onChange={e => onChange({ ...ex, reps: e.target.value })}
         placeholder="8-12"
-        className="w-20 shrink-0 bg-transparent border border-accent/10 rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
+        className="w-20 shrink-0 bg-transparent border border-border rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
         title="Reps"
       />
       <button
@@ -103,7 +103,7 @@ function DayCard({ day, onChange, onRemove, showRemove, label }: {
   }
 
   return (
-    <div className={`rounded-xl border transition-colors ${isTraining ? 'border-accent/20 bg-accent/3' : 'border-white/5 bg-white/2'}`}>
+    <div className={`rounded-xl border transition-colors ${isTraining ? 'border-border bg-accent/3' : 'border-white/5 bg-white/2'}`}>
       <div className="flex items-center gap-2.5 p-3">
         <span className="text-xs font-medium text-dim w-8 shrink-0 uppercase">{label}</span>
         <button
@@ -285,7 +285,7 @@ export default function ProgramEditor({ clientId, clientName, existingProgram, o
           <button onClick={handleSaveTemplate} disabled={savingTpl} className="glass-pill px-4 py-2 text-sm text-dim hover:text-cream transition flex items-center gap-2">
             {savingTpl ? <Loader2 size={14} className="animate-spin" /> : <BookmarkPlus size={14} />} Template
           </button>
-          <button onClick={handleSave} disabled={saving || saved} className={`flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-medium transition-all ${saved ? 'bg-accent/20 text-accent border border-accent/30' : 'bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25'}`}>
+          <button onClick={handleSave} disabled={saving || saved} className={`flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-medium transition-all ${saved ? 'bg-accent/20 text-accent border border-accent/30' : 'bg-accent/15 text-cream border border-border hover:bg-accent/25'}`}>
             {saving ? <Loader2 size={14} className="animate-spin" /> : saved ? <Check size={14} /> : <Save size={14} />}
             {saved ? 'Sauvegardé' : 'Sauvegarder'}
           </button>
@@ -310,13 +310,13 @@ export default function ProgramEditor({ clientId, clientName, existingProgram, o
         {/* Toggle mode */}
         <div className="flex flex-col gap-1.5">
           <label className="text-xs text-dim uppercase tracking-wider">Mode</label>
-          <div className="flex items-center gap-1 bg-white/3 border border-accent/10 rounded-xl p-1 h-[42px]">
+          <div className="flex items-center gap-1 bg-white/3 border border-border rounded-xl p-1 h-[42px]">
             <button onClick={() => { setMode('recurring'); setError(null) }}
-              className={`flex-1 flex items-center justify-center gap-1.5 h-full rounded-lg text-xs transition-all ${mode === 'recurring' ? 'bg-accent/15 text-cream border border-accent/20' : 'text-muted hover:text-cream'}`}>
+              className={`flex-1 flex items-center justify-center gap-1.5 h-full rounded-lg text-xs transition-all ${mode === 'recurring' ? 'bg-accent/15 text-cream border border-border' : 'text-muted hover:text-cream'}`}>
               <RefreshCw size={12} /> Récurrence
             </button>
             <button onClick={() => { setMode('free'); setError(null) }}
-              className={`flex-1 flex items-center justify-center gap-1.5 h-full rounded-lg text-xs transition-all ${mode === 'free' ? 'bg-accent/15 text-cream border border-accent/20' : 'text-muted hover:text-cream'}`}>
+              className={`flex-1 flex items-center justify-center gap-1.5 h-full rounded-lg text-xs transition-all ${mode === 'free' ? 'bg-accent/15 text-cream border border-border' : 'text-muted hover:text-cream'}`}>
               <LayoutList size={12} /> Libre
             </button>
           </div>
@@ -347,7 +347,7 @@ export default function ProgramEditor({ clientId, clientName, existingProgram, o
           </div>
 
           <div className="glass shadow-glass-sm overflow-hidden">
-            <button onClick={() => setWeekExpanded(e => !e)} className="flex items-center justify-between w-full px-4 py-3 border-b border-accent/10">
+            <button onClick={() => setWeekExpanded(e => !e)} className="flex items-center justify-between w-full px-4 py-3 border-b border-border">
               <div className="flex items-center gap-3">
                 <span className="text-xs text-accent uppercase tracking-wider font-medium">Semaine type</span>
                 <span className="text-xs text-dim">{trainingCnt} séance{trainingCnt !== 1 ? 's' : ''}</span>
@@ -393,7 +393,7 @@ export default function ProgramEditor({ clientId, clientName, existingProgram, o
             const slice = freeDays.slice(wIdx * 7, wIdx * 7 + 7)
             return (
               <div key={wIdx} className="glass shadow-glass-sm overflow-hidden">
-                <div className="px-4 py-2.5 border-b border-accent/10 flex items-center gap-2">
+                <div className="px-4 py-2.5 border-b border-border flex items-center gap-2">
                   <span className="text-xs text-accent uppercase tracking-wider font-medium">Semaine {wIdx + 1}</span>
                   <span className="text-xs text-dim">Jours {wIdx * 7 + 1}–{Math.min(wIdx * 7 + slice.length, freeDays.length)}</span>
                 </div>
@@ -411,7 +411,7 @@ export default function ProgramEditor({ clientId, clientName, existingProgram, o
                   {/* Slot vide dans la dernière semaine incomplète */}
                   {wIdx === Math.ceil(freeDays.length / 7) - 1 && slice.length < 7 && (
                     <button onClick={addFreeDay}
-                      className="rounded-xl border border-dashed border-accent/20 flex items-center justify-center gap-2 text-xs text-dim hover:text-accent hover:border-accent/40 transition min-h-[80px]">
+                      className="rounded-xl border border-dashed border-border flex items-center justify-center gap-2 text-xs text-dim hover:text-accent hover:border-accent/40 transition min-h-[80px]">
                       <Plus size={13} /> Jour {freeDays.length + 1}
                     </button>
                   )}

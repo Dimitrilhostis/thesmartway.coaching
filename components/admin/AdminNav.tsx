@@ -37,7 +37,7 @@ export default function AdminNav({ user }: { user: User }) {
             <Link key={link.href} href={link.href}
               className={`px-3.5 py-1.5 rounded-xl text-sm transition-all ${
                 pathname.startsWith(link.href)
-                  ? 'bg-accent/15 text-cream border border-accent/25'
+                  ? 'bg-accent/15 text-cream border border-border'
                   : 'text-muted hover:text-cream hover:bg-white/5'
               }`}>
               {link.label}
@@ -61,13 +61,13 @@ export default function AdminNav({ user }: { user: User }) {
 
       {open && (
         <div className="md:hidden fixed inset-0 z-40" onClick={() => setOpen(false)}>
-          <div className="absolute top-14 left-0 right-0 glass-dark border-b border-accent/10 px-4 py-4 flex flex-col gap-2"
+          <div className="absolute top-14 left-0 right-0 glass-dark border-b border-border px-4 py-4 flex flex-col gap-2"
             onClick={e => e.stopPropagation()}>
             {links.map(link => (
               <Link key={link.href} href={link.href} onClick={() => setOpen(false)}
                 className={`px-4 py-3 rounded-xl text-sm transition-all ${
                   pathname.startsWith(link.href)
-                    ? 'bg-accent/15 text-cream border border-accent/25'
+                    ? 'bg-accent/15 text-cream border border-border'
                     : 'text-muted hover:text-cream hover:bg-white/5'
                 }`}>
                 {link.label}

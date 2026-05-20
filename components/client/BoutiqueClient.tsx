@@ -51,7 +51,7 @@ function ProductCard({
   adding: boolean
 }) {
   return (
-    <div className="glass shadow-glass-sm overflow-hidden border border-accent/10 flex flex-col group">
+    <div className="glass shadow-glass-sm overflow-hidden border border-border flex flex-col group">
       {/* Image */}
       <button onClick={() => onOpen(product)} className="relative w-full aspect-[16/9] bg-white/3 overflow-hidden">
         <Image
@@ -122,7 +122,7 @@ function ProductCard({
             <button
               onClick={() => onAddToCart(product.id)}
               disabled={adding}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 disabled:opacity-50 transition text-xs"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl btn-ghost disabled:opacity-50 transition text-xs"
             >
               {adding ? <Loader2 size={12} className="animate-spin" /> : <ShoppingCart size={12} />}
               Ajouter
@@ -158,7 +158,7 @@ function ProductModal({
       className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60"
       onClick={e => { if (e.target === e.currentTarget) onClose() }}
     >
-      <div className="glass-dark w-full sm:max-w-lg rounded-t-2xl sm:rounded-2xl overflow-hidden border border-accent/10 max-h-[90vh] flex flex-col">
+      <div className="glass-dark w-full sm:max-w-lg rounded-t-2xl sm:rounded-2xl overflow-hidden border border-border max-h-[90vh] flex flex-col">
         {/* Image */}
         <div className="relative w-full aspect-[16/7] shrink-0">
           <Image src={CATEGORY_IMAGES[product.category]} alt={product.name} fill className="object-cover" />
@@ -189,7 +189,7 @@ function ProductModal({
             <p className="text-sm text-muted leading-relaxed">{product.description}</p>
           )}
 
-          <div className="flex items-center justify-between pt-2 border-t border-accent/10">
+          <div className="flex items-center justify-between pt-2 border-t border-border">
             <div>
               <span className="text-lg font-medium text-accent">{formatPrice(product.price_cents)}</span>
               {product.original_price_cents && product.original_price_cents > product.price_cents && (
@@ -203,7 +203,7 @@ function ProductModal({
               <a
                 href={product.file_url ?? '/espace'}
                 target={product.file_url ? '_blank' : undefined}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 transition text-sm"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-xl btn-ghost py-2.5 rounded-xl"
               >
                 <Download size={14} /> Télécharger
               </a>
@@ -218,7 +218,7 @@ function ProductModal({
               <button
                 onClick={() => onAddToCart(product.id)}
                 disabled={adding}
-                className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 disabled:opacity-50 transition text-sm"
+                className="flex items-center gap-2 px-5 py-2.5 rounded-xl btn-primary py-2.5 rounded-xl"
               >
                 {adding ? <Loader2 size={14} className="animate-spin" /> : <ShoppingCart size={14} />}
                 Ajouter au panier
@@ -258,9 +258,9 @@ function CartPanel({
       className="fixed inset-0 z-50 flex justify-end bg-black/50"
       onClick={e => { if (e.target === e.currentTarget) onClose() }}
     >
-      <div className="glass-dark w-full max-w-sm h-full border-l border-accent/10 flex flex-col">
+      <div className="glass-dark w-full max-w-sm h-full border-l border-border flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-accent/10">
+        <div className="flex items-center justify-between px-5 py-4 border-b border-border">
           <div className="flex items-center gap-2">
             <ShoppingCart size={16} className="text-accent" />
             <span className="text-sm font-medium text-cream">Mon panier</span>
@@ -301,7 +301,7 @@ function CartPanel({
 
         {/* Footer */}
         {cartProducts.length > 0 && (
-          <div className="p-4 border-t border-accent/10 flex flex-col gap-3">
+          <div className="p-4 border-t border-border flex flex-col gap-3">
             <div className="flex items-center justify-between">
               <span className="text-sm text-muted">Total</span>
               <span className="text-lg font-medium text-cream">{formatPrice(total)}</span>
@@ -310,7 +310,7 @@ function CartPanel({
             {!isLoggedIn ? (
               <a
                 href={`/login?redirect=/boutique`}
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 transition text-sm font-medium"
+                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl btn-ghost py-3 w-full rounded-xl"
               >
                 <Lock size={14} /> Se connecter pour acheter
               </a>
@@ -318,7 +318,7 @@ function CartPanel({
               <button
                 onClick={onCheckout}
                 disabled={checkingOut}
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 disabled:opacity-50 transition text-sm font-medium"
+                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl btn-primary py-3 w-full rounded-xl"
               >
                 {checkingOut
                   ? <Loader2 size={14} className="animate-spin" />
@@ -446,7 +446,7 @@ export default function BoutiqueClient({ products, ownedIds, initialCartIds, isL
             value={search}
             onChange={e => setSearch(e.target.value)}
             placeholder="Rechercher…"
-            className="w-full bg-transparent border border-accent/15 rounded-xl pl-9 pr-3 py-2 text-sm text-cream placeholder:text-dim focus:outline-none focus:border-accent/40 transition-colors"
+            className="w-full glass-input rounded-xl pl-9 pr-3 py-2 text-sm placeholder:text-dim"
           />
         </div>
 
@@ -458,7 +458,7 @@ export default function BoutiqueClient({ products, ownedIds, initialCartIds, isL
               onClick={() => setCategory(cat.id)}
               className={`px-3 py-1.5 rounded-lg text-xs transition-all ${
                 category === cat.id
-                  ? 'bg-accent/15 text-cream border border-accent/20'
+                  ? 'bg-accent/15 text-cream border border-border'
                   : 'text-muted hover:text-cream hover:bg-white/5'
               }`}
             >

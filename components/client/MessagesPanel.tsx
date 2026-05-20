@@ -58,8 +58,8 @@ export default function MessagesPanel({ messages: initial, currentUserId, coachI
 
       {/* Chat — hauteur adaptée mobile/desktop */}
       <div className="glass shadow-glass overflow-hidden flex flex-col" style={{ height: 'clamp(320px, 50vh, 480px)' }}>
-        <div className="px-4 py-3 border-b border-accent/10 flex items-center gap-3">
-          <div className="w-7 h-7 rounded-full bg-sage/50 border border-accent/20 flex items-center justify-center text-xs font-medium text-cream shrink-0">
+        <div className="px-4 py-3 border-b border-border flex items-center gap-3">
+          <div className="w-7 h-7 rounded-full bg-sage/50 border border-border flex items-center justify-center text-xs font-medium text-cream shrink-0">
             {coachName.slice(0, 2).toUpperCase()}
           </div>
           <div>
@@ -85,7 +85,7 @@ export default function MessagesPanel({ messages: initial, currentUserId, coachI
               <div key={msg.id} className={`flex ${isMe ? 'justify-end' : 'justify-start'}`}>
                 <div className={`max-w-[80%] md:max-w-xs px-3 py-2.5 rounded-2xl text-sm leading-relaxed ${
                   isMe
-                    ? 'bg-sage/50 border border-accent/20 text-cream rounded-br-sm'
+                    ? 'bg-sage/50 border border-border text-cream rounded-br-sm'
                     : 'bg-white/5 border border-white/8 text-cream rounded-bl-sm'
                 }`}>
                   {msg.content}
@@ -100,7 +100,7 @@ export default function MessagesPanel({ messages: initial, currentUserId, coachI
         </div>
 
         {/* Input — plus grand sur mobile pour le clavier */}
-        <div className="px-3 py-2.5 border-t border-accent/10 flex gap-2 pb-safe">
+        <div className="px-3 py-2.5 border-t border-border flex gap-2 pb-safe">
           <input
             type="text"
             value={content}

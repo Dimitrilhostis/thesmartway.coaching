@@ -64,7 +64,7 @@ export default function ClientDetail({
     if (!program) {
       return (
         <div className="flex flex-col items-center justify-center py-20 gap-4 text-center">
-          <div className="w-12 h-12 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center">
+          <div className="w-12 h-12 rounded-2xl bg-accent/10 border border-border flex items-center justify-center">
             <ClipboardList size={20} className="text-accent" />
           </div>
           <div>
@@ -75,7 +75,7 @@ export default function ClientDetail({
           </div>
           <button
             onClick={() => setEditing(true)}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 transition text-sm"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent/15 text-cream border border-border hover:bg-accent/25 transition text-sm"
           >
             <Plus size={15} />
             Créer un programme
@@ -134,7 +134,7 @@ export default function ClientDetail({
             <div className="flex flex-col gap-1">
               {program.weeks[0].days.map(day => (
                 <div key={day.id}>
-                  <div className="flex items-start gap-3 py-2.5 border-b border-accent/10 last:border-0">
+                  <div className="flex items-start gap-3 py-2.5 border-b border-border last:border-0">
                     <span className="text-xs text-muted w-7 shrink-0 uppercase pt-0.5">
                       {['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'][day.day_index]}
                     </span>
@@ -175,7 +175,7 @@ export default function ClientDetail({
 
       {/* Onglets */}
       {!editing && (
-        <div className="flex items-center gap-1 px-4 pt-4 pb-0 border-b border-accent/10">
+        <div className="flex items-center gap-1 px-4 pt-4 pb-0 border-b border-border">
           {TABS.map(item => {
             const Icon = item.icon
             return (
@@ -253,7 +253,7 @@ function NotesTab({ note, clientId }: { note: CoachNote | null; clientId: string
         <button
           onClick={handleSave}
           disabled={saving}
-          className="flex items-center gap-2 px-5 py-2 rounded-xl bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25 transition text-sm"
+          className="flex items-center gap-2 px-5 py-2 rounded-xl bg-accent/15 text-cream border border-border hover:bg-accent/25 transition text-sm"
         >
           {saved ? '✓ Sauvegardé' : saving ? 'Sauvegarde…' : 'Sauvegarder'}
         </button>

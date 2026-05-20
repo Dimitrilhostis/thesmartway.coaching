@@ -32,7 +32,7 @@ export default function ClientNav({ user }: { user: User | null }) {
   }
 
   const links = [
-    { href: '/espace', label: 'Mon Espace kk', authRequired: true },
+    { href: '/espace', label: 'Mon Espace', authRequired: true },
     { href: '/outils', label: 'Outils', authRequired: false },
     { href: '/boutique', label: 'Boutique', authRequired: false },
     { href: '/services', label: 'Services', authRequired: false },
@@ -45,8 +45,8 @@ export default function ClientNav({ user }: { user: User | null }) {
 
   return (
     <>
-      <nav className="glass-nav sticky top-0 z-50 h-14 flex items-center justify-between px-4 md:px-6">
-        <Link href="/" className="font-display text-xl tracking-widest text-cream">
+      <nav className="glass-nav sticky top-0 z-50 h-14 flex items-center justify-between px-4 md:px-8">
+        <Link href="/" className="font-display text-xl tracking-widest text-cream hover:text-accent transition-colors duration-200">
           THE <span className="text-accent">SMART</span> WAY
         </Link>
 

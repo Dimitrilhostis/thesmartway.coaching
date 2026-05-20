@@ -33,7 +33,7 @@ export default function ClientsView({
   }
 
   const ClientList = () => (
-    <aside className="w-full md:w-56 glass-dark md:border-r border-accent/10 p-3 overflow-y-auto">
+    <aside className="w-full md:w-56 glass-dark md:border-r border-border p-3 overflow-y-auto">
       <div className="text-xs text-dim uppercase tracking-wider px-2 mb-3">
         {clients.length} client{clients.length !== 1 ? 's' : ''}
       </div>
@@ -53,7 +53,7 @@ export default function ClientsView({
               onClick={() => selectClient(client.id)}
               className={`flex items-center gap-2.5 px-2.5 py-2.5 rounded-lg transition-colors w-full text-left ${
                 client.id === activeId
-                  ? 'bg-accent/15 text-cream border border-accent/20'
+                  ? 'bg-accent/15 text-cream border border-border'
                   : 'text-muted hover:bg-white/5 hover:text-cream'
               }`}
             >

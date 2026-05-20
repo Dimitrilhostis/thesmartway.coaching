@@ -64,7 +64,7 @@ export default function LoginPage() {
               <p className="text-xs text-dim text-center">Bilan gratuit · Sans engagement</p>
             </div>
             <button onClick={() => switchView('login')}
-              className="w-full glass border border-accent/10 py-4 rounded-2xl text-center group transition-all hover:border-accent/25 active:scale-[0.98]">
+              className="w-full glass card rounded-2xl border border-border py-4 text-center group transition-all hover:border-accent/30 active:scale-[0.98]">
               <p className="text-sm text-muted group-hover:text-cream transition-colors">Déjà client The Smart Way ?</p>
               <p className="text-xs text-accent mt-1">Se connecter →</p>
             </button>
@@ -83,9 +83,9 @@ export default function LoginPage() {
                 Continuer avec Google
               </button>
               <div className="flex items-center gap-3">
-                <div className="flex-1 h-px bg-accent/10" />
+                <div className="flex-1 h-px bg-border" />
                 <span className="text-xs text-dim">ou</span>
-                <div className="flex-1 h-px bg-accent/10" />
+                <div className="flex-1 h-px bg-border" />
               </div>
               <div className="flex flex-col gap-1.5">
                 <label className="text-xs text-muted uppercase tracking-widest pl-1">Email</label>
@@ -120,7 +120,7 @@ export default function LoginPage() {
               </button>
             </div>
             <button onClick={() => switchView('signup')}
-              className="w-full glass border border-accent/10 py-4 rounded-2xl text-center group transition-all hover:border-accent/25 active:scale-[0.98]">
+              className="w-full glass card rounded-2xl border border-border py-4 text-center group transition-all hover:border-accent/30 active:scale-[0.98]">
               <p className="text-sm text-muted group-hover:text-cream transition-colors">Pas encore de compte ?</p>
               <p className="text-xs text-accent mt-1">Commencer mon suivi →</p>
             </button>

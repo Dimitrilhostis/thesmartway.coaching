@@ -21,7 +21,7 @@ const initialState: FormState = {
 }
 
 const inputClass =
-  'w-full rounded-xl border border-border bg-forest-mid/40 px-4 py-3 text-sm text-cream placeholder:text-dim outline-none transition focus:border-accent'
+  'glass-input w-full rounded-xl px-4 py-3 text-sm placeholder:text-dim outline-none'
 
 export default function ContactForm() {
   const [form, setForm] = useState<FormState>(initialState)

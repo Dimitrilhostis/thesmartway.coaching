@@ -74,7 +74,7 @@ function ExerciseRow({
         value={ex.name}
         onChange={e => onChange({ ...ex, name: e.target.value })}
         placeholder="Exercice…"
-        className="flex-1 bg-transparent border border-accent/10 rounded-lg px-3 py-1.5 text-sm text-cream placeholder:text-dim focus:outline-none focus:border-accent/40 transition-colors"
+        className="flex-1 bg-transparent border border-border rounded-lg px-3 py-1.5 text-sm text-cream placeholder:text-dim focus:outline-none focus:border-accent/40 transition-colors"
       />
 
       <input
@@ -82,7 +82,7 @@ function ExerciseRow({
         value={ex.sets}
         min={1}
         onChange={e => onChange({ ...ex, sets: Number(e.target.value) })}
-        className="w-14 bg-transparent border border-accent/10 rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
+        className="w-14 bg-transparent border border-border rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
         title="Séries"
       />
 
@@ -93,7 +93,7 @@ function ExerciseRow({
         value={ex.reps}
         onChange={e => onChange({ ...ex, reps: e.target.value })}
         placeholder="8-12"
-        className="w-20 bg-transparent border border-accent/10 rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
+        className="w-20 bg-transparent border border-border rounded-lg px-2 py-1.5 text-sm text-cream text-center focus:outline-none focus:border-accent/40 transition-colors"
         title="Répétitions"
       />
 
@@ -151,7 +151,7 @@ function DayCard({
     <div
       className={`rounded-xl border transition-colors ${
         isTraining
-          ? 'border-accent/20 bg-accent/3'
+          ? 'border-border bg-accent/3'
           : 'border-white/5 bg-white/2'
       }`}
     >
@@ -235,7 +235,7 @@ function WeekBlock({
   return (
     <div className="glass shadow-glass-sm overflow-hidden">
       {/* Header semaine */}
-      <div className="flex items-center justify-between px-4 py-3 border-b border-accent/10">
+      <div className="flex items-center justify-between px-4 py-3 border-b border-border">
         <button
           onClick={() => onChange({ ...week, expanded: !week.expanded })}
           className="flex items-center gap-3 flex-1 text-left"
@@ -471,7 +471,7 @@ export default function ProgramEditor({
             className={`flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-medium transition-all ${
               saved
                 ? 'bg-accent/20 text-accent border border-accent/30'
-                : 'bg-accent/15 text-cream border border-accent/25 hover:bg-accent/25'
+                : 'bg-accent/15 text-cream border border-border hover:bg-accent/25'
             }`}
           >
             {saving

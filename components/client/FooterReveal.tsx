@@ -41,7 +41,7 @@ export default function FooterReveal() {
   return (
     <section
       ref={sectionRef}
-      className="relative h-[220vh] bg-forest-0.5"
+      className="relative h-[220vh]"
     >
       <div className="sticky top-0 h-screen overflow-hidden">
         <div

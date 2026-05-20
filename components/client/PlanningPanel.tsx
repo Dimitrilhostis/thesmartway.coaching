@@ -127,7 +127,7 @@ function SessionCard({
       className={`
         rounded-xl border transition-all select-none
         ${isTraining
-          ? `bg-accent/8 border-accent/20 ${draggable ? 'cursor-grab active:cursor-grabbing hover:border-accent/35 hover:bg-accent/12' : ''}`
+          ? `bg-accent/8 border-border ${draggable ? 'cursor-grab active:cursor-grabbing hover:border-accent/35 hover:bg-accent/12' : ''}`
           : 'bg-transparent border-transparent'
         }
         ${isDragOver ? 'border-accent/50 bg-accent/15 scale-[1.02]' : ''}
@@ -494,7 +494,7 @@ export default function PlanningPanel({
             onClick={() => setView('week')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs transition-all ${
               view === 'week'
-                ? 'bg-accent/15 text-cream border border-accent/20'
+                ? 'bg-accent/15 text-cream border border-border'
                 : 'text-muted hover:text-cream'
             }`}
           >
@@ -505,7 +505,7 @@ export default function PlanningPanel({
             onClick={() => setView('month')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs transition-all ${
               view === 'month'
-                ? 'bg-accent/15 text-cream border border-accent/20'
+                ? 'bg-accent/15 text-cream border border-border'
                 : 'text-muted hover:text-cream'
             }`}
           >
