@@ -32,21 +32,26 @@ export async function middleware(request: NextRequest) {
   if ((path.startsWith('/espace') || path.startsWith('/compte')) && !user) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
+  
+  // Redirection legacy
+  if (path === '/dashboard') {
+    return NextResponse.redirect(new URL('/admin/dashboard', request.url))
+  }
 
-  // Routes protégées admin
-  if ((path.startsWith('/dashboard') || path.startsWith('/clients') || path.startsWith('/admin')) && !user) {
+  // Routes protégées admin — non connecté
+  if ((path.startsWith('/clients') || path.startsWith('/admin')) && !user) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
 
   // Vérification rôle admin
-  if (path.startsWith('/dashboard') || path.startsWith('/clients') || path.startsWith('/admin')) {
+  if (path.startsWith('/clients') || path.startsWith('/admin')) {
     const { data: profile } = await supabase
       .from('users').select('role').eq('id', user!.id).single()
     if (profile?.role !== 'admin') {
       return NextResponse.redirect(new URL('/espace', request.url))
     }
   }
-
+  
   // Déjà connecté → quitter /login
   if (path === '/login' && user) {
     const { data: profile } = await supabase
@@ -54,6 +59,9 @@ export async function middleware(request: NextRequest) {
     const dest = profile?.role === 'admin' ? '/dashboard' : '/espace'
     return NextResponse.redirect(new URL(dest, request.url))
   }
+
+  // Dans le middleware, avant le return final :
+  supabaseResponse.headers.set('x-pathname', request.nextUrl.pathname)
 
   return supabaseResponse
 }

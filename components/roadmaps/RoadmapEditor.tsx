@@ -48,7 +48,7 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
       />
 
       {/* Bouton sortir */}
-      <div style={{ position: "fixed", top: 12, left: 12, zIndex: 1000 }}>
+      <div style={{ position: "fixed", bottom: 12, left: 12, zIndex: 1000 }}>
         <Link
           href="/admin/roadmaps"
           className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium bg-white/90 text-gray-700 hover:bg-white shadow-md transition-all"
@@ -59,7 +59,7 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
       </div>
 
       {/* Bouton sauvegarder */}
-      <div style={{ position: "fixed", top: 12, right: 60, zIndex: 1000 }}>
+      <div style={{ position: "fixed", bottom: 12, right: 60, zIndex: 1000 }}>
         <button
           onClick={save}
           disabled={saving}

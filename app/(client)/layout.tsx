@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import ClientNav from '@/components/client/ClientNav'
+import { headers } from 'next/headers'
 
 export default async function ClientLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient()
@@ -12,8 +13,16 @@ export default async function ClientLayout({ children }: { children: React.React
     profile = data
   }
 
-  // Admin redirigé vers son espace
-  if (profile?.role === 'admin') redirect('/dashboard')
+  if (profile?.role === 'admin') redirect('/admin/dashboard')
+
+  // Détecter si on est sur une page roadmap individuelle
+  const headersList = await headers()
+  const pathname = headersList.get('x-pathname') ?? ''
+  const isWhiteboard = /^\/roadmaps\/[^/]+$/.test(pathname)
+
+  if (isWhiteboard) {
+    return <>{children}</>
+  }
 
   return (
     <div className="min-h-screen flex flex-col">
