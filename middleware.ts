@@ -24,10 +24,9 @@ export async function middleware(request: NextRequest) {
       },
     }
   )
-
   const { data: { user } } = await supabase.auth.getUser()
   const path = request.nextUrl.pathname
-
+  
   // Routes protégées client
   if ((path.startsWith('/espace') || path.startsWith('/compte')) && !user) {
     return NextResponse.redirect(new URL('/login', request.url))
@@ -37,12 +36,12 @@ export async function middleware(request: NextRequest) {
   if (path === '/dashboard') {
     return NextResponse.redirect(new URL('/admin/dashboard', request.url))
   }
-
+  
   // Routes protégées admin — non connecté
   if ((path.startsWith('/clients') || path.startsWith('/admin')) && !user) {
     return NextResponse.redirect(new URL('/login', request.url))
   }
-
+  
   // Vérification rôle admin
   if (path.startsWith('/clients') || path.startsWith('/admin')) {
     const { data: profile } = await supabase
@@ -56,13 +55,11 @@ export async function middleware(request: NextRequest) {
   if (path === '/login' && user) {
     const { data: profile } = await supabase
       .from('users').select('role').eq('id', user.id).single()
-    const dest = profile?.role === 'admin' ? '/dashboard' : '/espace'
+    const dest = profile?.role === 'admin' ? '/admin/dashboard' : '/espace'
     return NextResponse.redirect(new URL(dest, request.url))
   }
-
-  // Dans le middleware, avant le return final :
+  
   supabaseResponse.headers.set('x-pathname', request.nextUrl.pathname)
-
   return supabaseResponse
 }
 
