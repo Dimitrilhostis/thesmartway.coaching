@@ -1,73 +1,101 @@
 {
-    "slug": "sport",
-    "title": "Sport",
-    "description": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
-    "emoji": "🏋️",
-    "color": "#b5956a",
-    "categories": [
+  "slug": "sport",
+  "title": "Sport",
+  "description": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
+  "emoji": "🏋️",
+  "color": "#b5956a",
+  "content": {
+    "elements": [
       {
-        "id": "triathlon",
-        "label": "Triathlon",
-        "color": "#b5956a",
-        "items": [
-          { "id": "t1", "label": "Nage endurance 1km", "status": "todo", "quarter": "Q1", "description": "Tenir 1km en crawl sans s'arrêter" },
-          { "id": "t2", "label": "Vélo 40km régulier", "status": "todo", "quarter": "Q1", "description": "Sortie longue à allure modérée" },
-          { "id": "t3", "label": "Run 10km sous 55min", "status": "todo", "quarter": "Q2", "description": "Première course officielle" },
-          { "id": "t4", "label": "Enchaîner swim-bike", "status": "todo", "quarter": "Q2", "description": "Maîtriser la transition T1" },
-          { "id": "t5", "label": "Sprint triathlon complet", "status": "todo", "quarter": "Q3", "description": "750m / 20km / 5km" },
-          { "id": "t6", "label": "Olympique distance", "status": "todo", "quarter": "Q4", "description": "1.5km / 40km / 10km" }
-        ]
+        "id": "rect_sport",
+        "type": "rectangle",
+        "x": 300,
+        "y": 80,
+        "width": 600,
+        "height": 80,
+        "angle": 0,
+        "strokeColor": "#b5956a",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": { "type": 3 },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
       },
       {
-        "id": "hand",
-        "label": "Handball",
-        "color": "#b5956a",
-        "items": [
-          { "id": "h1", "label": "Bases techniques tir", "status": "todo", "quarter": "Q1", "description": "Tir à 7m, pivot, appui" },
-          { "id": "h2", "label": "Jeu en équipe débutant", "status": "todo", "quarter": "Q1", "description": "Comprendre les systèmes de jeu 3-2-1" },
-          { "id": "h3", "label": "Défense individuelle", "status": "todo", "quarter": "Q2", "description": "Marquage, interceptions, placement" },
-          { "id": "h4", "label": "Attaque structurée", "status": "todo", "quarter": "Q2", "description": "Croisements, décalages, contre-attaque" },
-          { "id": "h5", "label": "Premier match officiel", "status": "todo", "quarter": "Q3", "description": "Rejoindre un club loisir" },
-          { "id": "h6", "label": "Maîtrise poste ailier/pivot", "status": "todo", "quarter": "Q4", "description": "Spécialisation sur un poste" }
-        ]
+        "id": "title_sport",
+        "type": "text",
+        "x": 340,
+        "y": 100,
+        "width": 520,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#b5956a",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "🏋️  Sport",
+        "fontSize": 28,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 30,
+        "containerId": "rect_sport",
+        "originalText": "🏋️  Sport"
       },
       {
-        "id": "muscu",
-        "label": "Musculation",
-        "color": "#b5956a",
-        "items": [
-          { "id": "m1", "label": "Maîtriser les bases", "status": "todo", "quarter": "Q1", "description": "Squat, bench, deadlift avec technique correcte" },
-          { "id": "m2", "label": "Programme PPL 3j/sem", "status": "todo", "quarter": "Q1", "description": "Push / Pull / Legs en rotation" },
-          { "id": "m3", "label": "Progresser sur les charges", "status": "todo", "quarter": "Q2", "description": "+5kg par mois sur les grands mouvements" },
-          { "id": "m4", "label": "Comprendre la nutrition muscu", "status": "todo", "quarter": "Q2", "description": "Protéines, calories, timing" },
-          { "id": "m5", "label": "4 séances / semaine", "status": "todo", "quarter": "Q3", "description": "Passer en full body ou split 4j" },
-          { "id": "m6", "label": "Bilan physique 6 mois", "status": "todo", "quarter": "Q4", "description": "Photos, mensurations, charges" }
-        ]
-      },
-      {
-        "id": "street",
-        "label": "Street Workout",
-        "color": "#b5956a",
-        "items": [
-          { "id": "s1", "label": "10 tractions propres", "status": "todo", "quarter": "Q1", "description": "Prise pronation, amplitude complète" },
-          { "id": "s2", "label": "20 dips sans aide", "status": "todo", "quarter": "Q1", "description": "Aux barres parallèles" },
-          { "id": "s3", "label": "L-sit 10 secondes", "status": "todo", "quarter": "Q2", "description": "Au sol ou aux barres" },
-          { "id": "s4", "label": "Muscle-up négatif", "status": "todo", "quarter": "Q2", "description": "Travailler la phase excentrique" },
-          { "id": "s5", "label": "Handstand 5 secondes", "status": "todo", "quarter": "Q3", "description": "Équilibre contre un mur puis libre" },
-          { "id": "s6", "label": "Muscle-up propre", "status": "todo", "quarter": "Q4", "description": "Mouvement complet fluide" }
-        ]
-      },
-      {
-        "id": "hybride",
-        "label": "Athlète Hybride",
-        "color": "#b5956a",
-        "items": [
-          { "id": "hy1", "label": "Combiner cardio + force", "status": "todo", "quarter": "Q1", "description": "Planifier les séances pour éviter la fatigue" },
-          { "id": "hy2", "label": "5km sous 25min + 100kg squat", "status": "todo", "quarter": "Q2", "description": "Premier double objectif" },
-          { "id": "hy3", "label": "10km + séance muscu même jour", "status": "todo", "quarter": "Q3", "description": "Tester la récupération hybride" },
-          { "id": "hy4", "label": "Semi-marathon + force maintenue", "status": "todo", "quarter": "Q4", "description": "Ne pas perdre en force pendant l'endurance" }
-        ]
+        "id": "desc_sport",
+        "type": "text",
+        "x": 300,
+        "y": 200,
+        "width": 600,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#666666",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride."
       }
     ],
-    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+    "appState": {
+      "viewBackgroundColor": "#ffffff",
+      "gridSize": null
+    },
+    "files": {}
   }
+}

@@ -1,57 +1,101 @@
 {
-    "slug": "sexe",
-    "title": "Sexualité",
-    "description": "Développer sa vie intime : relationnel, technique, endurance et présence.",
-    "emoji": "🔥",
-    "color": "#c47e6e",
-    "categories": [
+  "slug": "sexe",
+  "title": "Sexualité",
+  "description": "Développer sa vie intime : relationnel, technique, endurance et présence.",
+  "emoji": "🔥",
+  "color": "#c47e6e",
+  "content": {
+    "elements": [
       {
-        "id": "relationnel",
-        "label": "Relationnel",
-        "color": "#c47e6e",
-        "items": [
-          { "id": "r1", "label": "Communication ouverte avec son partenaire", "status": "todo", "quarter": "Q1", "description": "Exprimer ses désirs et écouter les siens" },
-          { "id": "r2", "label": "Comprendre le consentement actif", "status": "todo", "quarter": "Q1", "description": "Vérification continue, signaux verbaux et non-verbaux" },
-          { "id": "r3", "label": "Gérer la vulnérabilité émotionnelle", "status": "todo", "quarter": "Q2", "description": "Intimité émotionnelle et sécurité affective" },
-          { "id": "r4", "label": "Explorer les besoins de l'autre", "status": "todo", "quarter": "Q2", "description": "Love languages, attentes, limites" },
-          { "id": "r5", "label": "Maintenir le désir dans la durée", "status": "todo", "quarter": "Q3", "description": "Nouveauté, curiosité, rituel d'intimité" }
-        ]
+        "id": "rect_sexe",
+        "type": "rectangle",
+        "x": 300,
+        "y": 80,
+        "width": 600,
+        "height": 80,
+        "angle": 0,
+        "strokeColor": "#c47e6e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": { "type": 3 },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
       },
       {
-        "id": "technique",
-        "label": "Technique",
-        "color": "#c47e6e",
-        "items": [
-          { "id": "t1", "label": "Anatomie & zones érogènes", "status": "todo", "quarter": "Q1", "description": "Connaître le corps (le sien et l'autre)" },
-          { "id": "t2", "label": "Foreplay : rythme & attention", "status": "todo", "quarter": "Q1", "description": "Prendre le temps, varier les stimulations" },
-          { "id": "t3", "label": "Varier les positions", "status": "todo", "quarter": "Q2", "description": "Adapter selon le confort et le plaisir" },
-          { "id": "t4", "label": "Utiliser le toucher conscient", "status": "todo", "quarter": "Q2", "description": "Massages, pression, chaleur, douceur" },
-          { "id": "t5", "label": "Synchronisation avec l'autre", "status": "todo", "quarter": "Q3", "description": "Rythme commun, lecture du corps" }
-        ]
+        "id": "title_sexe",
+        "type": "text",
+        "x": 340,
+        "y": 100,
+        "width": 520,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#c47e6e",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "🔥  Sexualité",
+        "fontSize": 28,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 30,
+        "containerId": "rect_sexe",
+        "originalText": "🔥  Sexualité"
       },
       {
-        "id": "endurance",
-        "label": "Endurance & résistance",
-        "color": "#c47e6e",
-        "items": [
-          { "id": "e1", "label": "Exercices Kegel", "status": "todo", "quarter": "Q1", "description": "Renforcer le plancher pelvien" },
-          { "id": "e2", "label": "Contrôle respiratoire", "status": "todo", "quarter": "Q1", "description": "Respiration profonde pour la durée" },
-          { "id": "e3", "label": "Endurance cardiovasculaire", "status": "todo", "quarter": "Q2", "description": "Cardio régulier : direct impact" },
-          { "id": "e4", "label": "Gestion de l'excitation", "status": "todo", "quarter": "Q2", "description": "Start & stop, squeeze, techniques mentales" },
-          { "id": "e5", "label": "Souplesse & mobilité", "status": "todo", "quarter": "Q3", "description": "Yoga, étirements des hanches et lombaires" }
-        ]
-      },
-      {
-        "id": "aura",
-        "label": "Aura & présence",
-        "color": "#c47e6e",
-        "items": [
-          { "id": "au1", "label": "Confiance corporelle", "status": "todo", "quarter": "Q1", "description": "Accepter et habiter son corps" },
-          { "id": "au2", "label": "Contact visuel & présence", "status": "todo", "quarter": "Q1", "description": "Être vraiment là, sans être dans sa tête" },
-          { "id": "au3", "label": "Voix & ton dans l'intimité", "status": "todo", "quarter": "Q2", "description": "Savoir se exprimer, murmurer, rassurer" },
-          { "id": "au4", "label": "Lâcher-prise mental", "status": "todo", "quarter": "Q3", "description": "Sortir de l'autoévaluation, pleine présence" }
-        ]
+        "id": "desc_sexe",
+        "type": "text",
+        "x": 300,
+        "y": 200,
+        "width": 600,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#666666",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Développer sa vie intime : relationnel, technique, endurance et présence.",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Développer sa vie intime : relationnel, technique, endurance et présence."
       }
     ],
-    "quarters": ["Q1", "Q2", "Q3", "Q4"]
+    "appState": {
+      "viewBackgroundColor": "#ffffff",
+      "gridSize": null
+    },
+    "files": {}
   }
+}

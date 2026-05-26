@@ -28,11 +28,26 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
       const elements = excalidrawAPI.current.getSceneElements();
       const appState = excalidrawAPI.current.getAppState();
       const files = excalidrawAPI.current.getFiles();
-      await fetch(`/api/roadmaps/${slug}`, {
+  
+      const payload = {
+        elements,
+        appState: {
+          viewBackgroundColor: appState.viewBackgroundColor,
+          gridSize: appState.gridSize,
+        },
+        files,
+      };
+  
+      const res = await fetch(`/api/roadmaps/${slug}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: { elements, appState, files } }),
+        body: JSON.stringify({ content: payload }),
       });
+  
+      console.log("save status:", res.status);
+      const json = await res.json();
+      console.log("save response:", json);
+  
       setSaved(true);
       setTimeout(() => setSaved(false), 2000);
     } finally {
