@@ -216,7 +216,12 @@
 
 .excalidraw-container,
 .excalidraw,
-.excalidraw > * {
+.excalidraw {
   width: 100% !important;
   height: 100% !important;
+}
+.excalidraw .layer-ui__wrapper__footer-right,
+.excalidraw aside,
+.excalidraw .layer-ui__library {
+  display: none !important;
 }

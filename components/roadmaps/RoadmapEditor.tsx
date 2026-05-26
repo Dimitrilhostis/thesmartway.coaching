@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { useState, useCallback, useRef } from "react";
 import { Save, Check, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-import "@excalidraw/excalidraw/index.css";
+import "../../node_modules/@excalidraw/excalidraw/dist/prod/index.css";
 
 const Excalidraw = dynamic(
   () => import("@excalidraw/excalidraw").then((m) => m.Excalidraw),
@@ -45,6 +45,7 @@ export default function RoadmapEditor({ slug, initialData }: Props) {
       <Excalidraw
         initialData={initialData ?? undefined}
         excalidrawAPI={(api) => { excalidrawAPI.current = api; }}
+        theme="light"
       />
 
       {/* Bouton sortir */}
