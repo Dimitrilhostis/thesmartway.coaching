@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
+import { createClient } from "@/lib/supabase/server";
 import RoadmapEditor from "@/components/roadmaps/RoadmapEditor";
-import { legacyToTiptap } from "@/lib/roadmapConvert";
 
 interface RoadmapFile {
   slug: string;
@@ -12,28 +11,29 @@ interface RoadmapFile {
   color: string;
   description?: string;
   content?: object;
-  categories?: unknown[];
 }
 
-function getRoadmap(slug: string): RoadmapFile | null {
+async function getRoadmap(slug: string): Promise<RoadmapFile | null> {
   try {
     const filePath = path.join(process.cwd(), "data/roadmaps", `${slug}.json`);
-    return JSON.parse(fs.readFileSync(filePath, "utf-8")) as RoadmapFile;
+    const meta = JSON.parse(fs.readFileSync(filePath, "utf-8")) as RoadmapFile;
+
+    const supabase = await createClient();
+    const { data } = await supabase
+      .from("roadmaps")
+      .select("content")
+      .eq("slug", slug)
+      .single();
+
+    return { ...meta, content: data?.content ?? meta.content ?? null };
   } catch {
     return null;
   }
 }
 
 export default async function AdminRoadmapPage({ params }: { params: { slug: string } }) {
-  const roadmap = getRoadmap(params.slug);
+  const roadmap = await getRoadmap(params.slug);
   if (!roadmap) notFound();
 
-  const content: object =
-    roadmap.content ??
-    (roadmap.categories
-      ? legacyToTiptap(roadmap as Parameters<typeof legacyToTiptap>[0])
-      : { type: "doc", content: [] });
-
-    return <RoadmapEditor slug={params.slug} initialData={roadmap.content ?? null} />;
-
+  return <RoadmapEditor slug={params.slug} initialData={roadmap.content ?? null} />;
 }
