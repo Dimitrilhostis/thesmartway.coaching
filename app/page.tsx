@@ -3,7 +3,6 @@ import fs from 'fs'
 import path from 'path'
 import { createClient } from '@/lib/supabase/server'
 import { formatPrice, type Product } from '@/lib/types'
-import FooterReveal from '@/components/client/FooterReveal'
 import ClientNav from '@/components/client/ClientNav'
 import {
   CalendarDays,
@@ -69,22 +68,10 @@ export default async function HomePage() {
       href: '/contact',
     },
     {
-      icon: Salad,
-      title: 'Nutrition sur mesure',
-      desc: 'Plans alimentaires, macros calculés pour toi.',
-      href: '/espace',
-    },
-    {
       icon: Clock,
       title: 'Timer',
       desc: 'Un excellent outil pour tes ses sessions.',
       href: '/outils/timer',
-    },
-    {
-      icon: Hand,
-      title: 'Massages',
-      desc: 'Récupération après séance et deep tissue pour relâcher les tensions.',
-      href: '/services',
     },
     {
       icon: Book,
@@ -109,7 +96,7 @@ export default async function HomePage() {
 
         <div className="relative">
           <div className="inline-flex items-center gap-2 border border-accent/20 bg-accent/8 text-accent text-xs uppercase tracking-widest px-4 py-1.5 rounded-full mb-8">
-            Coaching • Nutrition • Massages
+            Coaching • Nutrition 
           </div>
 
           <h1 className="font-display text-7xl md:text-9xl leading-none tracking-wide mb-6">
@@ -132,12 +119,6 @@ export default async function HomePage() {
             <Link href="/boutique" className="btn-primary py-3 px-7 text-sm">
               Découvrir les programmes
             </Link>
-            <Link
-              href="/services"
-              className="btn-ghost px-7 py-3 text-sm"
-            >
-              Voir les services
-            </Link>
           </div>
         </div>
       </section>
@@ -147,9 +128,8 @@ export default async function HomePage() {
         <div className="max-w-3xl mx-auto flex justify-center gap-12 md:gap-20 flex-wrap px-6">
           {[
             { value: '+340', label: 'Clients transformés' },
-            { value: '5 ans', label: "D'expérience" },
-            { value: '92%', label: 'Objectifs atteints' },
-            { value: '4.9★', label: 'Note moyenne' },
+            { value: '3 ans', label: "D'expérience" },
+            { value: '100%', label: 'Objectifs atteints' },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <p className="font-display text-5xl text-accent text-glow">{s.value}</p>
@@ -262,10 +242,7 @@ export default async function HomePage() {
         <h2 className="page-title mb-8">ILS ONT CHANGÉ</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {[
-            { name: 'Lucas M.', result: '−14 kg en 4 mois', quote: '"Le suivi perso change tout."' },
-            { name: 'Sara K.', result: 'Prise de masse +6 kg', quote: '"Résultats visibles en 3 semaines."' },
-            { name: 'Théo B.', result: 'Marathon en 3h42', quote: `"La structure hebdo m'a tout appris."` },
-            { name: 'Inès R.', result: 'Rééquilibrage complet', quote: '"Bien au-delà du physique."' },
+            { name: 'Sarah B', result: '−10 kg en 3 mois', quote: '"Le suivi perso change tout."' },
           ].map((t) => (
             <div key={t.name} className="card p-5 rounded-2xl border border-border" style={{ borderTopColor: 'rgba(74,222,128,0.5)', borderTopWidth: 2 }}>
               <p className="text-sm font-semibold text-cream">{t.name}</p>
@@ -276,8 +253,15 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Footer CTA */}
-      <FooterReveal />
-    </div>
+      <section>
+        <div className="max-w-4xl mx-auto px-24 py-72 border border-border rounded-2xl text-center">
+          <h2 className="page-title mb-4">Prêt à transformer ta vie ?</h2>
+          <p className="text-muted mb-6">Rejoins la communauté The Smart Way et commence ton parcours de transformation dès aujourd'hui.</p>
+          <Link href="/rejoindre" className="btn-primary py-3 px-7 text-sm">
+            Rejoindre maintenant
+          </Link>
+        </div>
+      </section>
+Z    </div>
   )
 }

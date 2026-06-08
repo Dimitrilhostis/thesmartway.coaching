@@ -1,20 +1,20 @@
 {
   "slug": "sport",
   "title": "Sport",
-  "description": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
+  "description": "Construire une condition physique complète : mobilité, cardio, force et récupération.",
   "emoji": "🏋️",
-  "color": "#b5956a",
+  "color": "#E29A78",
   "content": {
     "elements": [
       {
-        "id": "rect_sport",
+        "id": "banner_sport",
         "type": "rectangle",
-        "x": 300,
-        "y": 80,
-        "width": 600,
-        "height": 80,
+        "x": 60,
+        "y": 40,
+        "width": 1444,
+        "height": 72,
         "angle": 0,
-        "strokeColor": "#b5956a",
+        "strokeColor": "#E29A78",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 2,
@@ -22,7 +22,9 @@
         "roughness": 0,
         "opacity": 100,
         "groupIds": [],
-        "roundness": { "type": 3 },
+        "roundness": {
+          "type": 3
+        },
         "isDeleted": false,
         "boundElements": null,
         "updated": 1,
@@ -32,12 +34,12 @@
       {
         "id": "title_sport",
         "type": "text",
-        "x": 340,
-        "y": 100,
-        "width": 520,
-        "height": 40,
+        "x": 60,
+        "y": 58,
+        "width": 1444,
+        "height": 36,
         "angle": 0,
-        "strokeColor": "#b5956a",
+        "strokeColor": "#E29A78",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -52,23 +54,23 @@
         "link": null,
         "locked": false,
         "text": "🏋️  Sport",
-        "fontSize": 28,
+        "fontSize": 30,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "middle",
-        "baseline": 30,
-        "containerId": "rect_sport",
+        "baseline": 25,
+        "containerId": null,
         "originalText": "🏋️  Sport"
       },
       {
         "id": "desc_sport",
         "type": "text",
-        "x": 300,
-        "y": 200,
-        "width": 600,
+        "x": 60,
+        "y": 130,
+        "width": 1444,
         "height": 24,
         "angle": 0,
-        "strokeColor": "#666666",
+        "strokeColor": "#6b6b6b",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -82,14 +84,3294 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride.",
-        "fontSize": 14,
+        "text": "Construire une condition physique complète : mobilité, cardio, force et récupération.",
+        "fontSize": 15,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "top",
+        "baseline": 12,
+        "containerId": null,
+        "originalText": "Construire une condition physique complète : mobilité, cardio, force et récupération."
+      },
+      {
+        "id": "head_sport_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "#8FBF9F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sport_0",
+        "type": "text",
+        "x": 240,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Mobilité & Posture",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
         "baseline": 14,
         "containerId": null,
-        "originalText": "Progression multi-disciplines : triathlon, handball, musculation, street workout et athlète hybride."
+        "originalText": "Mobilité & Posture"
+      },
+      {
+        "id": "head_sport_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "#E2A16F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sport_1",
+        "type": "text",
+        "x": 568,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cardio & Endurance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Cardio & Endurance"
+      },
+      {
+        "id": "head_sport_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "#C77B7B",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sport_2",
+        "type": "text",
+        "x": 896,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Force & Musculation",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Force & Musculation"
+      },
+      {
+        "id": "head_sport_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "#7B95C7",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sport_3",
+        "type": "text",
+        "x": 1224,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Récupération & Nutrition",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Récupération & Nutrition"
+      },
+      {
+        "id": "phase_sport_0",
+        "type": "rectangle",
+        "x": 60,
+        "y": 330.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sport_0",
+        "type": "text",
+        "x": 60,
+        "y": 339.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Évaluation",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Évaluation"
+      },
+      {
+        "id": "phase_sport_1",
+        "type": "rectangle",
+        "x": 60,
+        "y": 530.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sport_1",
+        "type": "text",
+        "x": 60,
+        "y": 539.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Fondations",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Fondations"
+      },
+      {
+        "id": "phase_sport_2",
+        "type": "rectangle",
+        "x": 60,
+        "y": 730.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sport_2",
+        "type": "text",
+        "x": 60,
+        "y": 739.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Développement",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Développement"
+      },
+      {
+        "id": "phase_sport_3",
+        "type": "rectangle",
+        "x": 60,
+        "y": 930.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sport_3",
+        "type": "text",
+        "x": 60,
+        "y": 939.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Performance",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Performance"
+      },
+      {
+        "id": "phase_sport_4",
+        "type": "rectangle",
+        "x": 60,
+        "y": 1130.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sport_4",
+        "type": "text",
+        "x": 60,
+        "y": 1139.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Maintien",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Maintien"
+      },
+      {
+        "id": "card_sport_0_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_0_0_t",
+        "type": "text",
+        "x": 256,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Bilan postural & souplesse",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Bilan postural & souplesse"
+      },
+      {
+        "id": "card_sport_0_0_d",
+        "type": "text",
+        "x": 256,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tester amplitude et déséquilibres",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Tester amplitude et déséquilibres"
+      },
+      {
+        "id": "card_sport_0_1",
+        "type": "rectangle",
+        "x": 240,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_0_1_t",
+        "type": "text",
+        "x": 256,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Mobilité articulaire",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Mobilité articulaire"
+      },
+      {
+        "id": "card_sport_0_1_d",
+        "type": "text",
+        "x": 256,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Hanches, épaules, chevilles",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Hanches, épaules, chevilles"
+      },
+      {
+        "id": "card_sport_0_2",
+        "type": "rectangle",
+        "x": 240,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_0_2_t",
+        "type": "text",
+        "x": 256,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Gainage & stabilité",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Gainage & stabilité"
+      },
+      {
+        "id": "card_sport_0_2_d",
+        "type": "text",
+        "x": 256,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Transverse, lombaires, équilibre",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Transverse, lombaires, équilibre"
+      },
+      {
+        "id": "card_sport_0_3",
+        "type": "rectangle",
+        "x": 240,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_0_3_t",
+        "type": "text",
+        "x": 256,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Mobilité dynamique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Mobilité dynamique"
+      },
+      {
+        "id": "card_sport_0_3_d",
+        "type": "text",
+        "x": 256,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Drills pré-effort, fluidité",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Drills pré-effort, fluidité"
+      },
+      {
+        "id": "card_sport_0_4",
+        "type": "rectangle",
+        "x": 240,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_0_4_t",
+        "type": "text",
+        "x": 256,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Routine quotidienne",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Routine quotidienne"
+      },
+      {
+        "id": "card_sport_0_4_d",
+        "type": "text",
+        "x": 256,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "5–10 min d'entretien",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "5–10 min d'entretien"
+      },
+      {
+        "id": "card_sport_1_0",
+        "type": "rectangle",
+        "x": 568,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_1_0_t",
+        "type": "text",
+        "x": 584,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Test d'endurance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Test d'endurance"
+      },
+      {
+        "id": "card_sport_1_0_d",
+        "type": "text",
+        "x": 584,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "FC repos, VMA, ressenti",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "FC repos, VMA, ressenti"
+      },
+      {
+        "id": "card_sport_1_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_1_1_t",
+        "type": "text",
+        "x": 584,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Endurance fondamentale",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Endurance fondamentale"
+      },
+      {
+        "id": "card_sport_1_1_d",
+        "type": "text",
+        "x": 584,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Zone 2, respiration nasale",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Zone 2, respiration nasale"
+      },
+      {
+        "id": "card_sport_1_2",
+        "type": "rectangle",
+        "x": 568,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_1_2_t",
+        "type": "text",
+        "x": 584,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Fractionné (HIIT)",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Fractionné (HIIT)"
+      },
+      {
+        "id": "card_sport_1_2_d",
+        "type": "text",
+        "x": 584,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Intervalles, récup active",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Intervalles, récup active"
+      },
+      {
+        "id": "card_sport_1_3",
+        "type": "rectangle",
+        "x": 568,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_1_3_t",
+        "type": "text",
+        "x": 584,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Seuil & VO2max",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Seuil & VO2max"
+      },
+      {
+        "id": "card_sport_1_3_d",
+        "type": "text",
+        "x": 584,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tempo, séances clés",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Tempo, séances clés"
+      },
+      {
+        "id": "card_sport_1_4",
+        "type": "rectangle",
+        "x": 568,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_1_4_t",
+        "type": "text",
+        "x": 584,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cardio plaisir",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Cardio plaisir"
+      },
+      {
+        "id": "card_sport_1_4_d",
+        "type": "text",
+        "x": 584,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Vélo, nage, marche rapide",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Vélo, nage, marche rapide"
+      },
+      {
+        "id": "card_sport_2_0",
+        "type": "rectangle",
+        "x": 896,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_2_0_t",
+        "type": "text",
+        "x": 912,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Mouvements de base",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Mouvements de base"
+      },
+      {
+        "id": "card_sport_2_0_d",
+        "type": "text",
+        "x": 912,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Squat, charnière, poussée, tirage",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Squat, charnière, poussée, tirage"
+      },
+      {
+        "id": "card_sport_2_1",
+        "type": "rectangle",
+        "x": 896,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_2_1_t",
+        "type": "text",
+        "x": 912,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Poids du corps",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Poids du corps"
+      },
+      {
+        "id": "card_sport_2_1_d",
+        "type": "text",
+        "x": 912,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Squat, pompe, fente maîtrisés",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Squat, pompe, fente maîtrisés"
+      },
+      {
+        "id": "card_sport_2_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_2_2_t",
+        "type": "text",
+        "x": 912,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Charges progressives",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Charges progressives"
+      },
+      {
+        "id": "card_sport_2_2_d",
+        "type": "text",
+        "x": 912,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Surcharge, séries / reps",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Surcharge, séries / reps"
+      },
+      {
+        "id": "card_sport_2_3",
+        "type": "rectangle",
+        "x": 896,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_2_3_t",
+        "type": "text",
+        "x": 912,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Force & puissance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Force & puissance"
+      },
+      {
+        "id": "card_sport_2_3_d",
+        "type": "text",
+        "x": 912,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Polyarticulaires lourds",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Polyarticulaires lourds"
+      },
+      {
+        "id": "card_sport_2_4",
+        "type": "rectangle",
+        "x": 896,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_2_4_t",
+        "type": "text",
+        "x": 912,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Prévention des blessures",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Prévention des blessures"
+      },
+      {
+        "id": "card_sport_2_4_d",
+        "type": "text",
+        "x": 912,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Équilibre muscles & tendons",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Équilibre muscles & tendons"
+      },
+      {
+        "id": "card_sport_3_0",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_3_0_t",
+        "type": "text",
+        "x": 1240,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Habitudes actuelles",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Habitudes actuelles"
+      },
+      {
+        "id": "card_sport_3_0_d",
+        "type": "text",
+        "x": 1240,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sommeil, hydratation, repas",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Sommeil, hydratation, repas"
+      },
+      {
+        "id": "card_sport_3_1",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_3_1_t",
+        "type": "text",
+        "x": 1240,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Macronutriments",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Macronutriments"
+      },
+      {
+        "id": "card_sport_3_1_d",
+        "type": "text",
+        "x": 1240,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Protéines, glucides, lipides",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Protéines, glucides, lipides"
+      },
+      {
+        "id": "card_sport_3_2",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_3_2_t",
+        "type": "text",
+        "x": 1240,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Nutrition de l'effort",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Nutrition de l'effort"
+      },
+      {
+        "id": "card_sport_3_2_d",
+        "type": "text",
+        "x": 1240,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Avant / pendant / après",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Avant / pendant / après"
+      },
+      {
+        "id": "card_sport_3_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_3_3_t",
+        "type": "text",
+        "x": 1240,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sommeil & récupération",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Sommeil & récupération"
+      },
+      {
+        "id": "card_sport_3_3_d",
+        "type": "text",
+        "x": 1240,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Deload, gestion de la charge",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Deload, gestion de la charge"
+      },
+      {
+        "id": "card_sport_3_4",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sport_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sport_3_4_t",
+        "type": "text",
+        "x": 1240,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Équilibre durable",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Équilibre durable"
+      },
+      {
+        "id": "card_sport_3_4_d",
+        "type": "text",
+        "x": 1240,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sport_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Plaisir et régularité",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Plaisir et régularité"
+      },
+      {
+        "id": "arr_sport_0_0",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_0_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_0_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_0_1",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_0_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_0_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_0_2",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_0_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_0_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_0_3",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_0_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_0_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_1_0",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_1_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_1_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_1_1",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_1_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_1_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_1_2",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_1_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_1_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_1_3",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_1_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_1_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_2_0",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_2_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_2_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_2_1",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_2_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_2_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_2_2",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_2_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_2_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_2_3",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_2_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_2_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_3_0",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_3_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_3_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_3_1",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_3_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_3_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_3_2",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_3_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_3_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sport_3_3",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sport_3_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sport_3_4",
+          "focus": 0,
+          "gap": 4
+        }
       }
     ],
     "appState": {

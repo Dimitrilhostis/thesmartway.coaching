@@ -3,18 +3,18 @@
   "title": "Cuisine",
   "description": "Maîtriser la nutrition, les techniques culinaires, l'inspiration et les associations de goûts.",
   "emoji": "🍳",
-  "color": "#86a98f",
+  "color": "#86A98F",
   "content": {
     "elements": [
       {
-        "id": "rect_cuisine",
+        "id": "banner_cuisine",
         "type": "rectangle",
-        "x": 300,
-        "y": 80,
-        "width": 600,
-        "height": 80,
+        "x": 60,
+        "y": 40,
+        "width": 1444,
+        "height": 72,
         "angle": 0,
-        "strokeColor": "#86a98f",
+        "strokeColor": "#86A98F",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 2,
@@ -22,7 +22,9 @@
         "roughness": 0,
         "opacity": 100,
         "groupIds": [],
-        "roundness": { "type": 3 },
+        "roundness": {
+          "type": 3
+        },
         "isDeleted": false,
         "boundElements": null,
         "updated": 1,
@@ -32,12 +34,12 @@
       {
         "id": "title_cuisine",
         "type": "text",
-        "x": 340,
-        "y": 100,
-        "width": 520,
-        "height": 40,
+        "x": 60,
+        "y": 58,
+        "width": 1444,
+        "height": 36,
         "angle": 0,
-        "strokeColor": "#86a98f",
+        "strokeColor": "#86A98F",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -52,23 +54,23 @@
         "link": null,
         "locked": false,
         "text": "🍳  Cuisine",
-        "fontSize": 28,
+        "fontSize": 30,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "middle",
-        "baseline": 30,
-        "containerId": "rect_cuisine",
+        "baseline": 25,
+        "containerId": null,
         "originalText": "🍳  Cuisine"
       },
       {
         "id": "desc_cuisine",
         "type": "text",
-        "x": 300,
-        "y": 200,
-        "width": 600,
+        "x": 60,
+        "y": 130,
+        "width": 1444,
         "height": 24,
         "angle": 0,
-        "strokeColor": "#666666",
+        "strokeColor": "#6b6b6b",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -83,13 +85,3293 @@
         "link": null,
         "locked": false,
         "text": "Maîtriser la nutrition, les techniques culinaires, l'inspiration et les associations de goûts.",
-        "fontSize": 14,
+        "fontSize": 15,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "top",
-        "baseline": 14,
+        "baseline": 12,
         "containerId": null,
         "originalText": "Maîtriser la nutrition, les techniques culinaires, l'inspiration et les associations de goûts."
+      },
+      {
+        "id": "head_cuisine_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "#8FBF9F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_cuisine_0",
+        "type": "text",
+        "x": 240,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Nutrition & Équilibre",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Nutrition & Équilibre"
+      },
+      {
+        "id": "head_cuisine_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "#E2A16F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_cuisine_1",
+        "type": "text",
+        "x": 568,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Techniques de base",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Techniques de base"
+      },
+      {
+        "id": "head_cuisine_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "#C77B7B",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_cuisine_2",
+        "type": "text",
+        "x": 896,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Saveurs & Associations",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Saveurs & Associations"
+      },
+      {
+        "id": "head_cuisine_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "#7B95C7",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_cuisine_3",
+        "type": "text",
+        "x": 1224,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Créativité & Dressage",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Créativité & Dressage"
+      },
+      {
+        "id": "phase_cuisine_0",
+        "type": "rectangle",
+        "x": 60,
+        "y": 330.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_cuisine_0",
+        "type": "text",
+        "x": 60,
+        "y": 339.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Découverte",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Découverte"
+      },
+      {
+        "id": "phase_cuisine_1",
+        "type": "rectangle",
+        "x": 60,
+        "y": 530.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_cuisine_1",
+        "type": "text",
+        "x": 60,
+        "y": 539.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Bases",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Bases"
+      },
+      {
+        "id": "phase_cuisine_2",
+        "type": "rectangle",
+        "x": 60,
+        "y": 730.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_cuisine_2",
+        "type": "text",
+        "x": 60,
+        "y": 739.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Maîtrise",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Maîtrise"
+      },
+      {
+        "id": "phase_cuisine_3",
+        "type": "rectangle",
+        "x": 60,
+        "y": 930.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_cuisine_3",
+        "type": "text",
+        "x": 60,
+        "y": 939.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Création",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Création"
+      },
+      {
+        "id": "phase_cuisine_4",
+        "type": "rectangle",
+        "x": 60,
+        "y": 1130.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_cuisine_4",
+        "type": "text",
+        "x": 60,
+        "y": 1139.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Signature",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Signature"
+      },
+      {
+        "id": "card_cuisine_0_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_0_0_t",
+        "type": "text",
+        "x": 256,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Lire une étiquette",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Lire une étiquette"
+      },
+      {
+        "id": "card_cuisine_0_0_d",
+        "type": "text",
+        "x": 256,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Comprendre les ingrédients",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Comprendre les ingrédients"
+      },
+      {
+        "id": "card_cuisine_0_1",
+        "type": "rectangle",
+        "x": 240,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_0_1_t",
+        "type": "text",
+        "x": 256,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Équilibre de l'assiette",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Équilibre de l'assiette"
+      },
+      {
+        "id": "card_cuisine_0_1_d",
+        "type": "text",
+        "x": 256,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Protéines, légumes, féculents",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Protéines, légumes, féculents"
+      },
+      {
+        "id": "card_cuisine_0_2",
+        "type": "rectangle",
+        "x": 240,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_0_2_t",
+        "type": "text",
+        "x": 256,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Saisons & marché",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Saisons & marché"
+      },
+      {
+        "id": "card_cuisine_0_2_d",
+        "type": "text",
+        "x": 256,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Choisir des produits frais",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Choisir des produits frais"
+      },
+      {
+        "id": "card_cuisine_0_3",
+        "type": "rectangle",
+        "x": 240,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_0_3_t",
+        "type": "text",
+        "x": 256,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Adapter un régime",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Adapter un régime"
+      },
+      {
+        "id": "card_cuisine_0_3_d",
+        "type": "text",
+        "x": 256,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Veggie, sans gluten, etc.",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Veggie, sans gluten, etc."
+      },
+      {
+        "id": "card_cuisine_0_4",
+        "type": "rectangle",
+        "x": 240,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_0_4_t",
+        "type": "text",
+        "x": 256,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Menu équilibré",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Menu équilibré"
+      },
+      {
+        "id": "card_cuisine_0_4_d",
+        "type": "text",
+        "x": 256,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Une semaine pensée",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Une semaine pensée"
+      },
+      {
+        "id": "card_cuisine_1_0",
+        "type": "rectangle",
+        "x": 568,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_1_0_t",
+        "type": "text",
+        "x": 584,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Le matériel essentiel",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Le matériel essentiel"
+      },
+      {
+        "id": "card_cuisine_1_0_d",
+        "type": "text",
+        "x": 584,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Couteau, poêle, casserole",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Couteau, poêle, casserole"
+      },
+      {
+        "id": "card_cuisine_1_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_1_1_t",
+        "type": "text",
+        "x": 584,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Découpes au couteau",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Découpes au couteau"
+      },
+      {
+        "id": "card_cuisine_1_1_d",
+        "type": "text",
+        "x": 584,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Émincer, ciseler, tailler",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Émincer, ciseler, tailler"
+      },
+      {
+        "id": "card_cuisine_1_2",
+        "type": "rectangle",
+        "x": 568,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_1_2_t",
+        "type": "text",
+        "x": 584,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cuissons maîtrisées",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Cuissons maîtrisées"
+      },
+      {
+        "id": "card_cuisine_1_2_d",
+        "type": "text",
+        "x": 584,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Saisir, mijoter, rôtir, pocher",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Saisir, mijoter, rôtir, pocher"
+      },
+      {
+        "id": "card_cuisine_1_3",
+        "type": "rectangle",
+        "x": 568,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_1_3_t",
+        "type": "text",
+        "x": 584,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sauces mères",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Sauces mères"
+      },
+      {
+        "id": "card_cuisine_1_3_d",
+        "type": "text",
+        "x": 584,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Émulsions, réductions",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Émulsions, réductions"
+      },
+      {
+        "id": "card_cuisine_1_4",
+        "type": "rectangle",
+        "x": 568,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_1_4_t",
+        "type": "text",
+        "x": 584,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Coordination des cuissons",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Coordination des cuissons"
+      },
+      {
+        "id": "card_cuisine_1_4_d",
+        "type": "text",
+        "x": 584,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tout prêt en même temps",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Tout prêt en même temps"
+      },
+      {
+        "id": "card_cuisine_2_0",
+        "type": "rectangle",
+        "x": 896,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_2_0_t",
+        "type": "text",
+        "x": 912,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Les 5 saveurs",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Les 5 saveurs"
+      },
+      {
+        "id": "card_cuisine_2_0_d",
+        "type": "text",
+        "x": 912,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sucré, salé, acide, amer, umami",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Sucré, salé, acide, amer, umami"
+      },
+      {
+        "id": "card_cuisine_2_1",
+        "type": "rectangle",
+        "x": 896,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_2_1_t",
+        "type": "text",
+        "x": 912,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Herbes & épices",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Herbes & épices"
+      },
+      {
+        "id": "card_cuisine_2_1_d",
+        "type": "text",
+        "x": 912,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Quand et comment doser",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Quand et comment doser"
+      },
+      {
+        "id": "card_cuisine_2_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_2_2_t",
+        "type": "text",
+        "x": 912,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Équilibrer un plat",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Équilibrer un plat"
+      },
+      {
+        "id": "card_cuisine_2_2_d",
+        "type": "text",
+        "x": 912,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Acidité, gras, sel, texture",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Acidité, gras, sel, texture"
+      },
+      {
+        "id": "card_cuisine_2_3",
+        "type": "rectangle",
+        "x": 896,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_2_3_t",
+        "type": "text",
+        "x": 912,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Accords de goûts",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Accords de goûts"
+      },
+      {
+        "id": "card_cuisine_2_3_d",
+        "type": "text",
+        "x": 912,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Classiques & plus audacieux",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Classiques & plus audacieux"
+      },
+      {
+        "id": "card_cuisine_2_4",
+        "type": "rectangle",
+        "x": 896,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_2_4_t",
+        "type": "text",
+        "x": 912,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Créer sa recette",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Créer sa recette"
+      },
+      {
+        "id": "card_cuisine_2_4_d",
+        "type": "text",
+        "x": 912,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Partir d'une idée de saveur",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Partir d'une idée de saveur"
+      },
+      {
+        "id": "card_cuisine_3_0",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_3_0_t",
+        "type": "text",
+        "x": 1240,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "L'œil mange d'abord",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "L'œil mange d'abord"
+      },
+      {
+        "id": "card_cuisine_3_0_d",
+        "type": "text",
+        "x": 1240,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Couleurs & contrastes",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Couleurs & contrastes"
+      },
+      {
+        "id": "card_cuisine_3_1",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_3_1_t",
+        "type": "text",
+        "x": 1240,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Bases du dressage",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Bases du dressage"
+      },
+      {
+        "id": "card_cuisine_3_1_d",
+        "type": "text",
+        "x": 1240,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Hauteur, espaces, points",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Hauteur, espaces, points"
+      },
+      {
+        "id": "card_cuisine_3_2",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_3_2_t",
+        "type": "text",
+        "x": 1240,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Jouer les textures",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Jouer les textures"
+      },
+      {
+        "id": "card_cuisine_3_2_d",
+        "type": "text",
+        "x": 1240,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Croquant, fondant, croustillant",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Croquant, fondant, croustillant"
+      },
+      {
+        "id": "card_cuisine_3_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_3_3_t",
+        "type": "text",
+        "x": 1240,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Revisiter un classique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Revisiter un classique"
+      },
+      {
+        "id": "card_cuisine_3_3_d",
+        "type": "text",
+        "x": 1240,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Y mettre sa touche",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Y mettre sa touche"
+      },
+      {
+        "id": "card_cuisine_3_4",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_cuisine_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_cuisine_3_4_t",
+        "type": "text",
+        "x": 1240,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Plat signature",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Plat signature"
+      },
+      {
+        "id": "card_cuisine_3_4_d",
+        "type": "text",
+        "x": 1240,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_cuisine_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Une identité culinaire",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Une identité culinaire"
+      },
+      {
+        "id": "arr_cuisine_0_0",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_0_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_0_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_0_1",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_0_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_0_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_0_2",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_0_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_0_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_0_3",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_0_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_0_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_1_0",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_1_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_1_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_1_1",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_1_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_1_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_1_2",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_1_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_1_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_1_3",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_1_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_1_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_2_0",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_2_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_2_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_2_1",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_2_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_2_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_2_2",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_2_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_2_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_2_3",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_2_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_2_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_3_0",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_3_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_3_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_3_1",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_3_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_3_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_3_2",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_3_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_3_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_cuisine_3_3",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_cuisine_3_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_cuisine_3_4",
+          "focus": 0,
+          "gap": 4
+        }
       }
     ],
     "appState": {

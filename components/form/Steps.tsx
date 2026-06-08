@@ -66,7 +66,8 @@ const EXTENDED_INITIAL: ExtendedFormData = {
 
 export default function Steps() {
   const [step, setStep] = useState(0)
-  const [goal, setGoal] = useState('')
+  // goal = classement ordonné des objectifs (du + important au - important)
+  const [goal, setGoal] = useState<string[]>([])
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
@@ -74,16 +75,9 @@ export default function Steps() {
 
   function isStepValid(step: number) {
     switch (step) {
-      case 1:  return !!(form.nom && form.prénom && form.age && form.situation)
-      case 2:  return !!(form.sex && form.poids && form.taille)
-      case 3:  return !!(form.job && form.time_extra && form.equipment)
-      case 4:  return !!(form.level && form.injuries && form.sports)
-      case 5:  return !!(form.sleep_hours && form.sleep_quality && form.sleep_schedule)
-      case 6:  return !!(form.meals && form.food_quality && form.cravings)
-      case 7:  return goal !== ''
-      case 8:  return !!(form.why && form.commitment && form.quitting)
-      case 9:  return !!(form.short_goal && form.dream && form.why_me)
-      case 10: return !!(form.email && form.number && form.password && form.password.length >= 8 && form.password === form.password_confirm)
+      case 1:  return !!(form.nom && form.prénom)
+      case 7:  return goal.length === GOALS.length
+      case 10: return !!(form.email && form.number && form.password && form.password.length >= 6 && form.password === form.password_confirm)
       default: return true
     }
   }
@@ -92,9 +86,17 @@ export default function Steps() {
     setForm(prev => ({ ...prev, [field]: value }))
   }
 
+  // Ajoute l'objectif au bout du classement, ou le retire (les rangs se recalculent)
+  function toggleGoal(id: string) {
+    setGoal(prev => (prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]))
+  }
+
   async function handleSubmit() {
     setLoading(true)
     setError('')
+
+    // Classement lisible : "1. … · 2. … · 3. … · 4. …"
+    const goalOrdered = goal.map((id, i) => `${i + 1}. ${GOAL_LABELS[id] ?? id}`).join(' · ')
 
     try {
       // 1. Créer le compte Supabase Auth
@@ -126,7 +128,7 @@ export default function Steps() {
         user_id: userId,
         phone: form.number.trim(),
         whatsapp_id: form.number.trim().replace(/\D/g, ''),
-        goal: GOAL_LABELS[goal] ?? goal,
+        goal: goalOrdered,
         status: 'pending', // candidature — le coach activera
         notes_public: [
           form.sex         && `Sexe : ${form.sex}`,
@@ -146,6 +148,7 @@ export default function Steps() {
           form.meals          && `Repas/jour : ${form.meals}`,
           form.food_quality   && `Repas type : ${form.food_quality}`,
           form.cravings       && `Craquages : ${form.cravings}`,
+          goalOrdered      && `Objectifs (ordre) : ${goalOrdered}`,
           form.why         && `Pourquoi : ${form.why}`,
           form.commitment  && `Engagement : ${COMMITMENT_LABELS[form.commitment] ?? form.commitment}`,
           form.quitting    && `Abandons : ${form.quitting}`,
@@ -159,7 +162,7 @@ export default function Steps() {
       await fetch('/api/candidature', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, goal }),
+        body: JSON.stringify({ ...form, goal: goalOrdered, goalRanking: goal }),
       })
 
       setSubmitted(true)
@@ -357,18 +360,28 @@ export default function Steps() {
 
           {step === 7 && (
             <>
-              <Title>Ton objectif principal</Title>
+              <Title>Classe tes objectifs</Title>
+              <p className="text-dim text-sm -mt-2">
+                Touche-les du plus important (1) au moins important. Re-touche pour retirer.
+              </p>
               <div className="grid grid-cols-2 gap-3 mt-5">
                 {GOALS.map(g => {
-                  const active = goal === g.id
+                  const rank = goal.indexOf(g.id)
+                  const active = rank !== -1
                   return (
-                    <button key={g.id} onClick={() => setGoal(g.id)}
-                      className={`group relative h-[100px] rounded-2xl border overflow-hidden transition-all duration-300 ease-out backdrop-blur-md ${
+                    <button key={g.id} onClick={() => toggleGoal(g.id)}
+                      className={`group relative h-[120px] rounded-2xl border overflow-hidden transition-all duration-300 ease-out backdrop-blur-md ${
                         active ? 'border-accent bg-accent/10 shadow-[0_0_0_1px_rgba(123,175,110,0.35)]'
                                : 'border-white/10 bg-white/[0.03] hover:bg-white/[0.06]'}`}>
+                      {/* Badge de rang */}
+                      {active && (
+                        <div className="absolute top-2 left-2 z-10 w-6 h-6 rounded-full bg-accent text-black text-xs font-bold flex items-center justify-center shadow">
+                          {rank + 1}
+                        </div>
+                      )}
                       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 bg-gradient-to-br from-accent/10 via-transparent to-transparent" />
                       <div className="absolute inset-0 flex items-center justify-center transition-all duration-300 ease-out opacity-100 group-hover:opacity-30 blur-0 group-hover:blur-[10px] scale-100 group-hover:scale-95">
-                        <p className="text-sm font-semibold text-cream tracking-wide">{g.title}</p>
+                        <p className="text-sm font-semibold text-cream tracking-wide px-3 text-center">{g.title}</p>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center text-center px-4 transition-all duration-300 ease-out opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 blur-[6px] group-hover:blur-0">
                         <p className="text-xs md:text-sm text-cream/90 leading-snug font-medium">{g.desc}</p>
@@ -379,6 +392,12 @@ export default function Steps() {
                   )
                 })}
               </div>
+              {goal.length > 0 && (
+                <button onClick={() => setGoal([])}
+                  className="text-xs text-dim hover:text-cream transition mt-1">
+                  Réinitialiser l'ordre
+                </button>
+              )}
             </>
           )}
 
@@ -411,13 +430,13 @@ export default function Steps() {
               <Field placeholder="Email" type="email" value={form.email} onChange={e => updateField('email', e.target.value)} />
               <Field placeholder="Numéro de téléphone" type="tel" value={form.number} onChange={e => updateField('number', e.target.value)} />
               <div className="h-px bg-white/5 my-1" />
-              <Field placeholder="Mot de passe (8 caractères min.)" type="password" value={form.password} onChange={e => updateField('password', e.target.value)} />
+              <Field placeholder="Mot de passe (6 caractères min.)" type="password" value={form.password} onChange={e => updateField('password', e.target.value)} />
               <Field placeholder="Confirmer le mot de passe" type="password" value={form.password_confirm} onChange={e => updateField('password_confirm', e.target.value)} />
               {form.password && form.password_confirm && form.password !== form.password_confirm && (
                 <p className="text-xs text-danger">Les mots de passe ne correspondent pas.</p>
               )}
               {form.password && form.password.length > 0 && form.password.length < 8 && (
-                <p className="text-xs text-danger">8 caractères minimum.</p>
+                <p className="text-xs text-danger">6 caractères minimum.</p>
               )}
             </>
           )}
@@ -457,8 +476,10 @@ export default function Steps() {
                   <RecapRow label="Repas type"   value={form.food_quality} />
                   <RecapRow label="Craquages"    value={form.cravings} />
                 </RecapSection>
-                <RecapSection title="🎯 Objectif & Engagement">
-                  <RecapRow label="Objectif"   value={GOAL_LABELS[goal] ?? goal} />
+                <RecapSection title="🎯 Objectifs & Engagement">
+                  {goal.map((id, i) => (
+                    <RecapRow key={id} label={`Objectif #${i + 1}`} value={GOAL_LABELS[id] ?? id} />
+                  ))}
                   <RecapRow label="Pourquoi"   value={form.why} />
                   <RecapRow label="Engagement" value={COMMITMENT_LABELS[form.commitment] ?? form.commitment} />
                   <RecapRow label="Abandons"   value={form.quitting} />

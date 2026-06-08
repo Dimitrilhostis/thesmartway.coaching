@@ -1,20 +1,20 @@
 {
   "slug": "sexe",
-  "title": "Sexualité",
-  "description": "Développer sa vie intime : relationnel, technique, endurance et présence.",
-  "emoji": "🔥",
-  "color": "#c47e6e",
+  "title": "Sexe",
+  "description": "Une approche saine et bienveillante : connaissance de soi, communication, santé et intimité (adultes).",
+  "emoji": "❤️",
+  "color": "#C77B8F",
   "content": {
     "elements": [
       {
-        "id": "rect_sexe",
+        "id": "banner_sexe",
         "type": "rectangle",
-        "x": 300,
-        "y": 80,
-        "width": 600,
-        "height": 80,
+        "x": 60,
+        "y": 40,
+        "width": 1444,
+        "height": 72,
         "angle": 0,
-        "strokeColor": "#c47e6e",
+        "strokeColor": "#C77B8F",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 2,
@@ -22,7 +22,9 @@
         "roughness": 0,
         "opacity": 100,
         "groupIds": [],
-        "roundness": { "type": 3 },
+        "roundness": {
+          "type": 3
+        },
         "isDeleted": false,
         "boundElements": null,
         "updated": 1,
@@ -32,12 +34,12 @@
       {
         "id": "title_sexe",
         "type": "text",
-        "x": 340,
-        "y": 100,
-        "width": 520,
-        "height": 40,
+        "x": 60,
+        "y": 58,
+        "width": 1444,
+        "height": 36,
         "angle": 0,
-        "strokeColor": "#c47e6e",
+        "strokeColor": "#C77B8F",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -51,24 +53,24 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "🔥  Sexualité",
-        "fontSize": 28,
+        "text": "❤️  Sexe",
+        "fontSize": 30,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "middle",
-        "baseline": 30,
-        "containerId": "rect_sexe",
-        "originalText": "🔥  Sexualité"
+        "baseline": 25,
+        "containerId": null,
+        "originalText": "❤️  Sexe"
       },
       {
         "id": "desc_sexe",
         "type": "text",
-        "x": 300,
-        "y": 200,
-        "width": 600,
+        "x": 60,
+        "y": 130,
+        "width": 1444,
         "height": 24,
         "angle": 0,
-        "strokeColor": "#666666",
+        "strokeColor": "#6b6b6b",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -82,14 +84,3294 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "Développer sa vie intime : relationnel, technique, endurance et présence.",
-        "fontSize": 14,
+        "text": "Une approche saine et bienveillante : connaissance de soi, communication, santé et intimité (adultes).",
+        "fontSize": 15,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "top",
+        "baseline": 12,
+        "containerId": null,
+        "originalText": "Une approche saine et bienveillante : connaissance de soi, communication, santé et intimité (adultes)."
+      },
+      {
+        "id": "head_sexe_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "#8FBF9F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sexe_0",
+        "type": "text",
+        "x": 240,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Connaissance de soi",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
         "baseline": 14,
         "containerId": null,
-        "originalText": "Développer sa vie intime : relationnel, technique, endurance et présence."
+        "originalText": "Connaissance de soi"
+      },
+      {
+        "id": "head_sexe_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "#E2A16F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sexe_1",
+        "type": "text",
+        "x": 568,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Communication & Consentement",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Communication & Consentement"
+      },
+      {
+        "id": "head_sexe_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "#C77B7B",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sexe_2",
+        "type": "text",
+        "x": 896,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Santé & Bien-être",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Santé & Bien-être"
+      },
+      {
+        "id": "head_sexe_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "#7B95C7",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_sexe_3",
+        "type": "text",
+        "x": 1224,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Intimité & Relation",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Intimité & Relation"
+      },
+      {
+        "id": "phase_sexe_0",
+        "type": "rectangle",
+        "x": 60,
+        "y": 330.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sexe_0",
+        "type": "text",
+        "x": 60,
+        "y": 339.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Fondations",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Fondations"
+      },
+      {
+        "id": "phase_sexe_1",
+        "type": "rectangle",
+        "x": 60,
+        "y": 530.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sexe_1",
+        "type": "text",
+        "x": 60,
+        "y": 539.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Communication",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Communication"
+      },
+      {
+        "id": "phase_sexe_2",
+        "type": "rectangle",
+        "x": 60,
+        "y": 730.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sexe_2",
+        "type": "text",
+        "x": 60,
+        "y": 739.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Santé",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Santé"
+      },
+      {
+        "id": "phase_sexe_3",
+        "type": "rectangle",
+        "x": 60,
+        "y": 930.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sexe_3",
+        "type": "text",
+        "x": 60,
+        "y": 939.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Épanouissement",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Épanouissement"
+      },
+      {
+        "id": "phase_sexe_4",
+        "type": "rectangle",
+        "x": 60,
+        "y": 1130.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_sexe_4",
+        "type": "text",
+        "x": 60,
+        "y": 1139.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Équilibre",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Équilibre"
+      },
+      {
+        "id": "card_sexe_0_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_0_0_t",
+        "type": "text",
+        "x": 256,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Anatomie de base",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Anatomie de base"
+      },
+      {
+        "id": "card_sexe_0_0_d",
+        "type": "text",
+        "x": 256,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Comprendre son corps",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Comprendre son corps"
+      },
+      {
+        "id": "card_sexe_0_1",
+        "type": "rectangle",
+        "x": 240,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_0_1_t",
+        "type": "text",
+        "x": 256,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Connaître ses envies",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Connaître ses envies"
+      },
+      {
+        "id": "card_sexe_0_1_d",
+        "type": "text",
+        "x": 256,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Préférences et limites",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Préférences et limites"
+      },
+      {
+        "id": "card_sexe_0_2",
+        "type": "rectangle",
+        "x": 240,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_0_2_t",
+        "type": "text",
+        "x": 256,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Réponses du corps",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Réponses du corps"
+      },
+      {
+        "id": "card_sexe_0_2_d",
+        "type": "text",
+        "x": 256,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Comprendre ses réactions",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Comprendre ses réactions"
+      },
+      {
+        "id": "card_sexe_0_3",
+        "type": "rectangle",
+        "x": 240,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_0_3_t",
+        "type": "text",
+        "x": 256,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Image & confiance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Image & confiance"
+      },
+      {
+        "id": "card_sexe_0_3_d",
+        "type": "text",
+        "x": 256,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Estime de soi",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Estime de soi"
+      },
+      {
+        "id": "card_sexe_0_4",
+        "type": "rectangle",
+        "x": 240,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_0_4_t",
+        "type": "text",
+        "x": 256,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Évoluer dans le temps",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Évoluer dans le temps"
+      },
+      {
+        "id": "card_sexe_0_4_d",
+        "type": "text",
+        "x": 256,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Le corps et les envies changent",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Le corps et les envies changent"
+      },
+      {
+        "id": "card_sexe_1_0",
+        "type": "rectangle",
+        "x": 568,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_1_0_t",
+        "type": "text",
+        "x": 584,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Le consentement",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Le consentement"
+      },
+      {
+        "id": "card_sexe_1_0_d",
+        "type": "text",
+        "x": 584,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Libre, éclairé, réversible",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Libre, éclairé, réversible"
+      },
+      {
+        "id": "card_sexe_1_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_1_1_t",
+        "type": "text",
+        "x": 584,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Exprimer ses besoins",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Exprimer ses besoins"
+      },
+      {
+        "id": "card_sexe_1_1_d",
+        "type": "text",
+        "x": 584,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Dire oui, dire non",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Dire oui, dire non"
+      },
+      {
+        "id": "card_sexe_1_2",
+        "type": "rectangle",
+        "x": 568,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_1_2_t",
+        "type": "text",
+        "x": 584,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Poser ses limites",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Poser ses limites"
+      },
+      {
+        "id": "card_sexe_1_2_d",
+        "type": "text",
+        "x": 584,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Respect mutuel",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Respect mutuel"
+      },
+      {
+        "id": "card_sexe_1_3",
+        "type": "rectangle",
+        "x": 568,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_1_3_t",
+        "type": "text",
+        "x": 584,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Écoute du partenaire",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Écoute du partenaire"
+      },
+      {
+        "id": "card_sexe_1_3_d",
+        "type": "text",
+        "x": 584,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Attention, présence",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Attention, présence"
+      },
+      {
+        "id": "card_sexe_1_4",
+        "type": "rectangle",
+        "x": 568,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_1_4_t",
+        "type": "text",
+        "x": 584,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Dialogue continu",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Dialogue continu"
+      },
+      {
+        "id": "card_sexe_1_4_d",
+        "type": "text",
+        "x": 584,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Check-in réguliers",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Check-in réguliers"
+      },
+      {
+        "id": "card_sexe_2_0",
+        "type": "rectangle",
+        "x": 896,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_2_0_t",
+        "type": "text",
+        "x": 912,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Hygiène & santé",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Hygiène & santé"
+      },
+      {
+        "id": "card_sexe_2_0_d",
+        "type": "text",
+        "x": 912,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Les bases essentielles",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Les bases essentielles"
+      },
+      {
+        "id": "card_sexe_2_1",
+        "type": "rectangle",
+        "x": 896,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_2_1_t",
+        "type": "text",
+        "x": 912,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Prévention des IST",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Prévention des IST"
+      },
+      {
+        "id": "card_sexe_2_1_d",
+        "type": "text",
+        "x": 912,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Protection, dépistage",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Protection, dépistage"
+      },
+      {
+        "id": "card_sexe_2_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_2_2_t",
+        "type": "text",
+        "x": 912,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Contraception",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Contraception"
+      },
+      {
+        "id": "card_sexe_2_2_d",
+        "type": "text",
+        "x": 912,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Choisir avec un pro",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Choisir avec un pro"
+      },
+      {
+        "id": "card_sexe_2_3",
+        "type": "rectangle",
+        "x": 896,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_2_3_t",
+        "type": "text",
+        "x": 912,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Stress & pression",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Stress & pression"
+      },
+      {
+        "id": "card_sexe_2_3_d",
+        "type": "text",
+        "x": 912,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Dédramatiser la performance",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Dédramatiser la performance"
+      },
+      {
+        "id": "card_sexe_2_4",
+        "type": "rectangle",
+        "x": 896,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_2_4_t",
+        "type": "text",
+        "x": 912,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Quand consulter",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Quand consulter"
+      },
+      {
+        "id": "card_sexe_2_4_d",
+        "type": "text",
+        "x": 912,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Médecin, sexologue",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Médecin, sexologue"
+      },
+      {
+        "id": "card_sexe_3_0",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_3_0_t",
+        "type": "text",
+        "x": 1240,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Créer la confiance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Créer la confiance"
+      },
+      {
+        "id": "card_sexe_3_0_d",
+        "type": "text",
+        "x": 1240,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sécurité émotionnelle",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Sécurité émotionnelle"
+      },
+      {
+        "id": "card_sexe_3_1",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_3_1_t",
+        "type": "text",
+        "x": 1240,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Présence & lenteur",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Présence & lenteur"
+      },
+      {
+        "id": "card_sexe_3_1_d",
+        "type": "text",
+        "x": 1240,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Préliminaires, attention",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Préliminaires, attention"
+      },
+      {
+        "id": "card_sexe_3_2",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_3_2_t",
+        "type": "text",
+        "x": 1240,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Découverte mutuelle",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Découverte mutuelle"
+      },
+      {
+        "id": "card_sexe_3_2_d",
+        "type": "text",
+        "x": 1240,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Explorer ensemble",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Explorer ensemble"
+      },
+      {
+        "id": "card_sexe_3_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_3_3_t",
+        "type": "text",
+        "x": 1240,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Connexion émotionnelle",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Connexion émotionnelle"
+      },
+      {
+        "id": "card_sexe_3_3_d",
+        "type": "text",
+        "x": 1240,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Au-delà du physique",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Au-delà du physique"
+      },
+      {
+        "id": "card_sexe_3_4",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_sexe_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_sexe_3_4_t",
+        "type": "text",
+        "x": 1240,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Entretenir le désir",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Entretenir le désir"
+      },
+      {
+        "id": "card_sexe_3_4_d",
+        "type": "text",
+        "x": 1240,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_sexe_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Complicité durable",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Complicité durable"
+      },
+      {
+        "id": "arr_sexe_0_0",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_0_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_0_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_0_1",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_0_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_0_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_0_2",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_0_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_0_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_0_3",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_0_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_0_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_1_0",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_1_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_1_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_1_1",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_1_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_1_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_1_2",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_1_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_1_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_1_3",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_1_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_1_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_2_0",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_2_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_2_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_2_1",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_2_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_2_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_2_2",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_2_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_2_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_2_3",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_2_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_2_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_3_0",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_3_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_3_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_3_1",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_3_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_3_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_3_2",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_3_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_3_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_sexe_3_3",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_sexe_3_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_sexe_3_4",
+          "focus": 0,
+          "gap": 4
+        }
       }
     ],
     "appState": {

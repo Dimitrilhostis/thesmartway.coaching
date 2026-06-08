@@ -1,20 +1,20 @@
 {
   "slug": "massages",
   "title": "Massages",
-  "description": "Maîtriser les doigtés, les parties du corps et les techniques de massage.",
-  "emoji": "🤲",
-  "color": "#7c9ab5",
+  "description": "Du geste de base à la séance complète : anatomie, techniques, types de massage et ambiance.",
+  "emoji": "💆",
+  "color": "#6FB8A6",
   "content": {
     "elements": [
       {
-        "id": "rect_massages",
+        "id": "banner_massages",
         "type": "rectangle",
-        "x": 300,
-        "y": 80,
-        "width": 600,
-        "height": 80,
+        "x": 60,
+        "y": 40,
+        "width": 1444,
+        "height": 72,
         "angle": 0,
-        "strokeColor": "#7c9ab5",
+        "strokeColor": "#6FB8A6",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 2,
@@ -22,7 +22,9 @@
         "roughness": 0,
         "opacity": 100,
         "groupIds": [],
-        "roundness": { "type": 3 },
+        "roundness": {
+          "type": 3
+        },
         "isDeleted": false,
         "boundElements": null,
         "updated": 1,
@@ -32,12 +34,12 @@
       {
         "id": "title_massages",
         "type": "text",
-        "x": 340,
-        "y": 100,
-        "width": 520,
-        "height": 40,
+        "x": 60,
+        "y": 58,
+        "width": 1444,
+        "height": 36,
         "angle": 0,
-        "strokeColor": "#7c9ab5",
+        "strokeColor": "#6FB8A6",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -51,24 +53,24 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "🤲  Massages",
-        "fontSize": 28,
+        "text": "💆  Massages",
+        "fontSize": 30,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "middle",
-        "baseline": 30,
-        "containerId": "rect_massages",
-        "originalText": "🤲  Massages"
+        "baseline": 25,
+        "containerId": null,
+        "originalText": "💆  Massages"
       },
       {
         "id": "desc_massages",
         "type": "text",
-        "x": 300,
-        "y": 200,
-        "width": 600,
+        "x": 60,
+        "y": 130,
+        "width": 1444,
         "height": 24,
         "angle": 0,
-        "strokeColor": "#666666",
+        "strokeColor": "#6b6b6b",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -82,14 +84,3294 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "Maîtriser les doigtés, les parties du corps et les techniques de massage.",
-        "fontSize": 14,
+        "text": "Du geste de base à la séance complète : anatomie, techniques, types de massage et ambiance.",
+        "fontSize": 15,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "top",
+        "baseline": 12,
+        "containerId": null,
+        "originalText": "Du geste de base à la séance complète : anatomie, techniques, types de massage et ambiance."
+      },
+      {
+        "id": "head_massages_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "#8FBF9F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_massages_0",
+        "type": "text",
+        "x": 240,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Bases & Anatomie",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
         "baseline": 14,
         "containerId": null,
-        "originalText": "Maîtriser les doigtés, les parties du corps et les techniques de massage."
+        "originalText": "Bases & Anatomie"
+      },
+      {
+        "id": "head_massages_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "#E2A16F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_massages_1",
+        "type": "text",
+        "x": 568,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Techniques fondamentales",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Techniques fondamentales"
+      },
+      {
+        "id": "head_massages_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "#C77B7B",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_massages_2",
+        "type": "text",
+        "x": 896,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Types de massage",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Types de massage"
+      },
+      {
+        "id": "head_massages_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "#7B95C7",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_massages_3",
+        "type": "text",
+        "x": 1224,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Ambiance & Pratique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Ambiance & Pratique"
+      },
+      {
+        "id": "phase_massages_0",
+        "type": "rectangle",
+        "x": 60,
+        "y": 330.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_massages_0",
+        "type": "text",
+        "x": 60,
+        "y": 339.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Fondations",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Fondations"
+      },
+      {
+        "id": "phase_massages_1",
+        "type": "rectangle",
+        "x": 60,
+        "y": 530.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_massages_1",
+        "type": "text",
+        "x": 60,
+        "y": 539.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Gestes de base",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Gestes de base"
+      },
+      {
+        "id": "phase_massages_2",
+        "type": "rectangle",
+        "x": 60,
+        "y": 730.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_massages_2",
+        "type": "text",
+        "x": 60,
+        "y": 739.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Approfondissement",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Approfondissement"
+      },
+      {
+        "id": "phase_massages_3",
+        "type": "rectangle",
+        "x": 60,
+        "y": 930.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_massages_3",
+        "type": "text",
+        "x": 60,
+        "y": 939.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Spécialisation",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Spécialisation"
+      },
+      {
+        "id": "phase_massages_4",
+        "type": "rectangle",
+        "x": 60,
+        "y": 1130.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_massages_4",
+        "type": "text",
+        "x": 60,
+        "y": 1139.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Séance complète",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Séance complète"
+      },
+      {
+        "id": "card_massages_0_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_0_0_t",
+        "type": "text",
+        "x": 256,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Anatomie essentielle",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Anatomie essentielle"
+      },
+      {
+        "id": "card_massages_0_0_d",
+        "type": "text",
+        "x": 256,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Muscles, zones, points sensibles",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Muscles, zones, points sensibles"
+      },
+      {
+        "id": "card_massages_0_1",
+        "type": "rectangle",
+        "x": 240,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_0_1_t",
+        "type": "text",
+        "x": 256,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Posture du masseur",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Posture du masseur"
+      },
+      {
+        "id": "card_massages_0_1_d",
+        "type": "text",
+        "x": 256,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Dos droit, appui du corps",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Dos droit, appui du corps"
+      },
+      {
+        "id": "card_massages_0_2",
+        "type": "rectangle",
+        "x": 240,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_0_2_t",
+        "type": "text",
+        "x": 256,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sens du toucher",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Sens du toucher"
+      },
+      {
+        "id": "card_massages_0_2_d",
+        "type": "text",
+        "x": 256,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Pression, écoute, rythme",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Pression, écoute, rythme"
+      },
+      {
+        "id": "card_massages_0_3",
+        "type": "rectangle",
+        "x": 240,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_0_3_t",
+        "type": "text",
+        "x": 256,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Zones à éviter",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Zones à éviter"
+      },
+      {
+        "id": "card_massages_0_3_d",
+        "type": "text",
+        "x": 256,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Contre-indications",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Contre-indications"
+      },
+      {
+        "id": "card_massages_0_4",
+        "type": "rectangle",
+        "x": 240,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_0_4_t",
+        "type": "text",
+        "x": 256,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Adapter à la personne",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Adapter à la personne"
+      },
+      {
+        "id": "card_massages_0_4_d",
+        "type": "text",
+        "x": 256,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Besoins et sensibilité",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Besoins et sensibilité"
+      },
+      {
+        "id": "card_massages_1_0",
+        "type": "rectangle",
+        "x": 568,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_1_0_t",
+        "type": "text",
+        "x": 584,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Effleurage",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Effleurage"
+      },
+      {
+        "id": "card_massages_1_0_d",
+        "type": "text",
+        "x": 584,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Glissé, prise de contact",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Glissé, prise de contact"
+      },
+      {
+        "id": "card_massages_1_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_1_1_t",
+        "type": "text",
+        "x": 584,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Pétrissage",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Pétrissage"
+      },
+      {
+        "id": "card_massages_1_1_d",
+        "type": "text",
+        "x": 584,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Malaxer les muscles",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Malaxer les muscles"
+      },
+      {
+        "id": "card_massages_1_2",
+        "type": "rectangle",
+        "x": 568,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_1_2_t",
+        "type": "text",
+        "x": 584,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Frictions & pressions",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Frictions & pressions"
+      },
+      {
+        "id": "card_massages_1_2_d",
+        "type": "text",
+        "x": 584,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Travail des tensions",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Travail des tensions"
+      },
+      {
+        "id": "card_massages_1_3",
+        "type": "rectangle",
+        "x": 568,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_1_3_t",
+        "type": "text",
+        "x": 584,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Percussions & vibrations",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Percussions & vibrations"
+      },
+      {
+        "id": "card_massages_1_3_d",
+        "type": "text",
+        "x": 584,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tapotements, dynamisme",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Tapotements, dynamisme"
+      },
+      {
+        "id": "card_massages_1_4",
+        "type": "rectangle",
+        "x": 568,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_1_4_t",
+        "type": "text",
+        "x": 584,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Enchaîner les gestes",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Enchaîner les gestes"
+      },
+      {
+        "id": "card_massages_1_4_d",
+        "type": "text",
+        "x": 584,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Fluidité, transitions",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Fluidité, transitions"
+      },
+      {
+        "id": "card_massages_2_0",
+        "type": "rectangle",
+        "x": 896,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_2_0_t",
+        "type": "text",
+        "x": 912,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Massage détente",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Massage détente"
+      },
+      {
+        "id": "card_massages_2_0_d",
+        "type": "text",
+        "x": 912,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Doux et relaxant",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Doux et relaxant"
+      },
+      {
+        "id": "card_massages_2_1",
+        "type": "rectangle",
+        "x": 896,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_2_1_t",
+        "type": "text",
+        "x": 912,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Massage du dos",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Massage du dos"
+      },
+      {
+        "id": "card_massages_2_1_d",
+        "type": "text",
+        "x": 912,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Le plus demandé",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Le plus demandé"
+      },
+      {
+        "id": "card_massages_2_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_2_2_t",
+        "type": "text",
+        "x": 912,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Suédois / tonique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Suédois / tonique"
+      },
+      {
+        "id": "card_massages_2_2_d",
+        "type": "text",
+        "x": 912,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Circulation, énergie",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Circulation, énergie"
+      },
+      {
+        "id": "card_massages_2_3",
+        "type": "rectangle",
+        "x": 896,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_2_3_t",
+        "type": "text",
+        "x": 912,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Deep tissue / sportif",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Deep tissue / sportif"
+      },
+      {
+        "id": "card_massages_2_3_d",
+        "type": "text",
+        "x": 912,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tensions profondes",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Tensions profondes"
+      },
+      {
+        "id": "card_massages_2_4",
+        "type": "rectangle",
+        "x": 896,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_2_4_t",
+        "type": "text",
+        "x": 912,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Corps complet",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Corps complet"
+      },
+      {
+        "id": "card_massages_2_4_d",
+        "type": "text",
+        "x": 912,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Une séance structurée",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Une séance structurée"
+      },
+      {
+        "id": "card_massages_3_0",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_3_0_t",
+        "type": "text",
+        "x": 1240,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Créer l'ambiance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Créer l'ambiance"
+      },
+      {
+        "id": "card_massages_3_0_d",
+        "type": "text",
+        "x": 1240,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Lumière, musique, chaleur",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Lumière, musique, chaleur"
+      },
+      {
+        "id": "card_massages_3_1",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_3_1_t",
+        "type": "text",
+        "x": 1240,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Huiles & produits",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Huiles & produits"
+      },
+      {
+        "id": "card_massages_3_1_d",
+        "type": "text",
+        "x": 1240,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Choisir et doser",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Choisir et doser"
+      },
+      {
+        "id": "card_massages_3_2",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_3_2_t",
+        "type": "text",
+        "x": 1240,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Confort & échange",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Confort & échange"
+      },
+      {
+        "id": "card_massages_3_2_d",
+        "type": "text",
+        "x": 1240,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Installation, feedback",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Installation, feedback"
+      },
+      {
+        "id": "card_massages_3_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_3_3_t",
+        "type": "text",
+        "x": 1240,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Hygiène & sécurité",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Hygiène & sécurité"
+      },
+      {
+        "id": "card_massages_3_3_d",
+        "type": "text",
+        "x": 1240,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Propreté, allergies",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Propreté, allergies"
+      },
+      {
+        "id": "card_massages_3_4",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_massages_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_massages_3_4_t",
+        "type": "text",
+        "x": 1240,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Déroulé d'une séance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Déroulé d'une séance"
+      },
+      {
+        "id": "card_massages_3_4_d",
+        "type": "text",
+        "x": 1240,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_massages_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "De l'accueil à la clôture",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "De l'accueil à la clôture"
+      },
+      {
+        "id": "arr_massages_0_0",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_0_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_0_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_0_1",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_0_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_0_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_0_2",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_0_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_0_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_0_3",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_0_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_0_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_1_0",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_1_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_1_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_1_1",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_1_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_1_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_1_2",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_1_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_1_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_1_3",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_1_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_1_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_2_0",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_2_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_2_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_2_1",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_2_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_2_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_2_2",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_2_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_2_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_2_3",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_2_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_2_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_3_0",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_3_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_3_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_3_1",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_3_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_3_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_3_2",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_3_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_3_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_massages_3_3",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_massages_3_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_massages_3_4",
+          "focus": 0,
+          "gap": 4
+        }
       }
     ],
     "appState": {
@@ -98,4 +3380,4 @@
     },
     "files": {}
   }
-}
+} 

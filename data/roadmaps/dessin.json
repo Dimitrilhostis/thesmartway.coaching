@@ -1,20 +1,20 @@
 {
   "slug": "dessin",
   "title": "Dessin",
-  "description": "Apprendre à dessiner : théorie, observation, formes et inspiration.",
+  "description": "De l'observation au style personnel : trait, valeurs, perspective et couleur.",
   "emoji": "✏️",
-  "color": "#d4c5a9",
+  "color": "#9A8FB0",
   "content": {
     "elements": [
       {
-        "id": "rect_dessin",
+        "id": "banner_dessin",
         "type": "rectangle",
-        "x": 300,
-        "y": 80,
-        "width": 600,
-        "height": 80,
+        "x": 60,
+        "y": 40,
+        "width": 1444,
+        "height": 72,
         "angle": 0,
-        "strokeColor": "#d4c5a9",
+        "strokeColor": "#9A8FB0",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 2,
@@ -22,7 +22,9 @@
         "roughness": 0,
         "opacity": 100,
         "groupIds": [],
-        "roundness": { "type": 3 },
+        "roundness": {
+          "type": 3
+        },
         "isDeleted": false,
         "boundElements": null,
         "updated": 1,
@@ -32,12 +34,12 @@
       {
         "id": "title_dessin",
         "type": "text",
-        "x": 340,
-        "y": 100,
-        "width": 520,
-        "height": 40,
+        "x": 60,
+        "y": 58,
+        "width": 1444,
+        "height": 36,
         "angle": 0,
-        "strokeColor": "#d4c5a9",
+        "strokeColor": "#9A8FB0",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -52,23 +54,23 @@
         "link": null,
         "locked": false,
         "text": "✏️  Dessin",
-        "fontSize": 28,
+        "fontSize": 30,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "middle",
-        "baseline": 30,
-        "containerId": "rect_dessin",
+        "baseline": 25,
+        "containerId": null,
         "originalText": "✏️  Dessin"
       },
       {
         "id": "desc_dessin",
         "type": "text",
-        "x": 300,
-        "y": 200,
-        "width": 600,
+        "x": 60,
+        "y": 130,
+        "width": 1444,
         "height": 24,
         "angle": 0,
-        "strokeColor": "#666666",
+        "strokeColor": "#6b6b6b",
         "backgroundColor": "transparent",
         "fillStyle": "solid",
         "strokeWidth": 1,
@@ -82,14 +84,3294 @@
         "updated": 1,
         "link": null,
         "locked": false,
-        "text": "Apprendre à dessiner : théorie, observation, formes et inspiration.",
-        "fontSize": 14,
+        "text": "De l'observation au style personnel : trait, valeurs, perspective et couleur.",
+        "fontSize": 15,
         "fontFamily": 1,
         "textAlign": "center",
         "verticalAlign": "top",
+        "baseline": 12,
+        "containerId": null,
+        "originalText": "De l'observation au style personnel : trait, valeurs, perspective et couleur."
+      },
+      {
+        "id": "head_dessin_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "#8FBF9F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_dessin_0",
+        "type": "text",
+        "x": 240,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Observation & Trait",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
         "baseline": 14,
         "containerId": null,
-        "originalText": "Apprendre à dessiner : théorie, observation, formes et inspiration."
+        "originalText": "Observation & Trait"
+      },
+      {
+        "id": "head_dessin_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "#E2A16F",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_dessin_1",
+        "type": "text",
+        "x": 568,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Valeurs & Lumière",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Valeurs & Lumière"
+      },
+      {
+        "id": "head_dessin_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "#C77B7B",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_dessin_2",
+        "type": "text",
+        "x": 896,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Perspective & Composition",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Perspective & Composition"
+      },
+      {
+        "id": "head_dessin_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 190,
+        "width": 280,
+        "height": 46,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "#7B95C7",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "headt_dessin_3",
+        "type": "text",
+        "x": 1224,
+        "y": 202,
+        "width": 280,
+        "height": 24,
+        "angle": 0,
+        "strokeColor": "#ffffff",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Couleur & Style",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Couleur & Style"
+      },
+      {
+        "id": "phase_dessin_0",
+        "type": "rectangle",
+        "x": 60,
+        "y": 330.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_dessin_0",
+        "type": "text",
+        "x": 60,
+        "y": 339.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Bases",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Bases"
+      },
+      {
+        "id": "phase_dessin_1",
+        "type": "rectangle",
+        "x": 60,
+        "y": 530.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_dessin_1",
+        "type": "text",
+        "x": 60,
+        "y": 539.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Construction",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Construction"
+      },
+      {
+        "id": "phase_dessin_2",
+        "type": "rectangle",
+        "x": 60,
+        "y": 730.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_dessin_2",
+        "type": "text",
+        "x": 60,
+        "y": 739.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Réalisme",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Réalisme"
+      },
+      {
+        "id": "phase_dessin_3",
+        "type": "rectangle",
+        "x": 60,
+        "y": 930.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_dessin_3",
+        "type": "text",
+        "x": 60,
+        "y": 939.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Composition",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Composition"
+      },
+      {
+        "id": "phase_dessin_4",
+        "type": "rectangle",
+        "x": 60,
+        "y": 1130.0,
+        "width": 150,
+        "height": 40,
+        "angle": 0,
+        "strokeColor": "#cfcabf",
+        "backgroundColor": "#f2efe9",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "phaset_dessin_4",
+        "type": "text",
+        "x": 60,
+        "y": 1139.0,
+        "width": 150,
+        "height": 22,
+        "angle": 0,
+        "strokeColor": "#555555",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Style",
+        "fontSize": 14,
+        "fontFamily": 1,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "baseline": 11,
+        "containerId": null,
+        "originalText": "Style"
+      },
+      {
+        "id": "card_dessin_0_0",
+        "type": "rectangle",
+        "x": 240,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_0_0_t",
+        "type": "text",
+        "x": 256,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Tenir le crayon",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Tenir le crayon"
+      },
+      {
+        "id": "card_dessin_0_0_d",
+        "type": "text",
+        "x": 256,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Geste, lignes, contrôle",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Geste, lignes, contrôle"
+      },
+      {
+        "id": "card_dessin_0_1",
+        "type": "rectangle",
+        "x": 240,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_0_1_t",
+        "type": "text",
+        "x": 256,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Dessiner ce qu'on voit",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Dessiner ce qu'on voit"
+      },
+      {
+        "id": "card_dessin_0_1_d",
+        "type": "text",
+        "x": 256,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Proportions, mesures",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Proportions, mesures"
+      },
+      {
+        "id": "card_dessin_0_2",
+        "type": "rectangle",
+        "x": 240,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_0_2_t",
+        "type": "text",
+        "x": 256,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Trait sûr & propre",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Trait sûr & propre"
+      },
+      {
+        "id": "card_dessin_0_2_d",
+        "type": "text",
+        "x": 256,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Croquis rapides",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Croquis rapides"
+      },
+      {
+        "id": "card_dessin_0_3",
+        "type": "rectangle",
+        "x": 240,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_0_3_t",
+        "type": "text",
+        "x": 256,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Gestuelle & vie",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Gestuelle & vie"
+      },
+      {
+        "id": "card_dessin_0_3_d",
+        "type": "text",
+        "x": 256,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Lignes de force",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Lignes de force"
+      },
+      {
+        "id": "card_dessin_0_4",
+        "type": "rectangle",
+        "x": 240,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_0_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_0_4_t",
+        "type": "text",
+        "x": 256,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Trait personnel",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Trait personnel"
+      },
+      {
+        "id": "card_dessin_0_4_d",
+        "type": "text",
+        "x": 256,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_0_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Encre, hachures, signature",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Encre, hachures, signature"
+      },
+      {
+        "id": "card_dessin_1_0",
+        "type": "rectangle",
+        "x": 568,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_1_0_t",
+        "type": "text",
+        "x": 584,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Échelle de gris",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Échelle de gris"
+      },
+      {
+        "id": "card_dessin_1_0_d",
+        "type": "text",
+        "x": 584,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Du blanc au noir",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Du blanc au noir"
+      },
+      {
+        "id": "card_dessin_1_1",
+        "type": "rectangle",
+        "x": 568,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_1_1_t",
+        "type": "text",
+        "x": 584,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Ombre & lumière",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Ombre & lumière"
+      },
+      {
+        "id": "card_dessin_1_1_d",
+        "type": "text",
+        "x": 584,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Source, ombre portée",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Source, ombre portée"
+      },
+      {
+        "id": "card_dessin_1_2",
+        "type": "rectangle",
+        "x": 568,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_1_2_t",
+        "type": "text",
+        "x": 584,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Volumes simples",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Volumes simples"
+      },
+      {
+        "id": "card_dessin_1_2_d",
+        "type": "text",
+        "x": 584,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Sphère, cube, cylindre",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Sphère, cube, cylindre"
+      },
+      {
+        "id": "card_dessin_1_3",
+        "type": "rectangle",
+        "x": 568,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_1_3_t",
+        "type": "text",
+        "x": 584,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Contraste & ambiance",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Contraste & ambiance"
+      },
+      {
+        "id": "card_dessin_1_3_d",
+        "type": "text",
+        "x": 584,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Clair-obscur",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Clair-obscur"
+      },
+      {
+        "id": "card_dessin_1_4",
+        "type": "rectangle",
+        "x": 568,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_1_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_1_4_t",
+        "type": "text",
+        "x": 584,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Rendu des matières",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Rendu des matières"
+      },
+      {
+        "id": "card_dessin_1_4_d",
+        "type": "text",
+        "x": 584,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_1_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Peau, métal, tissu",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Peau, métal, tissu"
+      },
+      {
+        "id": "card_dessin_2_0",
+        "type": "rectangle",
+        "x": 896,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_2_0_t",
+        "type": "text",
+        "x": 912,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Formes simples",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Formes simples"
+      },
+      {
+        "id": "card_dessin_2_0_d",
+        "type": "text",
+        "x": 912,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cercle, carré, triangle",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Cercle, carré, triangle"
+      },
+      {
+        "id": "card_dessin_2_1",
+        "type": "rectangle",
+        "x": 896,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_2_1_t",
+        "type": "text",
+        "x": 912,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Perspective 1–2 points",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Perspective 1–2 points"
+      },
+      {
+        "id": "card_dessin_2_1_d",
+        "type": "text",
+        "x": 912,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Lignes de fuite",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Lignes de fuite"
+      },
+      {
+        "id": "card_dessin_2_2",
+        "type": "rectangle",
+        "x": 896,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_2_2_t",
+        "type": "text",
+        "x": 912,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Perspective 3 points",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Perspective 3 points"
+      },
+      {
+        "id": "card_dessin_2_2_d",
+        "type": "text",
+        "x": 912,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Plongée, contre-plongée",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Plongée, contre-plongée"
+      },
+      {
+        "id": "card_dessin_2_3",
+        "type": "rectangle",
+        "x": 896,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_2_3_t",
+        "type": "text",
+        "x": 912,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Règle des tiers",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Règle des tiers"
+      },
+      {
+        "id": "card_dessin_2_3_d",
+        "type": "text",
+        "x": 912,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cadrage, équilibre",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Cadrage, équilibre"
+      },
+      {
+        "id": "card_dessin_2_4",
+        "type": "rectangle",
+        "x": 896,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_2_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_2_4_t",
+        "type": "text",
+        "x": 912,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Raconter une image",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Raconter une image"
+      },
+      {
+        "id": "card_dessin_2_4_d",
+        "type": "text",
+        "x": 912,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_2_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Narration visuelle",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Narration visuelle"
+      },
+      {
+        "id": "card_dessin_3_0",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 290,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_0"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_0"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_3_0_t",
+        "type": "text",
+        "x": 1240,
+        "y": 306,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Cercle chromatique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Cercle chromatique"
+      },
+      {
+        "id": "card_dessin_3_0_d",
+        "type": "text",
+        "x": 1240,
+        "y": 350,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_0"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Primaires, secondaires",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Primaires, secondaires"
+      },
+      {
+        "id": "card_dessin_3_1",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 490,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_1"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_0"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_1"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_3_1_t",
+        "type": "text",
+        "x": 1240,
+        "y": 506,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Mélanges & nuances",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Mélanges & nuances"
+      },
+      {
+        "id": "card_dessin_3_1_d",
+        "type": "text",
+        "x": 1240,
+        "y": 550,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_1"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Saturation, valeur",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Saturation, valeur"
+      },
+      {
+        "id": "card_dessin_3_2",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 690,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_2"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_1"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_2"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_3_2_t",
+        "type": "text",
+        "x": 1240,
+        "y": 706,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Harmonies",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Harmonies"
+      },
+      {
+        "id": "card_dessin_3_2_d",
+        "type": "text",
+        "x": 1240,
+        "y": 750,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_2"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Complémentaires, camaïeu",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Complémentaires, camaïeu"
+      },
+      {
+        "id": "card_dessin_3_3",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 890,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_3"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_2"
+          },
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_3_3_t",
+        "type": "text",
+        "x": 1240,
+        "y": 906,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Couleur & émotion",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Couleur & émotion"
+      },
+      {
+        "id": "card_dessin_3_3_d",
+        "type": "text",
+        "x": 1240,
+        "y": 950,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_3"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Palette d'ambiance",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Palette d'ambiance"
+      },
+      {
+        "id": "card_dessin_3_4",
+        "type": "rectangle",
+        "x": 1224,
+        "y": 1090,
+        "width": 280,
+        "height": 120,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_4"
+        ],
+        "roundness": {
+          "type": 3
+        },
+        "isDeleted": false,
+        "boundElements": [
+          {
+            "type": "arrow",
+            "id": "arr_dessin_3_3"
+          }
+        ],
+        "updated": 1,
+        "link": null,
+        "locked": false
+      },
+      {
+        "id": "card_dessin_3_4_t",
+        "type": "text",
+        "x": 1240,
+        "y": 1106,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#2b2b2b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Univers graphique",
+        "fontSize": 17,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 14,
+        "containerId": null,
+        "originalText": "Univers graphique"
+      },
+      {
+        "id": "card_dessin_3_4_d",
+        "type": "text",
+        "x": 1240,
+        "y": 1150,
+        "width": 248,
+        "height": 44,
+        "angle": 0,
+        "strokeColor": "#6b6b6b",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 1,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 100,
+        "groupIds": [
+          "g_dessin_3_4"
+        ],
+        "roundness": null,
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "text": "Identité, références",
+        "fontSize": 12.5,
+        "fontFamily": 1,
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "baseline": 10,
+        "containerId": null,
+        "originalText": "Identité, références"
+      },
+      {
+        "id": "arr_dessin_0_0",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_0_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_0_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_0_1",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_0_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_0_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_0_2",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_0_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_0_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_0_3",
+        "type": "arrow",
+        "x": 380.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#8FBF9F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_0_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_0_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_1_0",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_1_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_1_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_1_1",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_1_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_1_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_1_2",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_1_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_1_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_1_3",
+        "type": "arrow",
+        "x": 708.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#E2A16F",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_1_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_1_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_2_0",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_2_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_2_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_2_1",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_2_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_2_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_2_2",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_2_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_2_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_2_3",
+        "type": "arrow",
+        "x": 1036.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#C77B7B",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_2_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_2_4",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_3_0",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 414,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_3_0",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_3_1",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_3_1",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 614,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_3_1",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_3_2",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_3_2",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 814,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_3_2",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_3_3",
+          "focus": 0,
+          "gap": 4
+        }
+      },
+      {
+        "id": "arr_dessin_3_3",
+        "type": "arrow",
+        "x": 1364.0,
+        "y": 1014,
+        "width": 0,
+        "height": 72,
+        "angle": 0,
+        "strokeColor": "#7B95C7",
+        "backgroundColor": "transparent",
+        "fillStyle": "solid",
+        "strokeWidth": 2,
+        "strokeStyle": "solid",
+        "roughness": 0,
+        "opacity": 70,
+        "groupIds": [],
+        "roundness": {
+          "type": 2
+        },
+        "isDeleted": false,
+        "boundElements": null,
+        "updated": 1,
+        "link": null,
+        "locked": false,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            72
+          ]
+        ],
+        "lastCommittedPoint": null,
+        "startArrowhead": null,
+        "endArrowhead": "arrow",
+        "startBinding": {
+          "elementId": "card_dessin_3_3",
+          "focus": 0,
+          "gap": 4
+        },
+        "endBinding": {
+          "elementId": "card_dessin_3_4",
+          "focus": 0,
+          "gap": 4
+        }
       }
     ],
     "appState": {

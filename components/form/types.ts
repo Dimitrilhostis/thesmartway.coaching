@@ -91,18 +91,18 @@ export type FormData = {
     'Récapitulatif',
   ]
   
- export const GOALS = [
-    { id: 'confident',  title: 'Confiance & Aura',      desc: 'Devenir un sportif plus confiant et charismatique' },
-    { id: 'healthy',    title: 'Healthy & No stress',    desc: 'Devenir un sportif plus sain et moins stressé' },
-    { id: 'productive', title: 'Productivité & Clarté',  desc: 'Devenir une personne plus productive et intéressante' },
-    { id: 'global',     title: 'Meilleur dans tout',     desc: 'Devenir meilleur globalement, amélioration générale' },
+  export const GOALS = [
+    { id: 'athletic',  title: 'Capacités athlétiques', desc: 'Pour un sport ou dans la vie : devenir puissant, souple, fort, adroit…' },
+    { id: 'aesthetic', title: 'Esthétique physique',   desc: 'Plus musclé, moins de gras, plus charismatique — toutes les raisons sont bonnes' },
+    { id: 'mental',    title: 'Santé mentale',         desc: 'Une progression stable pour évoluer dans les meilleures conditions et reprendre le contrôle de mon stress' },
+    { id: 'better',    title: 'Devenir meilleur',      desc: "L'impression de ne pas avancer, de ne pas être construit, et de vouloir mieux sans y arriver" },
   ]
   
- export const GOAL_LABELS: Record<string, string> = {
-    confident:  'Confiance & Aura',
-    healthy:    'Healthy & No stress',
-    productive: 'Productivité & Clarté',
-    global:     'Meilleur dans tout',
+  export const GOAL_LABELS: Record<string, string> = {
+    athletic:  'Capacités athlétiques',
+    aesthetic: 'Esthétique physique',
+    mental:    'Santé mentale',
+    better:    'Devenir meilleur',
   }
   
  export const COMMITMENT_LABELS: Record<string, string> = {

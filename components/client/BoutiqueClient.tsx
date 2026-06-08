@@ -310,7 +310,7 @@ function CartPanel({
             {!isLoggedIn ? (
               <a
                 href={`/login?redirect=/boutique`}
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl btn-ghost py-3 w-full rounded-xl"
+                className="flex items-center justify-center gap-2 btn-ghost py-3 w-full rounded-xl"
               >
                 <Lock size={14} /> Se connecter pour acheter
               </a>
@@ -318,7 +318,7 @@ function CartPanel({
               <button
                 onClick={onCheckout}
                 disabled={checkingOut}
-                className="flex items-center justify-center gap-2 w-full py-3 rounded-xl btn-primary py-3 w-full rounded-xl"
+                className="flex items-center justify-center gap-2 btn-primary py-3 w-full rounded-xl"
               >
                 {checkingOut
                   ? <Loader2 size={14} className="animate-spin" />
